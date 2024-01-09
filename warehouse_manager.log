@@ -4,3 +4,272 @@
 2024-01-09 22:20:28,575 INFO User input string: sdf
 2024-01-09 22:20:30,031 INFO User input string: exit
 2024-01-09 22:20:30,031 INFO Exit warehouse_manager.py
+2024-01-09 22:32:54,565 INFO Start program warehouse_manager.py
+2024-01-09 22:32:58,564 INFO User input string: s
+2024-01-09 22:33:02,592 INFO User input string: e
+2024-01-09 22:33:02,593 INFO Exit program warehouse_manager.py
+2024-01-09 22:34:41,657 INFO Start program warehouse_manager.py
+2024-01-09 22:34:47,549 INFO User input string: s
+2024-01-09 22:35:36,866 INFO Start program warehouse_manager.py
+2024-01-09 22:35:38,968 INFO User input string: s
+2024-01-09 22:36:27,474 INFO Start program warehouse_manager.py
+2024-01-09 22:36:29,323 INFO User input string: s
+2024-01-09 22:36:36,157 INFO User input string: e
+2024-01-09 22:36:36,157 INFO Exit program warehouse_manager.py
+2024-01-09 22:37:15,663 INFO Start program warehouse_manager.py
+2024-01-09 22:37:17,003 INFO User input string: s
+2024-01-09 22:38:34,118 INFO Start program warehouse_manager.py
+2024-01-09 22:38:37,414 INFO User input string: show 
+2024-01-09 22:40:02,215 INFO Start program warehouse_manager.py
+2024-01-09 22:40:03,917 INFO User input string: s
+2024-01-09 22:40:20,487 INFO Start program warehouse_manager.py
+2024-01-09 22:40:21,417 INFO User input string: s
+2024-01-09 22:40:58,696 INFO Start program warehouse_manager.py
+2024-01-09 22:40:59,941 INFO User input string: s
+2024-01-09 22:41:19,503 INFO Start program warehouse_manager.py
+2024-01-09 22:41:20,838 INFO User input string: s
+2024-01-09 22:41:30,956 INFO User input string: e
+2024-01-09 22:41:30,956 INFO Exit program warehouse_manager.py
+2024-01-09 22:47:19,119 INFO Start program warehouse_manager.py
+2024-01-09 22:47:21,760 INFO User input string: s
+2024-01-09 22:47:24,434 INFO User input string: a
+2024-01-09 22:47:44,013 INFO Start program warehouse_manager.py
+2024-01-09 22:47:45,514 INFO User input string: a
+2024-01-09 22:48:00,774 INFO User input string: s
+2024-01-09 22:48:06,710 INFO User input string: e
+2024-01-09 22:48:06,710 INFO Exit program warehouse_manager.py
+2024-01-09 22:52:46,611 INFO Start program warehouse_manager.py
+2024-01-09 22:52:48,874 INFO User input string: s
+2024-01-09 22:52:52,882 INFO User input string: show
+2024-01-09 22:52:56,022 INFO User input string: add
+2024-01-09 22:53:11,812 INFO User input string: show
+2024-01-09 22:53:21,549 INFO User input string: sell
+2024-01-09 22:54:06,076 INFO Start program warehouse_manager.py
+2024-01-09 22:54:12,364 INFO User input string: show
+2024-01-09 22:54:17,357 INFO User input string: sell
+2024-01-09 22:54:25,447 INFO User input string: show
+2024-01-09 22:54:44,949 INFO Start program warehouse_manager.py
+2024-01-09 22:54:47,457 INFO User input string: sell
+2024-01-09 22:54:56,807 INFO User input string: show
+2024-01-09 22:55:01,453 INFO User input string: sell
+2024-01-09 22:55:11,994 INFO User input string: show
+2024-01-09 22:55:15,391 INFO User input string: exit
+2024-01-09 22:55:15,392 INFO Exit program warehouse_manager.py
+2024-01-09 23:03:15,539 INFO Start program warehouse_manager.py
+2024-01-09 23:03:18,641 INFO User input string: e
+2024-01-09 23:03:20,918 INFO User input string: exit
+2024-01-09 23:03:20,918 INFO Exit program warehouse_manager.py
+2024-01-09 23:03:24,200 INFO Start program warehouse_manager.py
+2024-01-09 23:03:25,652 INFO User input string: 324
+2024-01-09 23:03:28,578 INFO User input string: add
+2024-01-09 23:03:36,570 INFO User input string: show
+2024-01-09 23:03:40,114 INFO User input string: exit
+2024-01-09 23:03:40,114 INFO Exit program warehouse_manager.py
+2024-01-09 23:06:50,679 INFO Start program warehouse_manager.py
+2024-01-09 23:06:53,095 INFO User input string: show
+2024-01-09 23:07:30,422 INFO Start program warehouse_manager.py
+2024-01-09 23:07:32,508 INFO User input string: exit
+2024-01-09 23:07:42,328 INFO Start program warehouse_manager.py
+2024-01-09 23:07:44,655 INFO User input string: exit
+2024-01-09 23:08:10,988 INFO Start program warehouse_manager.py
+2024-01-09 23:08:13,314 INFO User input string: exit
+2024-01-09 23:10:53,340 INFO Start program warehouse_manager.py
+2024-01-09 23:10:55,552 INFO User input string: exit
+2024-01-09 23:10:55,552 INFO Exit program warehouse_manager.py
+2024-01-09 23:11:45,979 INFO Start program warehouse_manager.py
+2024-01-09 23:11:47,830 INFO User input string: add
+2024-01-09 23:11:51,607 INFO User input string: kalafior
+2024-01-09 23:11:53,195 INFO User input string: 33
+2024-01-09 23:11:55,607 INFO User input string: kilo
+2024-01-09 23:11:57,003 INFO User input string: 666
+2024-01-09 23:11:59,288 INFO User input string: show
+2024-01-09 23:12:07,283 INFO User input string: add
+2024-01-09 23:12:08,473 INFO User input string: as
+2024-01-09 23:12:09,362 INFO User input string: 2
+2024-01-09 23:12:10,208 INFO User input string: sd
+2024-01-09 23:12:11,382 INFO User input string: 33
+2024-01-09 23:12:13,150 INFO User input string: show
+2024-01-09 23:13:04,394 INFO Start program warehouse_manager.py
+2024-01-09 23:13:05,993 INFO User input string: add
+2024-01-09 23:13:09,745 INFO User input string: raba
+2024-01-09 23:13:11,461 INFO User input string: 43
+2024-01-09 23:13:13,925 INFO User input string: pln
+2024-01-09 23:13:14,766 INFO User input string: 3
+2024-01-09 23:13:16,645 INFO User input string: show
+2024-01-09 23:13:20,166 INFO User input string: exit
+2024-01-09 23:13:20,167 INFO Exit program warehouse_manager.py
+2024-01-09 23:21:18,793 INFO Start program warehouse_manager.py
+2024-01-09 23:21:21,907 INFO User input string: show
+2024-01-09 23:21:21,908 INFO User decision show
+2024-01-09 23:21:25,734 INFO User input string: add
+2024-01-09 23:21:25,735 INFO User decision add
+2024-01-09 23:21:31,414 INFO User input string: bataty
+2024-01-09 23:21:36,035 INFO User input string: 234.2
+2024-01-09 23:21:40,039 INFO User input string: kg
+2024-01-09 23:21:42,802 INFO User input string: 66.99
+2024-01-09 23:21:42,802 INFO New item to add: {'name': 'bataty', 'quantity': '234.2', 'unit': 'kg', 'unit_price': '66.99'}
+2024-01-09 23:21:42,802 INFO New item added
+2024-01-09 23:21:46,283 INFO User input string: show
+2024-01-09 23:21:46,284 INFO User decision show
+2024-01-09 23:21:57,930 INFO User input string: sell
+2024-01-09 23:21:57,931 INFO User decision sell
+2024-01-09 23:22:03,586 INFO User input string: tomato
+2024-01-09 23:22:08,531 INFO User input string: 52
+2024-01-09 23:22:08,531 INFO Item to sell: tomato quantity 52
+2024-01-09 23:22:41,716 INFO Start program warehouse_manager.py
+2024-01-09 23:22:50,519 INFO User input string: add
+2024-01-09 23:22:50,520 INFO User decision add
+2024-01-09 23:22:52,272 INFO User input string: asd
+2024-01-09 23:22:53,120 INFO User input string: 34
+2024-01-09 23:22:54,221 INFO User input string: 234
+2024-01-09 23:22:54,826 INFO User input string: 234
+2024-01-09 23:22:54,827 INFO New item to add: {'name': 'asd', 'quantity': '34', 'unit': '234', 'unit_price': '234'}
+2024-01-09 23:22:54,827 INFO New item added
+2024-01-09 23:22:56,689 INFO User input string: show
+2024-01-09 23:22:56,689 INFO User decision show
+2024-01-09 23:23:03,074 INFO User input string: sell
+2024-01-09 23:23:03,074 INFO User decision sell
+2024-01-09 23:23:04,305 INFO User input string: apple
+2024-01-09 23:23:08,658 INFO User input string: 120
+2024-01-09 23:23:08,658 INFO Item to sell: apple quantity 120
+2024-01-09 23:23:38,962 INFO Start program warehouse_manager.py
+2024-01-09 23:23:40,599 INFO User input string: sell
+2024-01-09 23:23:40,599 INFO User decision sell
+2024-01-09 23:23:41,966 INFO User input string: apple
+2024-01-09 23:23:43,912 INFO User input string: 120
+2024-01-09 23:23:43,913 INFO Item to sell: apple quantity 120
+2024-01-09 23:23:43,913 INFO Item sold
+2024-01-09 23:23:47,075 INFO User input string: show
+2024-01-09 23:23:47,075 INFO User decision show
+2024-01-09 23:23:49,713 INFO User input string: sell
+2024-01-09 23:23:49,713 INFO User decision sell
+2024-01-09 23:23:51,789 INFO User input string: apple
+2024-01-09 23:23:52,908 INFO User input string: 10
+2024-01-09 23:23:52,909 INFO Item to sell: apple quantity 10
+2024-01-09 23:23:52,909 INFO Item sold
+2024-01-09 23:23:54,533 INFO User input string: show
+2024-01-09 23:23:54,533 INFO User decision show
+2024-01-09 23:23:57,043 INFO User input string: exit
+2024-01-09 23:23:57,043 INFO User decision exit
+2024-01-09 23:23:57,043 INFO Exit program warehouse_manager.py
+2024-01-09 23:29:01,536 INFO Start program warehouse_manager.py
+2024-01-09 23:29:03,427 INFO User input string: sell
+2024-01-09 23:29:03,428 INFO User decision sell
+2024-01-09 23:29:06,204 INFO User input string: apples
+2024-01-09 23:29:07,530 INFO User input string: 34
+2024-01-09 23:29:07,530 INFO Item to sell: apples quantity 34
+2024-01-09 23:29:07,533 INFO 34 not found in warehouse
+2024-01-09 23:29:07,533 INFO 34 not found in warehouse
+2024-01-09 23:29:07,533 INFO 34 not found in warehouse
+2024-01-09 23:29:07,533 INFO 34 not found in warehouse
+2024-01-09 23:29:22,135 INFO Start program warehouse_manager.py
+2024-01-09 23:29:24,256 INFO User input string: show
+2024-01-09 23:29:24,256 INFO User decision show
+2024-01-09 23:29:26,677 INFO User input string: sell
+2024-01-09 23:29:26,678 INFO User decision sell
+2024-01-09 23:29:28,095 INFO User input string: alle
+2024-01-09 23:29:28,275 INFO User input string: 
+2024-01-09 23:29:30,871 INFO Start program warehouse_manager.py
+2024-01-09 23:29:34,833 INFO User input string: sell
+2024-01-09 23:29:34,833 INFO User decision sell
+2024-01-09 23:29:39,295 INFO User input string: apple
+2024-01-09 23:29:41,090 INFO User input string: 120
+2024-01-09 23:29:41,090 INFO Item to sell: apple quantity 120
+2024-01-09 23:29:41,090 INFO Item sold
+2024-01-09 23:29:41,090 INFO apple not found in warehouse
+2024-01-09 23:29:41,090 INFO apple not found in warehouse
+2024-01-09 23:29:41,090 INFO apple not found in warehouse
+2024-01-09 23:30:07,070 INFO Start program warehouse_manager.py
+2024-01-09 23:30:08,762 INFO User input string: sell
+2024-01-09 23:30:08,763 INFO User decision sell
+2024-01-09 23:30:10,895 INFO User input string: apple
+2024-01-09 23:30:12,434 INFO User input string: 120
+2024-01-09 23:30:12,434 INFO Item to sell: apple quantity 120
+2024-01-09 23:30:12,435 INFO Item sold
+2024-01-09 23:30:12,435 INFO apple not found in warehouse
+2024-01-09 23:30:16,961 INFO User input string: show
+2024-01-09 23:30:16,961 INFO User decision show
+2024-01-09 23:30:36,249 INFO Start program warehouse_manager.py
+2024-01-09 23:30:38,547 INFO User input string: sell
+2024-01-09 23:30:38,547 INFO User decision sell
+2024-01-09 23:30:39,759 INFO User input string: asd
+2024-01-09 23:30:41,068 INFO User input string: 34
+2024-01-09 23:30:41,068 INFO Item to sell: asd quantity 34
+2024-01-09 23:30:41,068 INFO asd not found in warehouse
+2024-01-09 23:30:55,315 INFO Start program warehouse_manager.py
+2024-01-09 23:30:57,084 INFO User input string: sell
+2024-01-09 23:30:57,084 INFO User decision sell
+2024-01-09 23:30:58,387 INFO User input string: apple
+2024-01-09 23:31:00,047 INFO User input string: 23
+2024-01-09 23:31:00,048 INFO Item to sell: apple quantity 23
+2024-01-09 23:31:00,048 INFO Item sold
+2024-01-09 23:31:02,747 INFO User input string: show
+2024-01-09 23:31:02,747 INFO User decision show
+2024-01-09 23:31:04,874 INFO User input string: sell
+2024-01-09 23:31:04,874 INFO User decision sell
+2024-01-09 23:31:07,795 INFO User input string: rew
+2024-01-09 23:31:09,028 INFO User input string: 3
+2024-01-09 23:31:09,028 INFO Item to sell: rew quantity 3
+2024-01-09 23:31:09,028 INFO rew not found in warehouse
+2024-01-09 23:31:13,290 INFO User input string: exit
+2024-01-09 23:31:13,290 INFO User decision exit
+2024-01-09 23:31:13,290 INFO Exit program warehouse_manager.py
+2024-01-09 23:33:11,363 INFO Start program warehouse_manager.py
+2024-01-09 23:33:13,495 INFO User input string: sell
+2024-01-09 23:33:13,495 INFO User decision sell
+2024-01-09 23:33:15,627 INFO User input string: apple
+2024-01-09 23:33:18,394 INFO User input string: 122
+2024-01-09 23:33:18,394 INFO Item to sell: apple quantity 122
+2024-01-09 23:33:18,394 INFO Item sold
+2024-01-09 23:33:21,079 INFO User input string: show
+2024-01-09 23:33:21,079 INFO User decision show
+2024-01-09 23:33:25,192 INFO User input string: sel
+2024-01-09 23:33:25,192 INFO User decision sel
+2024-01-09 23:33:27,311 INFO User input string: sell
+2024-01-09 23:33:27,311 INFO User decision sell
+2024-01-09 23:33:29,856 INFO User input string: tomato
+2024-01-09 23:33:31,251 INFO User input string: 321
+2024-01-09 23:33:31,251 INFO Item to sell: tomato quantity 321
+2024-01-09 23:33:31,251 INFO tomato not found in warehouse
+2024-01-09 23:33:48,785 INFO User input string: sell
+2024-01-09 23:33:48,785 INFO User decision sell
+2024-01-09 23:33:50,535 INFO User input string: apple
+2024-01-09 23:33:52,574 INFO User input string: 3332
+2024-01-09 23:33:52,575 INFO Item to sell: apple quantity 3332
+2024-01-09 23:33:52,575 INFO We dont have 3332 of apple
+2024-01-09 23:34:03,719 INFO Start program warehouse_manager.py
+2024-01-09 23:34:06,802 INFO User input string: sell
+2024-01-09 23:34:06,802 INFO User decision sell
+2024-01-09 23:34:09,614 INFO User input string: tomato
+2024-01-09 23:34:11,928 INFO User input string: 33334
+2024-01-09 23:34:11,928 INFO Item to sell: tomato quantity 33334
+2024-01-09 23:34:11,928 INFO tomato not found in warehouse
+2024-01-09 23:34:51,104 INFO Start program warehouse_manager.py
+2024-01-09 23:34:53,917 INFO User input string: show
+2024-01-09 23:34:53,918 INFO User decision show
+2024-01-09 23:34:56,418 INFO User input string: sell
+2024-01-09 23:34:56,419 INFO User decision sell
+2024-01-09 23:34:59,318 INFO User input string: kiwi
+2024-01-09 23:35:00,494 INFO User input string: 2
+2024-01-09 23:35:00,495 INFO Item to sell: kiwi quantity 2
+2024-01-09 23:35:00,495 INFO kiwi not found in warehouse
+2024-01-09 23:35:19,551 INFO Start program warehouse_manager.py
+2024-01-09 23:35:21,601 INFO User input string: sell
+2024-01-09 23:35:21,601 INFO User decision sell
+2024-01-09 23:35:23,700 INFO User input string: tomato
+2024-01-09 23:35:26,388 INFO User input string: 32
+2024-01-09 23:35:26,389 INFO Item to sell: tomato quantity 32
+2024-01-09 23:35:26,389 INFO tomato not found in warehouse
+2024-01-09 23:35:26,389 INFO Item sold
+2024-01-09 23:35:33,484 INFO User input string: show
+2024-01-09 23:35:33,485 INFO User decision show
+2024-01-09 23:35:36,337 INFO User input string: sell
+2024-01-09 23:35:36,337 INFO User decision sell
+2024-01-09 23:35:37,909 INFO User input string: tomato
+2024-01-09 23:35:38,842 INFO User input string: 123
+2024-01-09 23:35:38,842 INFO Item to sell: tomato quantity 123
+2024-01-09 23:35:38,842 INFO tomato not found in warehouse
+2024-01-09 23:35:38,842 INFO We dont have 123 of tomato
+2024-01-09 23:35:43,242 INFO User input string: exit
+2024-01-09 23:35:43,242 INFO User decision exit
+2024-01-09 23:35:43,242 INFO Exit program warehouse_manager.py
