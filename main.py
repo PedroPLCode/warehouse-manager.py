@@ -89,9 +89,9 @@ def create_item(name, quantity, unit, unit_price):
 def add_items():
     print("Adding to warehouse...")
     new_item = create_item(get_user_input_string("New item name: "),
-                         get_user_input_float("New item quantity: "), 
+                         round(get_user_input_float("New item quantity: "), 2),
                          get_user_input_string("New item unit: "),
-                         get_user_input_float("New item unit price: ")
+                         round(get_user_input_float("New item unit price: "), 2)
                          )
     items.append(new_item)
     logging.info("New item added")
@@ -125,7 +125,7 @@ def is_string(input):
 def sell_items():
     print("Sell from warehouse...")
     sell_item_name = get_user_input_string("Item to sell: ")
-    sell_item_quantity = get_user_input_float("Quantity to sell: ")
+    sell_item_quantity = round(get_user_input_float("Quantity to sell: "), 2)
     logging.info(f"Item to sell: {sell_item_name} quantity {sell_item_quantity}")
     item_found = False
     for item in items:
@@ -182,16 +182,24 @@ def export_array_to_csv(array, filename):
     
 def load_array_from_csv(array, filename):
     array.clear()
-    with open(filename, newline='') as csvfile:
-        reader = csv.DictReader(csvfile)
-        for row in reader:
-            temp_item = create_item(row['name'],
-                                      row['quantity'],
-                                      row['unit'],
-                                      row['unit_price'])
-            array.append(temp_item)
-    print(f"Loaded {filename}")
-    logging.info(f"Loaded {filename}")
+    try:
+        with open(filename, newline='') as csvfile:
+            reader = csv.DictReader(csvfile)
+            for row in reader:
+                temp_item = create_item(row['name'],
+                                        row['quantity'],
+                                        row['unit'],
+                                        row['unit_price'])
+                array.append(temp_item)
+        print(f"Loaded {filename}")
+        logging.info(f"Loaded {filename}")
+    except FileNotFoundError:
+        file_not_found(filename)
+        
+        
+def file_not_found(filename):
+    print(f"File {filename} not found")
+    logging.info(f"File {filename} not found")
             
 
 def save(file_warehouse, file_sold_items):
@@ -219,9 +227,10 @@ def program_not_start():
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
+    if len(sys.argv) == 3:
+        file_warehouse = sys.argv[1]
+        file_sold_items = sys.argv[2]
+        main(file_warehouse, file_sold_items)
+    else:
         print_info()
         program_not_start()
-    file_warehouse = sys.argv[1]
-    file_sold_items = sys.argv[2]
-    main(file_warehouse, file_sold_items)
