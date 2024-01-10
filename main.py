@@ -75,7 +75,7 @@ def show_items():
     print("Name\t\tQuantity\tUnit\t\tPrice (PLN)\n"
           "----\t\t--------\t----\t\t-----------")
     for item in items:
-        print(f"{item['name'].title()}\t\t{item['quantity']}\t\t{item['unit']}\t\t{item['unit_price']}")
+        print(f"{item['name'].title()}\t\t{item['quantity']}\t\t{item['unit']}\t\t{item['unit_price']}")  
         
         
 def create_item(name, quantity, unit, unit_price):
@@ -94,9 +94,39 @@ def add_items():
                            get_user_input_string("New item unit: "),
                            round(get_user_input_float("New item unit price: "), 2)
                            )
-    items.append(new_item)
-    logging.info("New item added")
+    if item_already_in_array(new_item, items):
+        update_existing_item(new_item, items)
+    else:      
+        create_new_item(new_item, items)
     
+
+def update_existing_item(new_item, items):
+    print(f"{new_item['name']} already exists in warehouse. Trying to update...")
+    for item in items:
+        if new_item['name'] == item['name']:
+            if new_item['unit'] != item['unit']:
+                print("Diffrent unit. Please add this product again with diffrent name.")
+            elif new_item['unit_price'] != float(item['unit_price']):
+                print("Diffrent unit price. Please add this product again with diffrent name.")
+            else:
+                item['quantity'] = float(item['quantity']) + float(new_item['quantity'])
+                print(f"Succesfully added {new_item['quantity']} {item['unit']} {item['name']}s to warehouse.")
+                export_array_to_csv(items, file_warehouse)
+                logging.info(f"Added {new_item['quantity']} {item['unit']} {item['name']}s to warehouse.")
+    
+    
+def create_new_item(new_item, items):
+    items.append(new_item)
+    print("Succesfully added new item to warehouse.")
+    export_array_to_csv(items, file_warehouse)
+    logging.info("New item added")
+        
+    
+def item_already_in_array(new_item, array):  
+    for item in array:
+        if item['name'] == new_item['name']:
+            return True
+
     
 def convert_input_to_float(input):
     """Converts entered decimals with ',' to floats with '.' if possible."""
@@ -132,26 +162,39 @@ def sell_items():
     for item in items:
         if item['name'] == sell_item_name:
             if float(item['quantity']) >= sell_item_quantity:
-                item['quantity'] = float(item['quantity']) - sell_item_quantity
-                print(f"Succesfully sold {sell_item_quantity} {item['unit']} of {sell_item_name}")
-                sold_item = create_item(sell_item_name,
-                                        sell_item_quantity,
-                                        item['unit'],
-                                        item['unit_price'])
-                sold_items.append(sold_item)
-                logging.info("Item sold")
+                sell_action(item, sell_item_name, sell_item_quantity)
+                save(file_warehouse, file_sold_items)
                 item_found = True
                 break
             else:
-                print(f"We dont have {sell_item_quantity} {item['unit']} of {sell_item_name}s")
-                logging.info(f"We dont have {sell_item_quantity} of {sell_item_name}")
+                not_enough_items(item, sell_item_name, sell_item_quantity)
                 item_found = True
                 break
     if item_found == False:
-        print(f"{sell_item_name} not found in warehouse")
-        logging.info(f"{sell_item_name} not found in warehouse")
+        item_not_found(sell_item_name)
 
 
+def sell_action(item, sell_item_name, sell_item_quantity):
+    item['quantity'] = round(float(item['quantity']) - sell_item_quantity, 2)
+    print(f"Succesfully sold {sell_item_quantity} {item['unit']} of {sell_item_name}")
+    sold_item = create_item(sell_item_name,
+                            sell_item_quantity,
+                            item['unit'],
+                            item['unit_price'])
+    sold_items.append(sold_item)
+    logging.info("Item sold")
+                   
+                   
+def not_enough_items(item, sell_item_name, sell_item_quantity):
+    print(f"We dont have {sell_item_quantity} {item['unit']} of {sell_item_name}s")
+    logging.info(f"We dont have {sell_item_quantity} of {sell_item_name}")
+
+
+def item_not_found(item):
+    print(f"{item} not found in warehouse")
+    logging.info(f"{item} not found in warehouse")
+    
+    
 def calculate_value_of_products(array):
     value = [float(item['unit_price']) * float(item['quantity']) for item in array]
     return sum(value)
@@ -173,10 +216,10 @@ def remove_empty_items(array):
             array.remove(item)
             
      
-def clear_files_from_empty_items(warehouse, sold_items):
+def clear_arrays_from_empty_items(warehouse, sold_items):
     remove_empty_items(warehouse)
     remove_empty_items(sold_items)
-    logging.info(f"Warehouse and Sold_items conditions good.")
+    logging.info(f"Warehouse and Sold_items cleaned empty items.")
 
 
 def export_array_to_csv(array, filename):
@@ -216,7 +259,7 @@ def file_not_found(filename):
             
 
 def save(file_warehouse, file_sold_items):
-    clear_files_from_empty_items(items, sold_items)
+    clear_arrays_from_empty_items(items, sold_items)
     export_array_to_csv(items, file_warehouse)
     export_array_to_csv(sold_items, file_sold_items)
     
@@ -224,7 +267,7 @@ def save(file_warehouse, file_sold_items):
 def load(file_warehouse, file_sold_items):
     load_array_from_csv(items, file_warehouse)
     load_array_from_csv(sold_items, file_sold_items)
-    clear_files_from_empty_items(items, sold_items)
+    clear_arrays_from_empty_items(items, sold_items)
     
     
 def exit_program():
@@ -237,7 +280,7 @@ def exit_program():
 def program_not_start():
     print("Program cant start without necessary arguments.\n"
           "Try python3 warehouse_manager.py file_warehouse.csv file_sold_items.csv")
-    logging.info("Didnt start. Missing rewuired argunemts / filemanes")
+    logging.info("Didnt start. Missing required argunemts / filemanes")
     exit(1)
 
 
