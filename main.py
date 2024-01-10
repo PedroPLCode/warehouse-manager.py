@@ -1,4 +1,4 @@
-"""Warehouse mamager
+"""Warehouse manager
 Author: Pedro van Code
 Last update: 10.01.2024
 Any comments welcome :)
@@ -85,14 +85,15 @@ def create_item(name, quantity, unit, unit_price):
         'unit': unit, 
         'unit_price': unit_price,
     }
+    
         
 def add_items():
     print("Adding to warehouse...")
     new_item = create_item(get_user_input_string("New item name: "),
-                         round(get_user_input_float("New item quantity: "), 2),
-                         get_user_input_string("New item unit: "),
-                         round(get_user_input_float("New item unit price: "), 2)
-                         )
+                           round(get_user_input_float("New item quantity: "), 2),
+                           get_user_input_string("New item unit: "),
+                           round(get_user_input_float("New item unit price: "), 2)
+                           )
     items.append(new_item)
     logging.info("New item added")
     
@@ -134,9 +135,9 @@ def sell_items():
                 item['quantity'] = float(item['quantity']) - sell_item_quantity
                 print(f"Succesfully sold {sell_item_quantity} {item['unit']} of {sell_item_name}")
                 sold_item = create_item(sell_item_name,
-                                      sell_item_quantity,
-                                      item['unit'],
-                                      item['unit_price'])
+                                        sell_item_quantity,
+                                        item['unit'],
+                                        item['unit_price'])
                 sold_items.append(sold_item)
                 logging.info("Item sold")
                 item_found = True
@@ -160,10 +161,22 @@ def show_revenue():
     income = calculate_value_of_products(sold_items)
     costs = calculate_value_of_products(items)
     print("Revenue breakdown (PLN)\n"
-          f"Income: {income}\n"
-          f"Costs: {costs}\n"
+          f"Income: {round(income, 2)}\n"
+          f"Costs: {round(costs, 2)}\n"
           "-----------------------\n"
-          f"Revenue: {income - costs}")
+          f"Revenue: {round(income - costs, 2)}")
+    
+    
+def remove_empty_items(array):
+    for item in array:
+        if float(item['quantity']) <= 0:
+            array.remove(item)
+            
+     
+def clear_files_from_empty_items(warehouse, sold_items):
+    remove_empty_items(warehouse)
+    remove_empty_items(sold_items)
+    logging.info(f"Warehouse and Sold_items conditions good.")
 
 
 def export_array_to_csv(array, filename):
@@ -203,6 +216,7 @@ def file_not_found(filename):
             
 
 def save(file_warehouse, file_sold_items):
+    clear_files_from_empty_items(items, sold_items)
     export_array_to_csv(items, file_warehouse)
     export_array_to_csv(sold_items, file_sold_items)
     
@@ -210,6 +224,7 @@ def save(file_warehouse, file_sold_items):
 def load(file_warehouse, file_sold_items):
     load_array_from_csv(items, file_warehouse)
     load_array_from_csv(sold_items, file_sold_items)
+    clear_files_from_empty_items(items, sold_items)
     
     
 def exit_program():

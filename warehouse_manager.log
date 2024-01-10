@@ -1257,3 +1257,126 @@
 2024-01-10 21:42:55,424 INFO Exit program warehouse_manager.py
 2024-01-10 21:42:55,424 INFO Saved warehouse.csv
 2024-01-10 21:42:55,425 INFO Saved sold.csv
+2024-01-10 21:48:56,483 INFO Start program warehouse_manager.py
+2024-01-10 21:48:56,483 INFO Loaded warehouse.csv
+2024-01-10 21:48:56,483 INFO Loaded sold.csv
+2024-01-10 21:49:13,650 INFO User input: show
+2024-01-10 21:49:13,650 ERROR show is string
+2024-01-10 21:49:13,650 INFO User decision show
+2024-01-10 21:49:20,725 INFO User input: exit
+2024-01-10 21:49:20,725 ERROR exit is string
+2024-01-10 21:49:20,725 INFO User decision exit
+2024-01-10 21:49:20,725 INFO Exit program warehouse_manager.py
+2024-01-10 21:49:20,726 INFO Saved warehouse.csv
+2024-01-10 21:49:20,726 INFO Saved sold.csv
+2024-01-10 21:56:37,105 INFO Start program warehouse_manager.py
+2024-01-10 21:56:37,106 INFO Loaded warehouse.csv
+2024-01-10 21:56:37,106 INFO Loaded sold.csv
+2024-01-10 21:57:13,329 INFO Start program warehouse_manager.py
+2024-01-10 21:57:13,330 INFO Loaded warehouse.csv
+2024-01-10 21:57:13,332 INFO Loaded sold.csv
+2024-01-10 21:57:40,226 INFO Start program warehouse_manager.py
+2024-01-10 21:57:40,226 INFO Loaded warehouse.csv
+2024-01-10 21:57:40,226 INFO Loaded sold.csv
+2024-01-10 21:57:54,086 INFO Start program warehouse_manager.py
+2024-01-10 21:57:54,086 INFO Loaded warehouse.csv
+2024-01-10 21:57:54,086 INFO Loaded sold.csv
+2024-01-10 21:58:38,191 INFO Start program warehouse_manager.py
+2024-01-10 21:58:38,191 INFO Loaded warehouse.csv
+2024-01-10 21:58:38,191 INFO Loaded sold.csv
+2024-01-10 22:00:59,693 INFO Start program warehouse_manager.py
+2024-01-10 22:00:59,694 INFO Loaded warehouse.csv
+2024-01-10 22:00:59,694 INFO Loaded sold.csv
+2024-01-10 22:01:16,444 INFO Start program warehouse_manager.py
+2024-01-10 22:01:16,445 INFO Loaded warehouse.csv
+2024-01-10 22:01:16,445 INFO Loaded sold.csv
+2024-01-10 22:03:58,318 INFO Start program warehouse_manager.py
+2024-01-10 22:03:58,318 INFO Loaded warehouse.csv
+2024-01-10 22:03:58,318 INFO Loaded sold.csv
+2024-01-10 22:03:58,319 INFO Warehouse and Sold_items conditions good.
+2024-01-10 22:04:40,962 INFO User input: exit
+2024-01-10 22:04:40,962 ERROR exit is string
+2024-01-10 22:04:40,962 INFO User decision exit
+2024-01-10 22:04:40,963 INFO Exit program warehouse_manager.py
+2024-01-10 22:04:40,963 INFO Warehouse and Sold_items conditions good.
+2024-01-10 22:04:40,963 INFO Saved warehouse.csv
+2024-01-10 22:04:40,963 INFO Saved sold.csv
+2024-01-10 22:04:48,426 INFO Start program warehouse_manager.py
+2024-01-10 22:04:48,426 INFO Loaded warehouse.csv
+2024-01-10 22:04:48,426 INFO Loaded sold.csv
+2024-01-10 22:04:48,426 INFO Warehouse and Sold_items conditions good.
+2024-01-10 22:04:50,878 INFO User input: show
+2024-01-10 22:04:50,878 ERROR show is string
+2024-01-10 22:04:50,878 INFO User decision show
+2024-01-10 22:05:01,140 INFO User input: exit
+2024-01-10 22:05:01,140 ERROR exit is string
+2024-01-10 22:05:01,140 INFO User decision exit
+2024-01-10 22:05:01,140 INFO Exit program warehouse_manager.py
+2024-01-10 22:05:01,140 INFO Warehouse and Sold_items conditions good.
+2024-01-10 22:05:01,141 INFO Saved warehouse.csv
+2024-01-10 22:05:01,141 INFO Saved sold.csv
+2024-01-10 22:05:30,369 INFO Start program warehouse_manager.py
+2024-01-10 22:05:30,370 INFO Loaded warehouse.csv
+2024-01-10 22:05:30,370 INFO Loaded sold.csv
+2024-01-10 22:05:30,370 INFO Warehouse and Sold_items conditions good.
+2024-01-10 22:05:32,577 INFO User input: show
+2024-01-10 22:05:32,577 ERROR show is string
+2024-01-10 22:05:32,577 INFO User decision show
+2024-01-10 22:05:38,895 INFO User input: exit
+2024-01-10 22:05:38,895 ERROR exit is string
+2024-01-10 22:05:38,895 INFO User decision exit
+2024-01-10 22:05:38,895 INFO Exit program warehouse_manager.py
+2024-01-10 22:05:38,895 INFO Warehouse and Sold_items conditions good.
+2024-01-10 22:05:38,896 INFO Saved warehouse.csv
+2024-01-10 22:05:38,896 INFO Saved sold.csv
+2024-01-10 22:06:06,249 INFO Start program warehouse_manager.py
+2024-01-10 22:06:06,249 INFO Loaded warehouse.csv
+2024-01-10 22:06:06,249 INFO Loaded sold.csv
+2024-01-10 22:06:06,249 INFO Warehouse and Sold_items conditions good.
+2024-01-10 22:06:11,365 INFO User input: show
+2024-01-10 22:06:11,365 ERROR show is string
+2024-01-10 22:06:11,365 INFO User decision show
+2024-01-10 22:06:27,145 INFO User input: exit
+2024-01-10 22:06:27,145 ERROR exit is string
+2024-01-10 22:06:27,145 INFO User decision exit
+2024-01-10 22:06:27,145 INFO Exit program warehouse_manager.py
+2024-01-10 22:06:27,145 INFO Warehouse and Sold_items conditions good.
+2024-01-10 22:06:27,146 INFO Saved warehouse.csv
+2024-01-10 22:06:27,146 INFO Saved sold.csv
+2024-01-10 22:06:38,914 INFO Start program warehouse_manager.py
+2024-01-10 22:06:38,914 INFO Loaded warehouse.csv
+2024-01-10 22:06:38,914 INFO Loaded sold.csv
+2024-01-10 22:06:38,914 INFO Warehouse and Sold_items conditions good.
+2024-01-10 22:06:40,938 INFO User input: show
+2024-01-10 22:06:40,939 ERROR show is string
+2024-01-10 22:06:40,939 INFO User decision show
+2024-01-10 22:06:43,423 INFO User input: sell
+2024-01-10 22:06:43,424 ERROR sell is string
+2024-01-10 22:06:43,424 INFO User decision sell
+2024-01-10 22:06:45,700 INFO User input: kiwi
+2024-01-10 22:06:45,701 ERROR kiwi is string
+2024-01-10 22:06:46,549 INFO User input: 3
+2024-01-10 22:06:46,550 INFO 3.0 is float
+2024-01-10 22:06:46,550 INFO Item to sell: kiwi quantity 3.0
+2024-01-10 22:06:46,550 INFO Item sold
+2024-01-10 22:06:52,071 INFO User input: exit
+2024-01-10 22:06:52,071 ERROR exit is string
+2024-01-10 22:06:52,071 INFO User decision exit
+2024-01-10 22:06:52,071 INFO Exit program warehouse_manager.py
+2024-01-10 22:06:52,072 INFO Warehouse and Sold_items conditions good.
+2024-01-10 22:06:52,072 INFO Saved warehouse.csv
+2024-01-10 22:06:52,073 INFO Saved sold.csv
+2024-01-10 22:06:56,521 INFO Start program warehouse_manager.py
+2024-01-10 22:06:56,521 INFO Loaded warehouse.csv
+2024-01-10 22:06:56,522 INFO Loaded sold.csv
+2024-01-10 22:06:56,522 INFO Warehouse and Sold_items conditions good.
+2024-01-10 22:06:58,241 INFO User input: show
+2024-01-10 22:06:58,241 ERROR show is string
+2024-01-10 22:06:58,241 INFO User decision show
+2024-01-10 22:07:09,030 INFO User input: exit
+2024-01-10 22:07:09,030 ERROR exit is string
+2024-01-10 22:07:09,031 INFO User decision exit
+2024-01-10 22:07:09,031 INFO Exit program warehouse_manager.py
+2024-01-10 22:07:09,031 INFO Warehouse and Sold_items conditions good.
+2024-01-10 22:07:09,031 INFO Saved warehouse.csv
+2024-01-10 22:07:09,031 INFO Saved sold.csv
