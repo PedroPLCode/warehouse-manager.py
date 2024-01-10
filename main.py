@@ -4,6 +4,7 @@ Last update: 10.01.2024
 Any comments welcome :)
 """
 
+import sys
 import csv
 import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s', filename="warehouse_manager.log")
@@ -11,9 +12,9 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(mess
 items = []
 sold_items = []
 
-def main():
+def main(file_warehouse, file_sold_items):
     print_info()
-    load()
+    load(file_warehouse, file_sold_items)
     while True:
         user_decision = get_user_input_string("What would you like to do? exit/show/add/sell/revenue/save/load: ")  
         logging.info(f"User decision {user_decision}")
@@ -28,9 +29,9 @@ def main():
         elif user_decision == 'revenue':
             show_revenue()
         elif user_decision == 'save':
-            save()
+            save(file_warehouse, file_sold_items)
         elif user_decision == 'load':
-            load()
+            load(file_warehouse, file_sold_items)
         else:
             wrong_input()
 
@@ -50,7 +51,7 @@ def get_user_input_string(question):
             return user_input.lower().strip()
         else:
             print("Wrong input. Not a string. Try again.")
-            logging.info(f"{user_input} not a string.")
+            logging.warning(f"{user_input} not a string.")
 
 
 def get_user_input_float(question):
@@ -62,12 +63,12 @@ def get_user_input_float(question):
             return convert_input_to_float(user_input)
         else:
             print("Wrong input. Lookas like string. Try again.")
-            logging.info(f"{user_input} is a string.")
+            logging.warning(f"{user_input} is a string.")
 
 
 def wrong_input():
     print("Wrong input. Try again.")
-    logging.info("Wrong input.")
+    logging.warning("Wrong input.")
     
 
 def show_items():
@@ -92,7 +93,6 @@ def add_items():
                          get_user_input_string("New item unit: "),
                          get_user_input_float("New item unit price: ")
                          )
-    logging.info(f"New item to add: {new_item}")
     items.append(new_item)
     logging.info("New item added")
     
@@ -109,7 +109,7 @@ def convert_input_to_float(input):
 def is_string(input):
     """Checks if input is float (returns False), int (returns False) or string (returns True)."""
     try:
-        input = float(input)
+        input = float(convert_input_to_float(input))
         logging.info(f"{input} is float")
         return False
     except ValueError:
@@ -127,6 +127,7 @@ def sell_items():
     sell_item_name = get_user_input_string("Item to sell: ")
     sell_item_quantity = get_user_input_float("Quantity to sell: ")
     logging.info(f"Item to sell: {sell_item_name} quantity {sell_item_quantity}")
+    item_found = False
     for item in items:
         if item['name'] == sell_item_name:
             if float(item['quantity']) >= sell_item_quantity:
@@ -138,14 +139,16 @@ def sell_items():
                                       item['unit_price'])
                 sold_items.append(sold_item)
                 logging.info("Item sold")
+                item_found = True
                 break
             else:
                 print(f"We dont have {sell_item_quantity} {item['unit']} of {sell_item_name}s")
                 logging.info(f"We dont have {sell_item_quantity} of {sell_item_name}")
+                item_found = True
                 break
-        else: 
-            print(f"{sell_item_name} not found in warehouse")
-            logging.info(f"{sell_item_name} not found in warehouse")
+    if item_found == False:
+        print(f"{sell_item_name} not found in warehouse")
+        logging.info(f"{sell_item_name} not found in warehouse")
 
 
 def calculate_value_of_products(array):
@@ -156,14 +159,14 @@ def calculate_value_of_products(array):
 def show_revenue():
     income = calculate_value_of_products(sold_items)
     costs = calculate_value_of_products(items)
-    print("Revenue breakdown (PLN)"
+    print("Revenue breakdown (PLN)\n"
           f"Income: {income}\n"
           f"Costs: {costs}\n"
-          "-----------------------"
+          "-----------------------\n"
           f"Revenue: {income - costs}")
 
 
-def export_items_to_csv(array, filename):
+def export_array_to_csv(array, filename):
     with open(filename, 'w', newline='') as csvfile:
         fieldnames = ['name', 'quantity', 'unit', 'unit_price']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
@@ -176,12 +179,8 @@ def export_items_to_csv(array, filename):
         print(f"Saved {filename}")
         logging.info(f"Saved {filename}")
     
-def save():
-    export_items_to_csv(items, 'warehouse.csv')
-    export_items_to_csv(sold_items, 'sold.csv')
     
-    
-def load_items_from_csv(array, filename):
+def load_array_from_csv(array, filename):
     array.clear()
     with open(filename, newline='') as csvfile:
         reader = csv.DictReader(csvfile)
@@ -194,18 +193,35 @@ def load_items_from_csv(array, filename):
     print(f"Loaded {filename}")
     logging.info(f"Loaded {filename}")
             
+
+def save(file_warehouse, file_sold_items):
+    export_array_to_csv(items, file_warehouse)
+    export_array_to_csv(sold_items, file_sold_items)
+    
             
-def load():
-    load_items_from_csv(items, 'warehouse.csv')
-    load_items_from_csv(sold_items, 'sold.csv')
+def load(file_warehouse, file_sold_items):
+    load_array_from_csv(items, file_warehouse)
+    load_array_from_csv(sold_items, file_sold_items)
     
     
 def exit_program():
     print("Exit program... Bye.")
     logging.info("Exit program warehouse_manager.py")
-    save()
+    save(file_warehouse, file_sold_items)
+    exit(1)
+    
+    
+def program_not_start():
+    print("Program cant start without necessary arguments.\n"
+          "Try python3 warehouse_manager.py file_warehouse.csv file_sold_items.csv")
+    logging.info("Didnt start. Missing rewuired argunemts / filemanes")
     exit(1)
 
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) != 3:
+        print_info()
+        program_not_start()
+    file_warehouse = sys.argv[1]
+    file_sold_items = sys.argv[2]
+    main(file_warehouse, file_sold_items)

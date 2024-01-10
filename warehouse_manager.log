@@ -621,3 +621,486 @@
 2024-01-10 18:55:41,512 INFO Exit program warehouse_manager.py
 2024-01-10 18:55:41,513 INFO Saved warehouse.csv
 2024-01-10 18:55:41,514 INFO Saved sold.csv
+2024-01-10 20:39:53,714 INFO Start program warehouse_manager.py
+2024-01-10 20:39:53,719 INFO Loaded warehouse.csv
+2024-01-10 20:39:53,720 INFO Loaded sold.csv
+2024-01-10 20:39:57,368 INFO User input: show
+2024-01-10 20:39:57,369 ERROR show is string
+2024-01-10 20:39:57,369 INFO User decision show
+2024-01-10 20:40:02,444 INFO User input: revenue
+2024-01-10 20:40:02,444 ERROR revenue is string
+2024-01-10 20:40:02,444 INFO User decision revenue
+2024-01-10 20:41:41,180 INFO Start program warehouse_manager.py
+2024-01-10 20:41:41,180 INFO Loaded warehouse.csv
+2024-01-10 20:41:41,181 INFO Loaded sold.csv
+2024-01-10 20:41:43,737 INFO User input: show
+2024-01-10 20:41:43,737 ERROR show is string
+2024-01-10 20:41:43,737 INFO User decision show
+2024-01-10 20:41:51,391 INFO User input: sell
+2024-01-10 20:41:51,392 ERROR sell is string
+2024-01-10 20:41:51,392 INFO User decision sell
+2024-01-10 20:41:54,184 INFO User input: grape
+2024-01-10 20:41:54,184 ERROR grape is string
+2024-01-10 20:41:55,857 INFO User input: 103
+2024-01-10 20:41:55,857 INFO 103.0 is float
+2024-01-10 20:41:55,857 INFO Item to sell: grape quantity 103.0
+2024-01-10 20:41:55,858 INFO grape not found in warehouse
+2024-01-10 20:41:55,858 INFO grape not found in warehouse
+2024-01-10 20:41:55,858 INFO grape not found in warehouse
+2024-01-10 20:41:55,858 INFO grape not found in warehouse
+2024-01-10 20:41:55,858 INFO grape not found in warehouse
+2024-01-10 20:41:55,858 INFO grape not found in warehouse
+2024-01-10 20:41:55,858 INFO We dont have 103.0 of grape
+2024-01-10 20:41:59,137 INFO User input: sell
+2024-01-10 20:41:59,137 ERROR sell is string
+2024-01-10 20:41:59,137 INFO User decision sell
+2024-01-10 20:42:01,380 INFO User input: grape
+2024-01-10 20:42:01,381 ERROR grape is string
+2024-01-10 20:42:02,982 INFO User input: 100
+2024-01-10 20:42:02,982 INFO 100.0 is float
+2024-01-10 20:42:02,982 INFO Item to sell: grape quantity 100.0
+2024-01-10 20:42:02,982 INFO grape not found in warehouse
+2024-01-10 20:42:02,982 INFO grape not found in warehouse
+2024-01-10 20:42:02,983 INFO grape not found in warehouse
+2024-01-10 20:42:02,983 INFO grape not found in warehouse
+2024-01-10 20:42:02,983 INFO grape not found in warehouse
+2024-01-10 20:42:02,983 INFO grape not found in warehouse
+2024-01-10 20:42:02,983 INFO Item sold
+2024-01-10 20:42:05,537 INFO User input: show
+2024-01-10 20:42:05,538 ERROR show is string
+2024-01-10 20:42:05,538 INFO User decision show
+2024-01-10 20:42:15,250 INFO User input: revenue
+2024-01-10 20:42:15,250 ERROR revenue is string
+2024-01-10 20:42:15,250 INFO User decision revenue
+2024-01-10 20:42:23,662 INFO User input: save
+2024-01-10 20:42:23,662 ERROR save is string
+2024-01-10 20:42:23,662 INFO User decision save
+2024-01-10 20:42:23,663 INFO Saved warehouse.csv
+2024-01-10 20:42:23,663 INFO Saved sold.csv
+2024-01-10 20:42:30,559 INFO User input: sell
+2024-01-10 20:42:30,559 ERROR sell is string
+2024-01-10 20:42:30,559 INFO User decision sell
+2024-01-10 20:42:32,585 INFO User input: dragon
+2024-01-10 20:42:32,585 ERROR dragon is string
+2024-01-10 20:42:34,735 INFO User input: 33.2
+2024-01-10 20:42:34,735 INFO 33.2 is float
+2024-01-10 20:42:34,735 INFO Item to sell: dragon quantity 33.2
+2024-01-10 20:42:34,735 INFO dragon not found in warehouse
+2024-01-10 20:42:34,736 INFO dragon not found in warehouse
+2024-01-10 20:42:34,736 INFO dragon not found in warehouse
+2024-01-10 20:42:34,736 INFO dragon not found in warehouse
+2024-01-10 20:42:34,736 INFO dragon not found in warehouse
+2024-01-10 20:42:34,736 INFO dragon not found in warehouse
+2024-01-10 20:42:34,736 INFO dragon not found in warehouse
+2024-01-10 20:42:34,736 INFO We dont have 33.2 of dragon
+2024-01-10 20:42:37,417 INFO User input: sell
+2024-01-10 20:42:37,418 ERROR sell is string
+2024-01-10 20:42:37,418 INFO User decision sell
+2024-01-10 20:42:39,169 INFO User input: dragon
+2024-01-10 20:42:39,169 ERROR dragon is string
+2024-01-10 20:42:40,881 INFO User input: 0.2
+2024-01-10 20:42:40,882 INFO 0.2 is float
+2024-01-10 20:42:40,882 INFO Item to sell: dragon quantity 0.2
+2024-01-10 20:42:40,882 INFO dragon not found in warehouse
+2024-01-10 20:42:40,882 INFO dragon not found in warehouse
+2024-01-10 20:42:40,882 INFO dragon not found in warehouse
+2024-01-10 20:42:40,882 INFO dragon not found in warehouse
+2024-01-10 20:42:40,883 INFO dragon not found in warehouse
+2024-01-10 20:42:40,883 INFO dragon not found in warehouse
+2024-01-10 20:42:40,883 INFO dragon not found in warehouse
+2024-01-10 20:42:40,883 INFO Item sold
+2024-01-10 20:42:43,748 INFO User input: show
+2024-01-10 20:42:43,748 ERROR show is string
+2024-01-10 20:42:43,748 INFO User decision show
+2024-01-10 20:42:50,547 INFO User input: add
+2024-01-10 20:42:50,547 ERROR add is string
+2024-01-10 20:42:50,547 INFO User decision add
+2024-01-10 20:42:53,857 INFO User input: dragon
+2024-01-10 20:42:53,857 ERROR dragon is string
+2024-01-10 20:42:55,508 INFO User input: 33
+2024-01-10 20:42:55,509 INFO 33.0 is float
+2024-01-10 20:43:01,130 INFO User input: kg
+2024-01-10 20:43:01,130 ERROR kg is string
+2024-01-10 20:43:03,533 INFO User input: 5
+2024-01-10 20:43:03,533 INFO 5.0 is float
+2024-01-10 20:43:03,533 INFO New item to add: {'name': 'dragon', 'quantity': 33.0, 'unit': 'kg', 'unit_price': 5.0}
+2024-01-10 20:43:03,533 INFO New item added
+2024-01-10 20:43:06,353 INFO User input: show
+2024-01-10 20:43:06,353 ERROR show is string
+2024-01-10 20:43:06,353 INFO User decision show
+2024-01-10 20:43:55,208 INFO Start program warehouse_manager.py
+2024-01-10 20:43:55,208 INFO Loaded warehouse.csv
+2024-01-10 20:43:55,208 INFO Loaded sold.csv
+2024-01-10 20:43:57,808 INFO User input: add
+2024-01-10 20:43:57,808 ERROR add is string
+2024-01-10 20:43:57,808 INFO User decision add
+2024-01-10 20:44:00,862 INFO User input: dragoin
+2024-01-10 20:44:00,862 ERROR dragoin is string
+2024-01-10 20:44:02,457 INFO User input: ae
+2024-01-10 20:44:02,458 ERROR ae is string
+2024-01-10 20:44:02,458 INFO ae is a string.
+2024-01-10 20:44:05,144 INFO User input: ase
+2024-01-10 20:44:05,144 ERROR ase is string
+2024-01-10 20:44:05,144 INFO ase is a string.
+2024-01-10 20:44:05,734 INFO User input: fds
+2024-01-10 20:44:05,735 ERROR fds is string
+2024-01-10 20:44:05,735 INFO fds is a string.
+2024-01-10 20:44:07,412 INFO User input: 3
+2024-01-10 20:44:07,412 INFO 3.0 is float
+2024-01-10 20:44:10,274 INFO User input: kg
+2024-01-10 20:44:10,274 ERROR kg is string
+2024-01-10 20:44:12,165 INFO User input: er
+2024-01-10 20:44:12,165 ERROR er is string
+2024-01-10 20:44:12,165 INFO er is a string.
+2024-01-10 20:44:14,856 INFO User input: 33,4
+2024-01-10 20:44:14,857 ERROR 33,4 is string
+2024-01-10 20:44:14,857 INFO 33,4 is a string.
+2024-01-10 20:44:47,314 INFO Start program warehouse_manager.py
+2024-01-10 20:44:47,315 INFO Loaded warehouse.csv
+2024-01-10 20:44:47,315 INFO Loaded sold.csv
+2024-01-10 20:44:50,480 INFO User input: sell
+2024-01-10 20:44:50,480 ERROR sell is string
+2024-01-10 20:44:50,480 INFO User decision sell
+2024-01-10 20:44:51,869 INFO User input: tomato
+2024-01-10 20:44:51,869 ERROR tomato is string
+2024-01-10 20:44:53,658 INFO User input: 2
+2024-01-10 20:44:53,658 INFO 2.0 is float
+2024-01-10 20:44:53,658 INFO Item to sell: tomato quantity 2.0
+2024-01-10 20:44:53,658 INFO tomato not found in warehouse
+2024-01-10 20:44:53,659 INFO Item sold
+2024-01-10 20:44:57,386 INFO User input: show
+2024-01-10 20:44:57,386 ERROR show is string
+2024-01-10 20:44:57,386 INFO User decision show
+2024-01-10 20:45:01,991 INFO User input: exit
+2024-01-10 20:45:01,991 ERROR exit is string
+2024-01-10 20:45:01,991 INFO User decision exit
+2024-01-10 20:45:01,991 INFO Exit program warehouse_manager.py
+2024-01-10 20:45:01,992 INFO Saved warehouse.csv
+2024-01-10 20:45:01,992 INFO Saved sold.csv
+2024-01-10 20:45:40,336 INFO Start program warehouse_manager.py
+2024-01-10 20:45:40,337 INFO Loaded warehouse.csv
+2024-01-10 20:45:40,337 INFO Loaded sold.csv
+2024-01-10 20:45:42,082 INFO User input: add
+2024-01-10 20:45:42,082 ERROR add is string
+2024-01-10 20:45:42,082 INFO User decision add
+2024-01-10 20:45:43,254 INFO User input: asd
+2024-01-10 20:45:43,255 ERROR asd is string
+2024-01-10 20:45:45,604 INFO User input: 44,3
+2024-01-10 20:45:45,604 ERROR 44,3 is string
+2024-01-10 20:45:45,604 INFO 44,3 is a string.
+2024-01-10 20:46:51,583 INFO Start program warehouse_manager.py
+2024-01-10 20:46:51,586 INFO Loaded warehouse.csv
+2024-01-10 20:46:51,588 INFO Loaded sold.csv
+2024-01-10 20:46:53,303 INFO User input: add
+2024-01-10 20:46:53,303 ERROR add is string
+2024-01-10 20:46:53,303 INFO User decision add
+2024-01-10 20:46:55,170 INFO User input: sd
+2024-01-10 20:46:55,170 ERROR sd is string
+2024-01-10 20:46:57,501 INFO User input: 234.2
+2024-01-10 20:46:57,502 INFO 234.2 is float
+2024-01-10 20:47:01,254 INFO User input: sad
+2024-01-10 20:47:01,255 ERROR sad is string
+2024-01-10 20:47:03,177 INFO User input: sad
+2024-01-10 20:47:03,177 ERROR sad is string
+2024-01-10 20:47:03,177 INFO sad is a string.
+2024-01-10 20:47:06,112 INFO User input: 3
+2024-01-10 20:47:06,113 INFO 3.0 is float
+2024-01-10 20:47:06,113 INFO New item to add: {'name': 'sd', 'quantity': 234.2, 'unit': 'sad', 'unit_price': 3.0}
+2024-01-10 20:47:06,113 INFO New item added
+2024-01-10 20:47:11,196 INFO User input: show
+2024-01-10 20:47:11,196 ERROR show is string
+2024-01-10 20:47:11,196 INFO User decision show
+2024-01-10 20:47:14,575 INFO User input: add
+2024-01-10 20:47:14,575 ERROR add is string
+2024-01-10 20:47:14,576 INFO User decision add
+2024-01-10 20:47:15,881 INFO User input: sadd
+2024-01-10 20:47:15,881 ERROR sadd is string
+2024-01-10 20:47:19,290 INFO User input: 23,2
+2024-01-10 20:47:19,290 ERROR 23,2 is string
+2024-01-10 20:47:19,290 INFO 23,2 is a string.
+2024-01-10 20:48:49,301 INFO Start program warehouse_manager.py
+2024-01-10 20:48:49,302 INFO Loaded warehouse.csv
+2024-01-10 20:48:49,303 INFO Loaded sold.csv
+2024-01-10 20:48:52,576 INFO User input: show
+2024-01-10 20:48:52,576 ERROR show is string
+2024-01-10 20:48:52,576 INFO User decision show
+2024-01-10 20:48:55,414 INFO User input: add
+2024-01-10 20:48:55,414 ERROR add is string
+2024-01-10 20:48:55,414 INFO User decision add
+2024-01-10 20:49:00,456 INFO User input: milk
+2024-01-10 20:49:00,456 ERROR milk is string
+2024-01-10 20:49:02,908 INFO User input: 33,6
+2024-01-10 20:49:02,909 ERROR 33,6 is string
+2024-01-10 20:49:02,909 INFO 33,6 is a string.
+2024-01-10 20:49:07,593 INFO User input: 33.6
+2024-01-10 20:49:07,593 INFO 33.6 is float
+2024-01-10 20:49:09,725 INFO User input: l
+2024-01-10 20:49:09,725 ERROR l is string
+2024-01-10 20:49:12,688 INFO User input: 55,5
+2024-01-10 20:49:12,688 ERROR 55,5 is string
+2024-01-10 20:49:12,688 INFO 55,5 is a string.
+2024-01-10 20:49:14,440 INFO User input: 55.5
+2024-01-10 20:49:14,440 INFO 55.5 is float
+2024-01-10 20:49:14,440 INFO New item to add: {'name': 'milk', 'quantity': 33.6, 'unit': 'l', 'unit_price': 55.5}
+2024-01-10 20:49:14,440 INFO New item added
+2024-01-10 20:49:17,641 INFO User input: show
+2024-01-10 20:49:17,642 ERROR show is string
+2024-01-10 20:49:17,642 INFO User decision show
+2024-01-10 20:49:22,492 INFO User input: exit
+2024-01-10 20:49:22,493 ERROR exit is string
+2024-01-10 20:49:22,493 INFO User decision exit
+2024-01-10 20:49:22,493 INFO Exit program warehouse_manager.py
+2024-01-10 20:49:22,493 INFO Saved warehouse.csv
+2024-01-10 20:49:22,494 INFO Saved sold.csv
+2024-01-10 20:53:30,312 INFO Start program warehouse_manager.py
+2024-01-10 20:53:30,315 INFO Loaded warehouse.csv
+2024-01-10 20:53:30,317 INFO Loaded sold.csv
+2024-01-10 20:53:32,214 INFO User input: add
+2024-01-10 20:53:32,214 ERROR add is string
+2024-01-10 20:53:32,214 INFO User decision add
+2024-01-10 20:53:33,567 INFO User input: adas
+2024-01-10 20:53:33,567 ERROR adas is string
+2024-01-10 20:53:35,382 INFO User input: 33,4
+2024-01-10 20:53:35,383 ERROR 33,4 is string
+2024-01-10 20:53:35,383 INFO 33,4 is a string.
+2024-01-10 20:53:45,948 INFO User input: 33.3
+2024-01-10 20:53:45,948 INFO 33.3 is float
+2024-01-10 20:54:55,290 INFO Start program warehouse_manager.py
+2024-01-10 20:54:55,291 INFO Loaded warehouse.csv
+2024-01-10 20:54:55,291 INFO Loaded sold.csv
+2024-01-10 20:54:56,828 INFO User input: add
+2024-01-10 20:54:56,828 ERROR add is string
+2024-01-10 20:54:56,829 INFO User decision add
+2024-01-10 20:54:59,033 INFO User input: asdas
+2024-01-10 20:54:59,033 ERROR asdas is string
+2024-01-10 20:55:00,434 INFO User input: 33,4
+2024-01-10 20:55:00,434 INFO 33.4 is float
+2024-01-10 20:55:02,586 INFO User input: dsf
+2024-01-10 20:55:02,586 ERROR dsf is string
+2024-01-10 20:55:04,379 INFO User input: 435,234
+2024-01-10 20:55:04,379 INFO 435.234 is float
+2024-01-10 20:55:04,379 INFO New item to add: {'name': 'asdas', 'quantity': 33.4, 'unit': 'dsf', 'unit_price': 435.234}
+2024-01-10 20:55:04,379 INFO New item added
+2024-01-10 20:55:06,553 INFO User input: show
+2024-01-10 20:55:06,554 ERROR show is string
+2024-01-10 20:55:06,554 INFO User decision show
+2024-01-10 20:55:14,236 INFO User input: sell
+2024-01-10 20:55:14,236 ERROR sell is string
+2024-01-10 20:55:14,236 INFO User decision sell
+2024-01-10 20:55:18,361 INFO User input: asdas
+2024-01-10 20:55:18,361 ERROR asdas is string
+2024-01-10 20:55:22,426 INFO User input: 33,12314
+2024-01-10 20:55:22,427 INFO 33.12314 is float
+2024-01-10 20:55:22,427 INFO Item to sell: asdas quantity 33.12314
+2024-01-10 20:55:22,427 INFO asdas not found in warehouse
+2024-01-10 20:55:22,427 INFO asdas not found in warehouse
+2024-01-10 20:55:22,427 INFO asdas not found in warehouse
+2024-01-10 20:55:22,427 INFO asdas not found in warehouse
+2024-01-10 20:55:22,427 INFO asdas not found in warehouse
+2024-01-10 20:55:22,427 INFO asdas not found in warehouse
+2024-01-10 20:55:22,428 INFO asdas not found in warehouse
+2024-01-10 20:55:22,428 INFO asdas not found in warehouse
+2024-01-10 20:55:22,428 INFO asdas not found in warehouse
+2024-01-10 20:55:22,428 INFO asdas not found in warehouse
+2024-01-10 20:55:22,428 INFO Item sold
+2024-01-10 20:55:25,477 INFO User input: show
+2024-01-10 20:55:25,477 ERROR show is string
+2024-01-10 20:55:25,477 INFO User decision show
+2024-01-10 20:55:35,030 INFO User input: exit
+2024-01-10 20:55:35,030 ERROR exit is string
+2024-01-10 20:55:35,030 INFO User decision exit
+2024-01-10 20:55:35,030 INFO Exit program warehouse_manager.py
+2024-01-10 20:55:35,031 INFO Saved warehouse.csv
+2024-01-10 20:55:35,031 INFO Saved sold.csv
+2024-01-10 21:01:23,305 INFO Start program warehouse_manager.py
+2024-01-10 21:01:23,306 INFO Loaded warehouse.csv
+2024-01-10 21:01:23,307 INFO Loaded sold.csv
+2024-01-10 21:01:25,162 INFO User input: sell
+2024-01-10 21:01:25,162 ERROR sell is string
+2024-01-10 21:01:25,162 INFO User decision sell
+2024-01-10 21:01:26,692 INFO User input: asd
+2024-01-10 21:01:26,692 ERROR asd is string
+2024-01-10 21:01:27,979 INFO User input: 3
+2024-01-10 21:01:27,980 INFO 3.0 is float
+2024-01-10 21:01:27,980 INFO Item to sell: asd quantity 3.0
+2024-01-10 21:01:27,980 INFO asd not found in warehouse
+2024-01-10 21:01:33,300 INFO User input: show
+2024-01-10 21:01:33,301 ERROR show is string
+2024-01-10 21:01:33,301 INFO User decision show
+2024-01-10 21:01:38,216 INFO User input: sell
+2024-01-10 21:01:38,217 ERROR sell is string
+2024-01-10 21:01:38,219 INFO User decision sell
+2024-01-10 21:01:39,852 INFO User input: tomato
+2024-01-10 21:01:39,853 ERROR tomato is string
+2024-01-10 21:01:41,656 INFO User input: 50
+2024-01-10 21:01:41,656 INFO 50.0 is float
+2024-01-10 21:01:41,656 INFO Item to sell: tomato quantity 50.0
+2024-01-10 21:01:41,657 INFO tomato not found in warehouse
+2024-01-10 21:01:41,657 INFO Item sold
+2024-01-10 21:01:50,453 INFO User input: show
+2024-01-10 21:01:50,453 ERROR show is string
+2024-01-10 21:01:50,453 INFO User decision show
+2024-01-10 21:02:30,178 INFO User input: /bin/python3 /home/pedro/Dokumenty/code/warehouse-manager.py/main.py
+2024-01-10 21:02:30,178 ERROR /bin/python3 /home/pedro/Dokumenty/code/warehouse-manager.py/main.py is string
+2024-01-10 21:02:30,178 INFO User decision /bin/python3 /home/pedro/dokumenty/code/warehouse-manager.py/main.py
+2024-01-10 21:02:30,178 INFO Wrong input.
+2024-01-10 21:02:32,552 INFO User input: sell
+2024-01-10 21:02:32,552 ERROR sell is string
+2024-01-10 21:02:32,553 INFO User decision sell
+2024-01-10 21:02:36,178 INFO User input: ti
+2024-01-10 21:02:36,179 ERROR ti is string
+2024-01-10 21:02:38,993 INFO User input: 3
+2024-01-10 21:02:38,993 INFO 3.0 is float
+2024-01-10 21:02:38,993 INFO Item to sell: ti quantity 3.0
+2024-01-10 21:02:38,993 INFO ti not found in warehouse
+2024-01-10 21:02:42,544 INFO User input: sell
+2024-01-10 21:02:42,545 ERROR sell is string
+2024-01-10 21:02:42,545 INFO User decision sell
+2024-01-10 21:02:44,611 INFO User input: tomato
+2024-01-10 21:02:44,611 ERROR tomato is string
+2024-01-10 21:02:46,090 INFO User input: 2
+2024-01-10 21:02:46,090 INFO 2.0 is float
+2024-01-10 21:02:46,090 INFO Item to sell: tomato quantity 2.0
+2024-01-10 21:02:46,091 INFO tomato not found in warehouse
+2024-01-10 21:02:46,091 INFO Item sold
+2024-01-10 21:02:54,826 INFO User input: show
+2024-01-10 21:02:54,826 ERROR show is string
+2024-01-10 21:02:54,826 INFO User decision show
+2024-01-10 21:02:58,754 INFO User input: sell
+2024-01-10 21:02:58,755 ERROR sell is string
+2024-01-10 21:02:58,755 INFO User decision sell
+2024-01-10 21:03:00,275 INFO User input: milk
+2024-01-10 21:03:00,275 ERROR milk is string
+2024-01-10 21:03:01,369 INFO User input: 33
+2024-01-10 21:03:01,370 INFO 33.0 is float
+2024-01-10 21:03:01,370 INFO Item to sell: milk quantity 33.0
+2024-01-10 21:03:01,370 INFO milk not found in warehouse
+2024-01-10 21:03:01,370 INFO Item sold
+2024-01-10 21:03:20,344 INFO Start program warehouse_manager.py
+2024-01-10 21:03:20,344 INFO Loaded warehouse.csv
+2024-01-10 21:03:20,345 INFO Loaded sold.csv
+2024-01-10 21:03:35,255 INFO User input: /bin/python3 /home/pedro/Dokumenty/code/warehouse-manager.py/main.py
+2024-01-10 21:03:35,256 ERROR /bin/python3 /home/pedro/Dokumenty/code/warehouse-manager.py/main.py is string
+2024-01-10 21:03:35,256 INFO User decision /bin/python3 /home/pedro/dokumenty/code/warehouse-manager.py/main.py
+2024-01-10 21:03:35,256 INFO Wrong input.
+2024-01-10 21:03:38,472 INFO User input: sell
+2024-01-10 21:03:38,473 ERROR sell is string
+2024-01-10 21:03:38,473 INFO User decision sell
+2024-01-10 21:03:41,451 INFO User input: milk
+2024-01-10 21:03:41,452 ERROR milk is string
+2024-01-10 21:03:42,038 INFO User input: 1
+2024-01-10 21:03:42,039 INFO 1.0 is float
+2024-01-10 21:03:42,039 INFO Item to sell: milk quantity 1.0
+2024-01-10 21:03:42,039 INFO milk not found in warehouse
+2024-01-10 21:03:42,039 INFO Item sold
+2024-01-10 21:03:45,336 INFO User input: show
+2024-01-10 21:03:45,336 ERROR show is string
+2024-01-10 21:03:45,336 INFO User decision show
+2024-01-10 21:07:25,547 INFO User input: /bin/python3 /home/pedro/Dokumenty/code/warehouse-manager.py/main.py
+2024-01-10 21:07:25,547 ERROR /bin/python3 /home/pedro/Dokumenty/code/warehouse-manager.py/main.py is string
+2024-01-10 21:07:25,547 INFO User decision /bin/python3 /home/pedro/dokumenty/code/warehouse-manager.py/main.py
+2024-01-10 21:07:25,547 INFO Wrong input.
+2024-01-10 21:07:30,688 INFO User input: sell
+2024-01-10 21:07:30,688 ERROR sell is string
+2024-01-10 21:07:30,688 INFO User decision sell
+2024-01-10 21:07:33,028 INFO User input: batat
+2024-01-10 21:07:33,028 ERROR batat is string
+2024-01-10 21:07:34,520 INFO User input: 45
+2024-01-10 21:07:34,521 INFO 45.0 is float
+2024-01-10 21:07:34,521 INFO Item to sell: batat quantity 45.0
+2024-01-10 21:07:34,521 INFO batat not found in warehouse
+2024-01-10 21:07:34,521 INFO We dont have 45.0 of batat
+2024-01-10 21:07:44,388 INFO User input: sell
+2024-01-10 21:07:44,388 ERROR sell is string
+2024-01-10 21:07:44,388 INFO User decision sell
+2024-01-10 21:07:50,510 INFO User input: batat
+2024-01-10 21:07:50,510 ERROR batat is string
+2024-01-10 21:07:51,500 INFO User input: 3
+2024-01-10 21:07:51,501 INFO 3.0 is float
+2024-01-10 21:07:51,501 INFO Item to sell: batat quantity 3.0
+2024-01-10 21:07:51,501 INFO batat not found in warehouse
+2024-01-10 21:07:51,501 INFO Item sold
+2024-01-10 21:07:58,115 INFO User input: exit
+2024-01-10 21:07:58,115 ERROR exit is string
+2024-01-10 21:07:58,115 INFO User decision exit
+2024-01-10 21:07:58,115 INFO Exit program warehouse_manager.py
+2024-01-10 21:07:58,116 INFO Saved warehouse.csv
+2024-01-10 21:07:58,116 INFO Saved sold.csv
+2024-01-10 21:08:52,160 INFO Start program warehouse_manager.py
+2024-01-10 21:08:52,162 INFO Loaded warehouse.csv
+2024-01-10 21:08:52,162 INFO Loaded sold.csv
+2024-01-10 21:08:53,893 INFO User input: sell
+2024-01-10 21:08:53,893 ERROR sell is string
+2024-01-10 21:08:53,893 INFO User decision sell
+2024-01-10 21:08:56,256 INFO User input: batat
+2024-01-10 21:08:56,257 ERROR batat is string
+2024-01-10 21:08:57,048 INFO User input: 1
+2024-01-10 21:08:57,049 INFO 1.0 is float
+2024-01-10 21:08:57,049 INFO Item to sell: batat quantity 1.0
+2024-01-10 21:08:57,049 INFO Item sold
+2024-01-10 21:09:01,933 INFO User input: sell
+2024-01-10 21:09:01,933 ERROR sell is string
+2024-01-10 21:09:01,933 INFO User decision sell
+2024-01-10 21:09:03,372 INFO User input: asdas
+2024-01-10 21:09:03,372 ERROR asdas is string
+2024-01-10 21:09:04,426 INFO User input: 23
+2024-01-10 21:09:04,426 INFO 23.0 is float
+2024-01-10 21:09:04,426 INFO Item to sell: asdas quantity 23.0
+2024-01-10 21:09:04,426 INFO asdas not found in warehouse
+2024-01-10 21:09:08,639 INFO User input: sell
+2024-01-10 21:09:08,640 ERROR sell is string
+2024-01-10 21:09:08,640 INFO User decision sell
+2024-01-10 21:09:10,158 INFO User input: batat
+2024-01-10 21:09:10,158 ERROR batat is string
+2024-01-10 21:09:10,840 INFO User input: 2
+2024-01-10 21:09:10,840 INFO 2.0 is float
+2024-01-10 21:09:10,840 INFO Item to sell: batat quantity 2.0
+2024-01-10 21:09:10,840 INFO We dont have 2.0 of batat
+2024-01-10 21:09:15,038 INFO User input: exit
+2024-01-10 21:09:15,038 ERROR exit is string
+2024-01-10 21:09:15,038 INFO User decision exit
+2024-01-10 21:09:15,038 INFO Exit program warehouse_manager.py
+2024-01-10 21:09:15,039 INFO Saved warehouse.csv
+2024-01-10 21:09:15,039 INFO Saved sold.csv
+2024-01-10 21:12:54,372 INFO Start program warehouse_manager.py
+2024-01-10 21:12:54,373 INFO Loaded warehouse.csv
+2024-01-10 21:12:54,373 INFO Loaded sold.csv
+2024-01-10 21:12:56,659 INFO User input: revenue
+2024-01-10 21:12:56,659 ERROR revenue is string
+2024-01-10 21:12:56,659 INFO User decision revenue
+2024-01-10 21:13:02,163 INFO User input: exit
+2024-01-10 21:13:02,164 ERROR exit is string
+2024-01-10 21:13:02,164 INFO User decision exit
+2024-01-10 21:13:02,164 INFO Exit program warehouse_manager.py
+2024-01-10 21:13:02,164 INFO Saved warehouse.csv
+2024-01-10 21:13:02,165 INFO Saved sold.csv
+2024-01-10 21:22:54,415 INFO Didnt start. Missing rewuired argunemts / filemanes
+2024-01-10 21:23:19,072 INFO Start program warehouse_manager.py
+2024-01-10 21:23:19,073 INFO Didnt start. Missing rewuired argunemts / filemanes
+2024-01-10 21:24:09,085 INFO Start program warehouse_manager.py
+2024-01-10 21:24:09,086 INFO Loaded warehouse.csv
+2024-01-10 21:24:09,086 INFO Loaded sold.csv
+2024-01-10 21:24:11,943 INFO User input: show
+2024-01-10 21:24:11,943 ERROR show is string
+2024-01-10 21:24:11,946 INFO User decision show
+2024-01-10 21:24:15,774 INFO User input: exit
+2024-01-10 21:24:15,774 ERROR exit is string
+2024-01-10 21:24:15,774 INFO User decision exit
+2024-01-10 21:24:15,774 INFO Exit program warehouse_manager.py
+2024-01-10 21:24:15,775 INFO Saved warehouse.csv
+2024-01-10 21:24:15,776 INFO Saved sold.csv
+2024-01-10 21:26:02,143 INFO Start program warehouse_manager.py
+2024-01-10 21:26:26,961 INFO Start program warehouse_manager.py
+2024-01-10 21:26:26,961 INFO Loaded warehouse.csv
+2024-01-10 21:26:26,962 INFO Loaded sold.csv
+2024-01-10 21:26:29,701 INFO User input: show
+2024-01-10 21:26:29,701 ERROR show is string
+2024-01-10 21:26:29,701 INFO User decision show
+2024-01-10 21:26:32,361 INFO User input: exit
+2024-01-10 21:26:32,362 ERROR exit is string
+2024-01-10 21:26:32,362 INFO User decision exit
+2024-01-10 21:26:32,362 INFO Exit program warehouse_manager.py
+2024-01-10 21:26:32,362 INFO Saved warehouse.csv
+2024-01-10 21:26:32,363 INFO Saved sold.csv
+2024-01-10 21:26:34,920 INFO Start program warehouse_manager.py
+2024-01-10 21:26:34,921 INFO Loaded warehouse.csv
