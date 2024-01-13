@@ -7,7 +7,9 @@ Any comments welcome :)
 import sys
 import csv
 import logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s', filename="warehouse_manager.log")
+logging.basicConfig(level=logging.INFO,
+                    format='%(asctime)s %(levelname)s %(message)s',
+                    filename="warehouse_manager.log")
 
 items = []
 sold_items = []
@@ -16,7 +18,7 @@ def main(file_warehouse, file_sold_items):
     print_info()
     load(file_warehouse, file_sold_items)
     while True:
-        user_decision = get_user_input_string("What would you like to do? exit/show/add/sell/revenue/save/load: ")  
+        user_decision = get_user_input('str', "What would you like to do? exit/show/add/sell/revenue/save/load: ")  
         logging.info(f"User decision {user_decision}")
         if user_decision == 'exit':
             exit_program()
@@ -42,28 +44,23 @@ def print_info():
     print("--- warehouse_manager.py ---")
     
     
-def get_user_input_string(question):
-    """Get input string from user and returns lower and stripped."""
+def get_user_input(type, question):
+    """Get input from user and returns lower and stripped if string or float if number."""
     while True:
         user_input = input(question)
         logging.info(f"User input: {user_input}")
-        if is_string(user_input):
-            return user_input.lower().strip()
-        else:
-            print("Wrong input. Not a string. Try again.")
-            logging.warning(f"{user_input} not a string.")
-
-
-def get_user_input_float(question):
-    """Get input from user and returns as a float."""
-    while True:
-        user_input = input(question)
-        logging.info(f"User input: {user_input}")
-        if not is_string(user_input):
-            return convert_input_to_float(user_input)
-        else:
-            print("Wrong input. Lookas like string. Try again.")
-            logging.warning(f"{user_input} is a string.")
+        if type == 'str':
+            if is_string(user_input):
+                return user_input.lower().strip()
+            else:
+                print("Wrong input. Not a string. Try again.")
+                logging.warning(f"{user_input} not a string.")
+        elif type == 'num':
+            if not is_string(user_input):
+                return convert_input_to_float(user_input)
+            else:
+                print("Wrong input. Lookas like string. Try again.")
+                logging.warning(f"{user_input} is a string.")
 
 
 def wrong_input():
@@ -89,10 +86,10 @@ def create_item(name, quantity, unit, unit_price):
         
 def add_items():
     print("Adding to warehouse...")
-    new_item = create_item(get_user_input_string("New item name: "),
-                           round(get_user_input_float("New item quantity: "), 2),
-                           get_user_input_string("New item unit: "),
-                           round(get_user_input_float("New item unit price: "), 2)
+    new_item = create_item(get_user_input('str', "New item name: "),
+                           round(get_user_input('num', "New item quantity: "), 2),
+                           get_user_input('str', "New item unit: "),
+                           round(get_user_input('num', "New item unit price: "), 2)
                            )
     if item_already_in_array(new_item, items):
         update_existing_item(new_item, items)
@@ -155,8 +152,8 @@ def is_string(input):
     
 def sell_items():
     print("Sell from warehouse...")
-    sell_item_name = get_user_input_string("Item to sell: ")
-    sell_item_quantity = round(get_user_input_float("Quantity to sell: "), 2)
+    sell_item_name = get_user_input('str', "Item to sell: ")
+    sell_item_quantity = round(get_user_input('num', "Quantity to sell: "), 2)
     logging.info(f"Item to sell: {sell_item_name} quantity {sell_item_quantity}")
     item_found = False
     for item in items:
@@ -170,18 +167,18 @@ def sell_items():
                 not_enough_items(item, sell_item_name, sell_item_quantity)
                 item_found = True
                 break
-    if item_found == False:
+    if not item_found:
         item_not_found(sell_item_name)
 
 
 def sell_action(item, sell_item_name, sell_item_quantity):
     item['quantity'] = round(float(item['quantity']) - sell_item_quantity, 2)
-    print(f"Succesfully sold {sell_item_quantity} {item['unit']} of {sell_item_name}")
     sold_item = create_item(sell_item_name,
                             sell_item_quantity,
                             item['unit'],
                             item['unit_price'])
     sold_items.append(sold_item)
+    print(f"Succesfully sold {sell_item_quantity} {item['unit']} of {sell_item_name}")
     logging.info("Item sold")
                    
                    
