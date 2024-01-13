@@ -100,17 +100,20 @@ def add_items():
 def update_existing_item(new_item, items):
     print(f"{new_item['name']} already exists in warehouse. Trying to update...")
     for item in items:
-        if new_item['name'] == item['name']:
-            if new_item['unit'] != item['unit']:
-                print("Diffrent unit. Please add this product again with diffrent name.")
-            elif new_item['unit_price'] != float(item['unit_price']):
-                print("Diffrent unit price. Please add this product again with diffrent name.")
-            else:
-                item['quantity'] = float(item['quantity']) + float(new_item['quantity'])
-                print(f"Succesfully added {new_item['quantity']} {item['unit']} {item['name']}s to warehouse.")
-                export_array_to_csv(items, file_warehouse)
-                logging.info(f"Added {new_item['quantity']} {item['unit']} {item['name']}s to warehouse.")
-    
+        if not item_in_conflict_with_other_items(new_item, item):
+            item['quantity'] = float(item['quantity']) + float(new_item['quantity'])
+            print(f"Succesfully added {new_item['quantity']} {item['unit']} {item['name']}s to warehouse.")
+            export_array_to_csv(items, file_warehouse)
+            logging.info(f"Added {new_item['quantity']} {item['unit']} {item['name']}s to warehouse.")
+                
+                
+def item_in_conflict_with_other_items(new_item, item):
+    if new_item['unit'] != item['unit'] or new_item['unit_price'] != float(item['unit_price']):
+        print("Diffrent unit or unit price. Please add this product again with diffrent name.")
+        return True
+    else:
+        return False
+
     
 def create_new_item(new_item, items):
     items.append(new_item)
