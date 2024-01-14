@@ -75,9 +75,21 @@ def get_user_input(type, question):
     while True:
         user_input = input(question)
         logging.info(f"User input: {user_input}")
-        return handle_input_string(user_input) if type == 'str' else handle_input_number(user_input)
+        if type == 'str':
+            if is_string(user_input):
+                return user_input.lower().strip()
+            else:
+                print("Wrong input. Not a string. Try again.")
+                logging.warning(f"{user_input} not a string.")
+        elif type == 'num':
+            if not is_string(user_input):
+                return convert_input_to_float(user_input)
+            else:
+                print("Wrong input. Lookas like string. Try again.")
+                logging.warning(f"{user_input} is a string.")
                 
                 
+# NOT IN USE
 def handle_input_string(input):
     if is_string(input):
         return input.lower().strip()
@@ -86,6 +98,7 @@ def handle_input_string(input):
         logging.warning(f"{input} not a string.")
         
         
+# NOT IN USE        
 def handle_input_number(input):
     if not is_string(input):
         return convert_input_to_float(input)

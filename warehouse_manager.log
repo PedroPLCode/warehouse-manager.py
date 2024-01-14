@@ -153,3 +153,280 @@
 2024-01-14 21:59:17,560 INFO Saved warehouse.csv
 2024-01-14 21:59:17,561 INFO Saved sold.csv
 2024-01-14 21:59:17,561 INFO Exit program warehouse_manager.py
+2024-01-14 22:07:38,046 INFO Start program warehouse_manager.py
+2024-01-14 22:07:38,046 INFO Loaded warehouse.csv
+2024-01-14 22:07:38,047 INFO Loaded sold.csv
+2024-01-14 22:07:38,047 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 22:07:39,453 INFO User input: add
+2024-01-14 22:07:39,453 INFO add is string
+2024-01-14 22:07:39,453 INFO User decision add
+2024-01-14 22:07:45,341 INFO User input: coffee
+2024-01-14 22:07:45,342 INFO coffee is string
+2024-01-14 22:07:46,433 INFO User input: sad
+2024-01-14 22:07:46,433 INFO sad is string
+2024-01-14 22:07:46,434 WARNING sad is a string.
+2024-01-14 22:10:34,248 INFO Start program warehouse_manager.py
+2024-01-14 22:10:34,248 INFO Loaded warehouse.csv
+2024-01-14 22:10:34,249 INFO Loaded sold.csv
+2024-01-14 22:10:34,249 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 22:10:35,532 INFO User input: add
+2024-01-14 22:10:35,532 INFO add is string
+2024-01-14 22:10:35,532 INFO User decision add
+2024-01-14 22:10:38,702 INFO User input: coffee
+2024-01-14 22:10:38,702 INFO coffee is string
+2024-01-14 22:10:40,049 INFO User input: ewr
+2024-01-14 22:10:40,050 INFO ewr is string
+2024-01-14 22:10:40,050 WARNING ewr is a string.
+2024-01-14 22:10:43,212 INFO User input: ewfds
+2024-01-14 22:10:43,212 INFO ewfds is string
+2024-01-14 22:10:43,212 WARNING ewfds is a string.
+2024-01-14 22:10:44,228 INFO User input: dsfew
+2024-01-14 22:10:44,229 INFO dsfew is string
+2024-01-14 22:10:44,229 WARNING dsfew is a string.
+2024-01-14 22:10:45,245 INFO User input: werds
+2024-01-14 22:10:45,245 INFO werds is string
+2024-01-14 22:10:45,245 WARNING werds is a string.
+2024-01-14 22:10:47,256 INFO User input: 23
+2024-01-14 22:10:47,257 INFO 23.0 is float
+2024-01-14 22:10:50,679 INFO User input: kg
+2024-01-14 22:10:50,680 INFO kg is string
+2024-01-14 22:10:53,675 INFO User input: 32rw
+2024-01-14 22:10:53,676 INFO 32rw is string
+2024-01-14 22:10:53,676 WARNING 32rw is a string.
+2024-01-14 22:10:54,999 INFO User input: wfd
+2024-01-14 22:10:54,999 INFO wfd is string
+2024-01-14 22:10:55,000 WARNING wfd is a string.
+2024-01-14 22:10:58,559 INFO User input: 22.99
+2024-01-14 22:10:58,560 INFO 22.99 is float
+2024-01-14 22:10:58,561 INFO Saved warehouse.csv
+2024-01-14 22:10:58,561 INFO New item added
+2024-01-14 22:11:02,991 INFO User input: show
+2024-01-14 22:11:02,991 INFO show is string
+2024-01-14 22:11:02,992 INFO User decision show
+2024-01-14 22:11:06,849 INFO User input: sell
+2024-01-14 22:11:06,849 INFO sell is string
+2024-01-14 22:11:06,849 INFO User decision sell
+2024-01-14 22:11:09,969 INFO User input: coffee
+2024-01-14 22:11:09,969 INFO coffee is string
+2024-01-14 22:11:14,301 INFO User input: 11
+2024-01-14 22:11:14,301 INFO 11.0 is float
+2024-01-14 22:11:14,301 INFO Item to sell: coffee quantity 11.0
+2024-01-14 22:11:14,302 INFO Item sold
+2024-01-14 22:11:14,302 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 22:11:14,302 INFO Saved warehouse.csv
+2024-01-14 22:11:14,303 INFO Saved sold.csv
+2024-01-14 22:11:19,953 INFO User input: show
+2024-01-14 22:11:19,954 INFO show is string
+2024-01-14 22:11:19,954 INFO User decision show
+2024-01-14 22:11:22,545 INFO User input: add
+2024-01-14 22:11:22,546 INFO add is string
+2024-01-14 22:11:22,546 INFO User decision add
+2024-01-14 22:11:25,091 INFO User input: coffee
+2024-01-14 22:11:25,092 INFO coffee is string
+2024-01-14 22:11:27,061 INFO User input: 213
+2024-01-14 22:11:27,061 INFO 213.0 is float
+2024-01-14 22:11:28,345 INFO User input: pcs
+2024-01-14 22:11:28,345 INFO pcs is string
+2024-01-14 22:11:31,085 INFO User input: 22,99
+2024-01-14 22:11:31,085 INFO 22.99 is float
+2024-01-14 22:11:38,411 INFO User input: exit
+2024-01-14 22:11:38,411 INFO exit is string
+2024-01-14 22:11:38,411 INFO User decision exit
+2024-01-14 22:11:38,411 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 22:11:38,412 INFO Saved warehouse.csv
+2024-01-14 22:11:38,412 INFO Saved sold.csv
+2024-01-14 22:11:38,412 INFO Exit program warehouse_manager.py
+2024-01-14 22:13:13,262 INFO Start program warehouse_manager.py
+2024-01-14 22:13:13,263 INFO Loaded warehouse.csv
+2024-01-14 22:13:13,263 INFO Loaded sold.csv
+2024-01-14 22:13:13,263 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 22:13:14,775 INFO User input: add
+2024-01-14 22:13:14,775 INFO add is string
+2024-01-14 22:13:14,775 INFO User decision add
+2024-01-14 22:13:16,489 INFO User input: cat
+2024-01-14 22:13:16,490 INFO cat is string
+2024-01-14 22:13:19,834 INFO User input: 3
+2024-01-14 22:13:19,835 INFO 3.0 is float
+2024-01-14 22:13:22,689 INFO User input: pcs
+2024-01-14 22:13:22,690 INFO pcs is string
+2024-01-14 22:13:24,545 INFO User input: 0,99
+2024-01-14 22:13:24,545 INFO 0.99 is float
+2024-01-14 22:13:24,546 INFO Saved warehouse.csv
+2024-01-14 22:13:24,546 INFO Added 3.0 pcs cats to warehouse.
+2024-01-14 22:13:30,244 INFO User input: show
+2024-01-14 22:13:30,244 INFO show is string
+2024-01-14 22:13:30,244 INFO User decision show
+2024-01-14 22:13:33,345 INFO User input: add
+2024-01-14 22:13:33,346 INFO add is string
+2024-01-14 22:13:33,346 INFO User decision add
+2024-01-14 22:13:34,685 INFO User input: cat
+2024-01-14 22:13:34,685 INFO cat is string
+2024-01-14 22:13:36,368 INFO User input: wqe
+2024-01-14 22:13:36,368 INFO wqe is string
+2024-01-14 22:13:36,368 WARNING wqe is a string.
+2024-01-14 22:16:03,489 INFO Start program warehouse_manager.py
+2024-01-14 22:16:03,490 INFO Loaded warehouse.csv
+2024-01-14 22:16:03,490 INFO Loaded sold.csv
+2024-01-14 22:16:03,490 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 22:16:10,106 INFO User input: add
+2024-01-14 22:16:10,107 INFO add is string
+2024-01-14 22:16:10,107 INFO User decision add
+2024-01-14 22:16:14,856 INFO User input: mango
+2024-01-14 22:16:14,856 INFO mango is string
+2024-01-14 22:16:16,310 INFO User input: qw
+2024-01-14 22:16:16,310 INFO qw is string
+2024-01-14 22:16:16,310 WARNING qw is a string.
+2024-01-14 22:16:17,674 INFO User input: wqe
+2024-01-14 22:16:17,674 INFO wqe is string
+2024-01-14 22:16:17,674 WARNING wqe is a string.
+2024-01-14 22:16:18,144 INFO User input: qwe
+2024-01-14 22:16:18,144 INFO qwe is string
+2024-01-14 22:16:18,145 WARNING qwe is a string.
+2024-01-14 22:16:18,639 INFO User input: wqe
+2024-01-14 22:16:18,639 INFO wqe is string
+2024-01-14 22:16:18,639 WARNING wqe is a string.
+2024-01-14 22:16:21,618 INFO User input: 2
+2024-01-14 22:16:21,618 INFO 2.0 is float
+2024-01-14 22:16:23,677 INFO User input: kg
+2024-01-14 22:16:23,678 INFO kg is string
+2024-01-14 22:16:29,999 INFO User input: 5,49
+2024-01-14 22:16:29,999 INFO 5.49 is float
+2024-01-14 22:16:30,000 INFO Saved warehouse.csv
+2024-01-14 22:16:30,000 INFO Added 2.0 kg mangos to warehouse.
+2024-01-14 22:16:35,747 INFO User input: show
+2024-01-14 22:16:35,747 INFO show is string
+2024-01-14 22:16:35,748 INFO User decision show
+2024-01-14 22:16:39,278 INFO User input: exit
+2024-01-14 22:16:39,278 INFO exit is string
+2024-01-14 22:16:39,278 INFO User decision exit
+2024-01-14 22:16:39,279 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 22:16:39,279 INFO Saved warehouse.csv
+2024-01-14 22:16:39,279 INFO Saved sold.csv
+2024-01-14 22:16:39,279 INFO Exit program warehouse_manager.py
+2024-01-14 22:17:42,401 INFO Start program warehouse_manager.py
+2024-01-14 22:17:42,401 INFO Loaded warehouse.csv
+2024-01-14 22:17:42,401 INFO Loaded sold.csv
+2024-01-14 22:17:42,401 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 22:17:44,843 INFO User input: add
+2024-01-14 22:17:44,843 INFO add is string
+2024-01-14 22:17:44,843 INFO User decision add
+2024-01-14 22:17:46,766 INFO User input: kiwi
+2024-01-14 22:17:46,766 INFO kiwi is string
+2024-01-14 22:17:47,292 INFO User input: asd
+2024-01-14 22:17:47,292 INFO asd is string
+2024-01-14 22:17:47,293 WARNING asd is a string.
+2024-01-14 22:20:44,222 INFO Start program warehouse_manager.py
+2024-01-14 22:20:44,223 INFO Loaded warehouse.csv
+2024-01-14 22:20:44,223 INFO Loaded sold.csv
+2024-01-14 22:20:44,223 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 22:20:47,051 INFO User input: add
+2024-01-14 22:20:47,051 INFO add is string
+2024-01-14 22:20:48,213 INFO User input: milk
+2024-01-14 22:20:48,213 INFO milk is string
+2024-01-14 22:20:51,543 INFO User input: assad
+2024-01-14 22:20:51,543 INFO assad is string
+2024-01-14 22:22:05,815 INFO Start program warehouse_manager.py
+2024-01-14 22:22:05,816 INFO Loaded warehouse.csv
+2024-01-14 22:22:05,816 INFO Loaded sold.csv
+2024-01-14 22:22:05,816 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 22:22:08,557 INFO User input: add
+2024-01-14 22:22:08,557 INFO add is string
+2024-01-14 22:22:08,557 INFO User decision add
+2024-01-14 22:22:10,126 INFO User input: milk
+2024-01-14 22:22:10,127 INFO milk is string
+2024-01-14 22:22:11,107 INFO User input: sad
+2024-01-14 22:22:11,107 INFO sad is string
+2024-01-14 22:22:11,107 WARNING sad is a string.
+2024-01-14 22:22:24,215 INFO Start program warehouse_manager.py
+2024-01-14 22:22:24,215 INFO Loaded warehouse.csv
+2024-01-14 22:22:24,215 INFO Loaded sold.csv
+2024-01-14 22:22:24,216 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 22:22:25,611 INFO User input: add
+2024-01-14 22:22:25,611 INFO add is string
+2024-01-14 22:22:25,611 INFO User decision add
+2024-01-14 22:22:28,647 INFO User input: 34
+2024-01-14 22:22:28,648 INFO 34.0 is float
+2024-01-14 22:22:28,648 WARNING 34 not a string.
+2024-01-14 22:22:31,279 INFO User input: 123
+2024-01-14 22:22:31,279 INFO 123.0 is float
+2024-01-14 22:22:31,280 WARNING 123 not a string.
+2024-01-14 22:22:34,134 INFO User input: qwe
+2024-01-14 22:22:34,134 INFO qwe is string
+2024-01-14 22:24:54,446 INFO Start program warehouse_manager.py
+2024-01-14 22:24:54,446 INFO Loaded warehouse.csv
+2024-01-14 22:24:54,446 INFO Loaded sold.csv
+2024-01-14 22:24:54,446 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 22:24:58,303 INFO User input: add
+2024-01-14 22:24:58,303 INFO add is string
+2024-01-14 22:24:58,303 INFO User decision add
+2024-01-14 22:25:00,354 INFO User input: 23
+2024-01-14 22:25:00,354 INFO 23.0 is float
+2024-01-14 22:25:00,354 WARNING 23 not a string.
+2024-01-14 22:25:02,665 INFO User input: milk
+2024-01-14 22:25:02,665 INFO milk is string
+2024-01-14 22:25:03,637 INFO User input: asd
+2024-01-14 22:25:03,638 INFO asd is string
+2024-01-14 22:25:03,638 WARNING asd is a string.
+2024-01-14 22:25:05,161 INFO User input: sad
+2024-01-14 22:25:05,161 INFO sad is string
+2024-01-14 22:25:05,161 WARNING sad is a string.
+2024-01-14 22:25:05,924 INFO User input: sad3
+2024-01-14 22:25:05,924 INFO sad3 is string
+2024-01-14 22:25:05,925 WARNING sad3 is a string.
+2024-01-14 22:25:10,948 INFO User input: 4,5
+2024-01-14 22:25:10,948 INFO 4.5 is float
+2024-01-14 22:25:14,779 INFO User input: l
+2024-01-14 22:25:14,780 INFO l is string
+2024-01-14 22:25:17,193 INFO User input: 55.5
+2024-01-14 22:25:17,194 INFO 55.5 is float
+2024-01-14 22:25:17,194 INFO Saved warehouse.csv
+2024-01-14 22:25:17,194 INFO Added 4.5 l milks to warehouse.
+2024-01-14 22:25:21,673 INFO User input: show
+2024-01-14 22:25:21,673 INFO show is string
+2024-01-14 22:25:21,673 INFO User decision show
+2024-01-14 22:25:28,999 INFO User input: save
+2024-01-14 22:25:28,999 INFO save is string
+2024-01-14 22:25:28,999 INFO User decision save
+2024-01-14 22:25:29,000 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 22:25:29,000 INFO Saved warehouse.csv
+2024-01-14 22:25:29,001 INFO Saved sold.csv
+2024-01-14 22:25:31,302 INFO User input: sell
+2024-01-14 22:25:31,302 INFO sell is string
+2024-01-14 22:25:31,302 INFO User decision sell
+2024-01-14 22:25:33,319 INFO User input: cal
+2024-01-14 22:25:33,319 INFO cal is string
+2024-01-14 22:25:34,519 INFO User input: 3
+2024-01-14 22:25:34,520 INFO 3.0 is float
+2024-01-14 22:25:34,520 INFO Item to sell: cal quantity 3.0
+2024-01-14 22:25:34,520 INFO cal not found in warehouse
+2024-01-14 22:25:39,382 INFO User input: sell
+2024-01-14 22:25:39,382 INFO sell is string
+2024-01-14 22:25:39,382 INFO User decision sell
+2024-01-14 22:25:40,434 INFO User input: cat
+2024-01-14 22:25:40,435 INFO cat is string
+2024-01-14 22:25:42,928 INFO User input: 3asa
+2024-01-14 22:25:42,929 INFO 3asa is string
+2024-01-14 22:25:42,932 WARNING 3asa is a string.
+2024-01-14 22:25:45,277 INFO User input: 3
+2024-01-14 22:25:45,277 INFO 3.0 is float
+2024-01-14 22:25:45,277 INFO Item to sell: cat quantity 3.0
+2024-01-14 22:25:45,277 INFO Item sold
+2024-01-14 22:25:45,278 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 22:25:45,278 INFO Saved warehouse.csv
+2024-01-14 22:25:45,278 INFO Saved sold.csv
+2024-01-14 22:25:48,712 INFO User input: show
+2024-01-14 22:25:48,713 INFO show is string
+2024-01-14 22:25:48,713 INFO User decision show
+2024-01-14 22:25:50,489 INFO User input: save
+2024-01-14 22:25:50,489 INFO save is string
+2024-01-14 22:25:50,489 INFO User decision save
+2024-01-14 22:25:50,490 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 22:25:50,490 INFO Saved warehouse.csv
+2024-01-14 22:25:50,491 INFO Saved sold.csv
+2024-01-14 22:25:52,337 INFO User input: exit
+2024-01-14 22:25:52,338 INFO exit is string
+2024-01-14 22:25:52,338 INFO User decision exit
+2024-01-14 22:25:52,338 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 22:25:52,338 INFO Saved warehouse.csv
+2024-01-14 22:25:52,339 INFO Saved sold.csv
+2024-01-14 22:25:52,339 INFO Exit program warehouse_manager.py
