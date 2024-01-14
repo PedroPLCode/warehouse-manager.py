@@ -4,6 +4,7 @@ Last update: 10.01.2024
 Any comments welcome :)
 """
 
+import os
 import sys
 import csv
 import logging
@@ -15,13 +16,18 @@ items = []
 sold_items = []
 
 def main(file_warehouse, file_sold_items):
+    clear_screen()
     print_info()
     load(file_warehouse, file_sold_items)
     while True:
-        user_decision = get_user_input('str', "What would you like to do? exit/show/add/sell/revenue/save/load: ")  
+        user_decision = get_user_input('str', "\nWhat would you like to do (type help to see options)?: ")  
         logging.info(f"User decision {user_decision}")
         if user_decision == 'exit':
             exit_program()
+        elif user_decision == 'help':
+            show_help()
+        elif user_decision == 'clear':
+            clear_screen()
         elif user_decision == 'show':
             show_items()
         elif user_decision == 'add':
@@ -42,6 +48,22 @@ def print_info():
     """Prints simple info."""
     logging.info("Start program warehouse_manager.py")
     print("--- warehouse_manager.py ---")
+    
+    
+def show_help():
+    print("\nAvailable options:\n"
+          "show - Show current warehouse status\n"
+          "add - Add new items to the warehouse\n"
+          "sell - Sell items from warehouse\n"
+          "revenue - Show actual income, costs and revenue\n"
+          "save - Save changes to files\n"
+          "load - Load data from files\n"
+          "clear - clear screen\n"
+          "exit - Exit program with saving changes")
+    
+
+def clear_screen():
+    os.system('cls' if os.name=='nt' else 'clear')
     
     
 def get_user_input(type, question):
@@ -69,7 +91,8 @@ def wrong_input():
     
 
 def show_items():
-    print("Name\t\tQuantity\tUnit\t\tPrice (PLN)\n"
+    clear_screen()
+    print("\nName\t\tQuantity\tUnit\t\tPrice (PLN)\n"
           "----\t\t--------\t----\t\t-----------")
     for item in items:
         print(f"{item['name'].title()}\t\t{item['quantity']}\t\t{item['unit']}\t\t{item['unit_price']}")  
@@ -85,7 +108,7 @@ def create_item(name, quantity, unit, unit_price):
     
         
 def add_items():
-    print("Adding to warehouse...")
+    print("\nAdding to warehouse...")
     new_item = create_item(get_user_input('str', "New item name: "),
                            round(get_user_input('num', "New item quantity: "), 2),
                            get_user_input('str', "New item unit: "),
@@ -100,11 +123,12 @@ def add_items():
 def update_existing_item(new_item, items):
     print(f"{new_item['name']} already exists in warehouse. Trying to update...")
     for item in items:
-        if not item_in_conflict_with_other_items(new_item, item):
-            item['quantity'] = float(item['quantity']) + float(new_item['quantity'])
-            print(f"Succesfully added {new_item['quantity']} {item['unit']} {item['name']}s to warehouse.")
-            export_array_to_csv(items, file_warehouse)
-            logging.info(f"Added {new_item['quantity']} {item['unit']} {item['name']}s to warehouse.")
+        if item['name'] == new_item['name']:
+            if not item_in_conflict_with_other_items(new_item, item):
+                item['quantity'] = float(item['quantity']) + float(new_item['quantity'])
+                print(f"Succesfully added {new_item['quantity']} {item['unit']} {item['name']}s to warehouse.")
+                export_array_to_csv(items, file_warehouse)
+                logging.info(f"Added {new_item['quantity']} {item['unit']} {item['name']}s to warehouse.")
                 
                 
 def item_in_conflict_with_other_items(new_item, item):
@@ -154,7 +178,7 @@ def is_string(input):
         
     
 def sell_items():
-    print("Sell from warehouse...")
+    print("\nSell from warehouse...")
     sell_item_name = get_user_input('str', "Item to sell: ")
     sell_item_quantity = round(get_user_input('num', "Quantity to sell: "), 2)
     logging.info(f"Item to sell: {sell_item_name} quantity {sell_item_quantity}")
@@ -201,9 +225,10 @@ def calculate_value_of_products(array):
 
 
 def show_revenue():
+    clear_screen()
     income = calculate_value_of_products(sold_items)
     costs = calculate_value_of_products(items)
-    print("Revenue breakdown (PLN)\n"
+    print("\nRevenue breakdown (PLN)\n"
           f"Income: {round(income, 2)}\n"
           f"Costs: {round(costs, 2)}\n"
           "-----------------------\n"
@@ -271,7 +296,7 @@ def load(file_warehouse, file_sold_items):
     
     
 def exit_program():
-    print("Exit program... Bye.")
+    print("\nExit program... Bye.")
     logging.info("Exit program warehouse_manager.py")
     save(file_warehouse, file_sold_items)
     exit(1)
