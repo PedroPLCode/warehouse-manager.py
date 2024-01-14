@@ -19,22 +19,26 @@ def main(file_warehouse, file_sold_items):
     clear_screen()
     print_info()
     load(file_warehouse, file_sold_items)
+    show_items()
     while True:
         user_decision = get_user_input('str', "\nWhat would you like to do (type help to see options)?: ")  
         logging.info(f"User decision {user_decision}")
         if user_decision == 'exit':
             exit_program()
         elif user_decision == 'help':
+            clear_screen()
             show_help()
         elif user_decision == 'clear':
             clear_screen()
         elif user_decision == 'show':
+            clear_screen()
             show_items()
         elif user_decision == 'add':
             add_items()
         elif user_decision == 'sell':
             sell_items()
         elif user_decision == 'revenue':
+            clear_screen()
             show_revenue()
         elif user_decision == 'save':
             save(file_warehouse, file_sold_items)
@@ -47,7 +51,7 @@ def main(file_warehouse, file_sold_items):
 def print_info():
     """Prints simple info."""
     logging.info("Start program warehouse_manager.py")
-    print("--- warehouse_manager.py ---")
+    print("\n--- warehouse_manager.py ---")
     
     
 def show_help():
@@ -91,7 +95,6 @@ def wrong_input():
     
 
 def show_items():
-    clear_screen()
     print("\nName\t\tQuantity\tUnit\t\tPrice (PLN)\n"
           "----\t\t--------\t----\t\t-----------")
     for item in items:
@@ -225,7 +228,6 @@ def calculate_value_of_products(array):
 
 
 def show_revenue():
-    clear_screen()
     income = calculate_value_of_products(sold_items)
     costs = calculate_value_of_products(items)
     print("\nRevenue breakdown (PLN)\n"

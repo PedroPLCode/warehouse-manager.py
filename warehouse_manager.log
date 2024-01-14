@@ -8669,3 +8669,103 @@
 2024-01-14 08:40:45,821 INFO Warehouse and Sold_items cleaned empty items.
 2024-01-14 08:40:45,821 INFO Saved warehouse.csv
 2024-01-14 08:40:45,822 INFO Saved sold.csv
+2024-01-14 08:46:08,048 INFO Start program warehouse_manager.py
+2024-01-14 08:46:08,048 INFO Loaded warehouse.csv
+2024-01-14 08:46:08,048 INFO Loaded sold.csv
+2024-01-14 08:46:08,048 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 08:46:14,857 INFO User input: exit
+2024-01-14 08:46:14,857 ERROR exit is string
+2024-01-14 08:46:14,857 INFO User decision exit
+2024-01-14 08:46:14,857 INFO Exit program warehouse_manager.py
+2024-01-14 08:46:14,857 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 08:46:14,858 INFO Saved warehouse.csv
+2024-01-14 08:46:14,858 INFO Saved sold.csv
+2024-01-14 08:46:17,056 INFO Start program warehouse_manager.py
+2024-01-14 08:46:17,057 INFO Loaded warehouse.csv
+2024-01-14 08:46:17,057 INFO Loaded sold.csv
+2024-01-14 08:46:17,057 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 08:47:50,784 INFO User input: exit
+2024-01-14 08:47:50,785 ERROR exit is string
+2024-01-14 08:47:50,785 INFO User decision exit
+2024-01-14 08:47:50,785 INFO Exit program warehouse_manager.py
+2024-01-14 08:47:50,785 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 08:47:50,785 INFO Saved warehouse.csv
+2024-01-14 08:47:50,786 INFO Saved sold.csv
+2024-01-14 08:47:52,437 INFO Start program warehouse_manager.py
+2024-01-14 08:47:52,437 INFO Loaded warehouse.csv
+2024-01-14 08:47:52,437 INFO Loaded sold.csv
+2024-01-14 08:47:52,437 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 08:47:58,424 INFO User input: help
+2024-01-14 08:47:58,424 ERROR help is string
+2024-01-14 08:47:58,425 INFO User decision help
+2024-01-14 08:48:02,593 INFO User input: show
+2024-01-14 08:48:02,593 ERROR show is string
+2024-01-14 08:48:02,593 INFO User decision show
+2024-01-14 08:48:06,901 INFO User input: revenue
+2024-01-14 08:48:06,902 ERROR revenue is string
+2024-01-14 08:48:06,902 INFO User decision revenue
+2024-01-14 08:48:09,089 INFO User input: help
+2024-01-14 08:48:09,089 ERROR help is string
+2024-01-14 08:48:09,090 INFO User decision help
+2024-01-14 08:48:13,029 INFO User input: exit
+2024-01-14 08:48:13,029 ERROR exit is string
+2024-01-14 08:48:13,030 INFO User decision exit
+2024-01-14 08:48:13,030 INFO Exit program warehouse_manager.py
+2024-01-14 08:48:13,030 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 08:48:13,031 INFO Saved warehouse.csv
+2024-01-14 08:48:13,032 INFO Saved sold.csv
+2024-01-14 08:48:15,340 INFO Start program warehouse_manager.py
+2024-01-14 08:48:15,340 INFO Loaded warehouse.csv
+2024-01-14 08:48:15,340 INFO Loaded sold.csv
+2024-01-14 08:48:15,341 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 08:48:17,435 INFO User input: exit
+2024-01-14 08:48:17,435 ERROR exit is string
+2024-01-14 08:48:17,435 INFO User decision exit
+2024-01-14 08:48:17,435 INFO Exit program warehouse_manager.py
+2024-01-14 08:48:17,436 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 08:48:17,436 INFO Saved warehouse.csv
+2024-01-14 08:48:17,436 INFO Saved sold.csv
+2024-01-14 08:48:42,355 INFO Start program warehouse_manager.py
+2024-01-14 08:48:42,356 INFO Loaded warehouse.csv
+2024-01-14 08:48:42,356 INFO Loaded sold.csv
+2024-01-14 08:48:42,356 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 08:48:49,960 INFO User input: help
+2024-01-14 08:48:49,960 ERROR help is string
+2024-01-14 08:48:49,960 INFO User decision help
+2024-01-14 08:48:55,037 INFO User input: clear
+2024-01-14 08:48:55,037 ERROR clear is string
+2024-01-14 08:48:55,039 INFO User decision clear
+2024-01-14 08:48:58,827 INFO User input: revenue
+2024-01-14 08:48:58,828 ERROR revenue is string
+2024-01-14 08:48:58,828 INFO User decision revenue
+2024-01-14 08:49:01,135 INFO User input: show
+2024-01-14 08:49:01,135 ERROR show is string
+2024-01-14 08:49:01,135 INFO User decision show
+2024-01-14 08:49:04,780 INFO User input: sell
+2024-01-14 08:49:04,781 ERROR sell is string
+2024-01-14 08:49:04,781 INFO User decision sell
+2024-01-14 08:49:08,285 INFO User input: cat
+2024-01-14 08:49:08,285 ERROR cat is string
+2024-01-14 08:49:09,683 INFO User input: 3
+2024-01-14 08:49:09,683 INFO 3.0 is float
+2024-01-14 08:49:09,684 INFO Item to sell: cat quantity 3.0
+2024-01-14 08:49:09,684 INFO Item sold
+2024-01-14 08:49:09,684 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 08:49:09,685 INFO Saved warehouse.csv
+2024-01-14 08:49:09,685 INFO Saved sold.csv
+2024-01-14 08:49:19,408 INFO User input: show
+2024-01-14 08:49:19,408 ERROR show is string
+2024-01-14 08:49:19,408 INFO User decision show
+2024-01-14 08:49:22,688 INFO User input: save
+2024-01-14 08:49:22,688 ERROR save is string
+2024-01-14 08:49:22,688 INFO User decision save
+2024-01-14 08:49:22,688 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 08:49:22,689 INFO Saved warehouse.csv
+2024-01-14 08:49:22,690 INFO Saved sold.csv
+2024-01-14 08:49:25,713 INFO User input: exit
+2024-01-14 08:49:25,713 ERROR exit is string
+2024-01-14 08:49:25,714 INFO User decision exit
+2024-01-14 08:49:25,714 INFO Exit program warehouse_manager.py
+2024-01-14 08:49:25,714 INFO Warehouse and Sold_items cleaned empty items.
+2024-01-14 08:49:25,715 INFO Saved warehouse.csv
+2024-01-14 08:49:25,715 INFO Saved sold.csv
