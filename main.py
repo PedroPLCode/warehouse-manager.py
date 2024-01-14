@@ -1,6 +1,6 @@
 """Warehouse manager
 Author: Pedro van Code
-Last update: 10.01.2024
+Last update: 14.01.2024
 Any comments welcome :)
 """
 
@@ -21,7 +21,7 @@ def main(file_warehouse, file_sold_items):
     load(file_warehouse, file_sold_items)
     show_items()
     while True:
-        user_decision = get_user_input('str', "\nWhat would you like to do (type help to see options)?: ")  
+        user_decision = get_user_input('str', "\nWhat would you like to do (or help to see options)?: ")  
         logging.info(f"User decision {user_decision}")
         if user_decision == 'exit':
             exit_program()
@@ -75,18 +75,23 @@ def get_user_input(type, question):
     while True:
         user_input = input(question)
         logging.info(f"User input: {user_input}")
-        if type == 'str':
-            if is_string(user_input):
-                return user_input.lower().strip()
-            else:
-                print("Wrong input. Not a string. Try again.")
-                logging.warning(f"{user_input} not a string.")
-        elif type == 'num':
-            if not is_string(user_input):
-                return convert_input_to_float(user_input)
-            else:
-                print("Wrong input. Lookas like string. Try again.")
-                logging.warning(f"{user_input} is a string.")
+        return handle_input_string(user_input) if type == 'str' else handle_input_number(user_input)
+                
+                
+def handle_input_string(input):
+    if is_string(input):
+        return input.lower().strip()
+    else:
+        print("Wrong input. Not a string. Try again.")
+        logging.warning(f"{input} not a string.")
+        
+        
+def handle_input_number(input):
+    if not is_string(input):
+        return convert_input_to_float(input)
+    else:
+        print("Wrong input. Lookas like string. Try again.")
+        logging.warning(f"{input} is a string.")
 
 
 def wrong_input():
@@ -126,16 +131,24 @@ def add_items():
 def update_existing_item(new_item, items):
     print(f"{new_item['name']} already exists in warehouse. Trying to update...")
     for item in items:
-        if item['name'] == new_item['name']:
+        if items_match(item, new_item):
             if not item_in_conflict_with_other_items(new_item, item):
-                item['quantity'] = float(item['quantity']) + float(new_item['quantity'])
+                update_item_action(item, new_item)
                 print(f"Succesfully added {new_item['quantity']} {item['unit']} {item['name']}s to warehouse.")
                 export_array_to_csv(items, file_warehouse)
                 logging.info(f"Added {new_item['quantity']} {item['unit']} {item['name']}s to warehouse.")
                 
                 
-def item_in_conflict_with_other_items(new_item, item):
-    if new_item['unit'] != item['unit'] or new_item['unit_price'] != float(item['unit_price']):
+def update_item_action(item, new_item):
+    item['quantity'] = float(item['quantity']) + float(new_item['quantity'])
+    
+                
+def items_match(item_one, item_two):
+    return True if item_one['name'] == item_two['name'] else False
+
+                
+def item_in_conflict_with_other_items(item_one, item_two):
+    if item_one['unit'] != item_two['unit'] or item_one['unit_price'] != float(item_two['unit_price']):
         print("Diffrent unit or unit price. Please add this product again with diffrent name.")
         return True
     else:
@@ -149,9 +162,9 @@ def create_new_item(new_item, items):
     logging.info("New item added")
         
     
-def item_already_in_array(new_item, array):  
-    for item in array:
-        if item['name'] == new_item['name']:
+def item_already_in_array(item, array):  
+    for item_from_array in array:
+        if items_match(item_from_array, item):
             return True
 
     
@@ -176,7 +189,7 @@ def is_string(input):
             logging.info(f"{input} is integer")
             return False
         except ValueError:
-            logging.error(f"{input} is string")
+            logging.info(f"{input} is string")
             return True
         
     
@@ -298,9 +311,9 @@ def load(file_warehouse, file_sold_items):
     
     
 def exit_program():
-    print("\nExit program... Bye.")
-    logging.info("Exit program warehouse_manager.py")
     save(file_warehouse, file_sold_items)
+    print("\nExit program... Bye.\n")
+    logging.info("Exit program warehouse_manager.py")
     exit(1)
     
     
