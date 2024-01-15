@@ -1,6 +1,6 @@
 """Warehouse manager
 Author: Pedro van Code
-Last update: 14.01.2024
+Last update: 15.01.2024
 Any comments welcome :)
 """
 
@@ -80,31 +80,13 @@ def get_user_input(type, question):
                 return user_input.lower().strip()
             else:
                 print("Wrong input. Not a string. Try again.")
-                logging.warning(f"{user_input} not a string.")
+                logging.warning(f"{input} not a string.")
         elif type == 'num':
             if not is_string(user_input):
                 return convert_input_to_float(user_input)
             else:
                 print("Wrong input. Lookas like string. Try again.")
-                logging.warning(f"{user_input} is a string.")
-                
-                
-# NOT IN USE
-def handle_input_string(input):
-    if is_string(input):
-        return input.lower().strip()
-    else:
-        print("Wrong input. Not a string. Try again.")
-        logging.warning(f"{input} not a string.")
-        
-        
-# NOT IN USE        
-def handle_input_number(input):
-    if not is_string(input):
-        return convert_input_to_float(input)
-    else:
-        print("Wrong input. Lookas like string. Try again.")
-        logging.warning(f"{input} is a string.")
+                logging.warning(f"{input} is a string.")
 
 
 def wrong_input():
