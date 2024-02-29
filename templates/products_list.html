@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div>
+    <h3>warehouse_manager.py</h3>
+    <h4>Products List</h4>
+
+    <h4>Name Quantity Unit Unit price
+    </h4>
+
+    {% for item in items %}
+    <div>
+        <h4>{{ item.name }} {{ item.quantity }} {{ item.unit }} {{ item.unit_price }}</h4>
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}
