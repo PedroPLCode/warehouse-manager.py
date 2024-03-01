@@ -2594,3 +2594,132 @@ Unit price: 0.99
 2024-02-29 22:06:41,681 INFO 127.0.0.1 - - [29/Feb/2024 22:06:41] "GET /products HTTP/1.1" 200 -
 2024-02-29 22:06:41,784 INFO 127.0.0.1 - - [29/Feb/2024 22:06:41] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
 2024-02-29 22:06:41,793 INFO 127.0.0.1 - - [29/Feb/2024 22:06:41] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-01 06:14:00,178 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-01 06:14:00,178 INFO [33mPress CTRL+C to quit[0m
+2024-03-01 06:14:43,969 INFO 127.0.0.1 - - [01/Mar/2024 06:14:43] "GET / HTTP/1.1" 200 -
+2024-03-01 06:14:44,045 INFO 127.0.0.1 - - [01/Mar/2024 06:14:44] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2024-03-01 06:14:44,054 INFO 127.0.0.1 - - [01/Mar/2024 06:14:44] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2024-03-01 06:14:44,293 INFO 127.0.0.1 - - [01/Mar/2024 06:14:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-03-01 06:14:47,168 INFO Loaded ./warehouse.csv
+2024-03-01 06:14:47,168 INFO [Name: Tomato
+Quantity: 3.35
+Unit: kg
+Unit price: 8.99
+, Name: Grape
+Quantity: 2.0
+Unit: kg
+Unit price: 7.0
+, Name: Dragon
+Quantity: 9.68
+Unit: kg
+Unit price: 8
+, Name: Banan
+Quantity: 12.0
+Unit: kg
+Unit price: 77.99
+, Name: Milk
+Quantity: 5.88
+Unit: l
+Unit price: 55.5
+, Name: Apple
+Quantity: 73.19
+Unit: kg
+Unit price: 55.7
+, Name: Orange
+Quantity: 114.12
+Unit: pcs
+Unit price: 12.0
+, Name: Kiwi
+Quantity: 37.0
+Unit: kg
+Unit price: 45.0
+, Name: Mango
+Quantity: 38.0
+Unit: kg
+Unit price: 5.49
+, Name: Cat
+Quantity: 12.0
+Unit: pcs
+Unit price: 0.99
+] cleaned empty items.
+2024-03-01 06:14:47,172 INFO 127.0.0.1 - - [01/Mar/2024 06:14:47] "GET /products HTTP/1.1" 200 -
+2024-03-01 06:14:47,242 INFO 127.0.0.1 - - [01/Mar/2024 06:14:47] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-01 06:14:47,244 INFO 127.0.0.1 - - [01/Mar/2024 06:14:47] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-01 06:51:44,742 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-01 06:51:44,742 INFO [33mPress CTRL+C to quit[0m
+2024-03-01 06:51:53,142 INFO Loaded ./warehouse.csv
+2024-03-01 06:51:53,143 INFO [Name: Tomato
+Quantity: 3.35
+Unit: kg
+Unit price: 8.99
+, Name: Grape
+Quantity: 2.0
+Unit: kg
+Unit price: 7.0
+, Name: Dragon
+Quantity: 9.68
+Unit: kg
+Unit price: 8
+, Name: Banan
+Quantity: 12.0
+Unit: kg
+Unit price: 77.99
+, Name: Milk
+Quantity: 5.88
+Unit: l
+Unit price: 55.5
+, Name: Apple
+Quantity: 73.19
+Unit: kg
+Unit price: 55.7
+, Name: Orange
+Quantity: 114.12
+Unit: pcs
+Unit price: 12.0
+, Name: Kiwi
+Quantity: 37.0
+Unit: kg
+Unit price: 45.0
+, Name: Mango
+Quantity: 38.0
+Unit: kg
+Unit price: 5.49
+, Name: Cat
+Quantity: 12.0
+Unit: pcs
+Unit price: 0.99
+] cleaned empty items.
+2024-03-01 06:51:53,164 ERROR Exception on /products [GET]
+Traceback (most recent call last):
+  File "/home/pedro/.local/lib/python3.9/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/pedro/.local/lib/python3.9/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/pedro/.local/lib/python3.9/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/pedro/.local/lib/python3.9/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/pedro/Dokumenty/code/warehouse-manager.py/app.py", line 29, in show_products_list
+    return render_template('products_list.html', items=items)
+  File "/home/pedro/.local/lib/python3.9/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "/home/pedro/.local/lib/python3.9/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+  File "/home/pedro/.local/lib/python3.9/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/home/pedro/.local/lib/python3.9/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/pedro/Dokumenty/code/warehouse-manager.py/templates/products_list.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/pedro/Dokumenty/code/warehouse-manager.py/templates/base.html", line 44, in top-level template code
+    <a class="nav-link" href="{{ url_for('products_list') }}">
+  File "/home/pedro/.local/lib/python3.9/site-packages/flask/app.py", line 1074, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "/home/pedro/.local/lib/python3.9/site-packages/flask/app.py", line 1063, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "/home/pedro/.local/lib/python3.9/site-packages/werkzeug/routing/map.py", line 919, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'products_list'. Did you mean 'show_products_list' instead?
+2024-03-01 06:51:53,169 INFO 127.0.0.1 - - [01/Mar/2024 06:51:53] "[35m[1mGET /products HTTP/1.1[0m" 500 -

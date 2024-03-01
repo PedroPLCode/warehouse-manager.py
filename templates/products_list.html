@@ -9,11 +9,27 @@
     <h4>Name Quantity Unit Unit price
     </h4>
 
+    <ul>
     {% for item in items %}
-    <div>
+    <li>
         <h4>{{ item.name }} {{ item.quantity }} {{ item.unit }} {{ item.unit_price }}</h4>
-    </div>
+    </li>
     {% endfor %}
+    </ul>
+
+    <form method="POST" action="/expenses/">
+        {{ form.hidden_tag() }}
+        <table>
+            {% for field in form if field.widget.input_type != 'hidden' %}
+                <tr>
+                    <th>{{ field.label }} {% if field.flags.required %}*{% endif %}</th>
+                    <td>{{ field }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+        <input type="submit" value="Klik">
+    </form>
+    
 </div>
 
 {% endblock %}

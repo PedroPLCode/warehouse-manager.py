@@ -1,5 +1,6 @@
 from flask import Flask, render_template, url_for, request, redirect, flash
 from product import Product
+from forms import ProductForm
 import datetime
 import os
 import sys
@@ -16,18 +17,45 @@ file_sold_items = './sold.csv'
 items = []
 sold_items = []
 
-@app.route('/')
-def base_view():
+@app.route('/', methods=["GET"])
+def show_base_view():
     return render_template('homepage.html')
 
 
-@app.route('/products')
-def products_list():
+@app.route('/products', methods=["GET"])
+def show_products_list():
     items = load_array_from_csv_file(file_warehouse)
     remove_empty_items_from_array(items)
     return render_template('products_list.html', items=items)
 
 
+@app.route('/products', methods=["POST"])
+def add_new_item_to_items_array():
+    form = ProductForm()
+    error = ""
+    if request.method == "POST":
+        if form.validate_on_submit():
+            new_item = create_new_product(request.json.get('description', ""),
+                                        request.json.get('quantity', ""),
+                                        request.json.get('price', ""),
+                                        request.json.get('unit_price', ""),
+                                        )
+            if item_already_in_array(new_item, items):
+                update_existing_item(new_item, items)
+            else:      
+                add_new_item_to_warehouse(new_item, items)
+            return redirect(url_for("products_list"))
+    return render_template("products_list.html", form=form, error=error)
+
+
+@app.route('/sold')
+def show_sold_list():
+    sold_items = load_array_from_csv_file(file_sold_items)
+    remove_empty_items_from_array(sold_items)
+    return render_template('sold_items_list.html', sold_items=sold_items)
+
+
+# IS NEEDED ???
 def load_data_from_files(file_warehouse, file_sold_items):
     items = load_array_from_csv_file(file_warehouse)
     sold_items = load_array_from_csv_file(file_sold_items)
@@ -59,6 +87,50 @@ def remove_empty_items_from_array(array):
         if float(item.quantity) <= 0:
             array.remove(item)
     logging.info(f"{array} cleaned empty items.")
+    
+    
+def create_new_product(name, quantity, unit, unit_price):
+    return Product(name, quantity, unit, unit_price)
+    
+    
+def update_existing_item(new_item, items):
+    print(f"{new_item.name} already exists in warehouse. Trying to update...")
+    for item in items:
+        if items_match(item, new_item):
+            if not item_in_conflict_with_other_items(new_item, item):
+                update_item_action(item, new_item)
+                print(f"Succesfully added {new_item.quantity} {item.unit} {item.name}s to warehouse.")
+                export_array_to_csv_file(items, file_warehouse)
+                logging.info(f"Added {new_item.quantity} {item.unit} {item.name}s to warehouse.")
+                 
+                              
+def update_item_action(item, new_item):
+    item.quantity = float(item.quantity) + float(new_item.quantity)
+              
+              
+def items_match(item_one, item_two):
+    return True if item_one == item_two else False
+   
+   
+def item_in_conflict_with_other_items(item_one, item_two):
+    if item_one.unit != item_two.unit or item_one.unit_price != float(item_two.unit_price):
+        print("Diffrent unit or unit price. Please add this product again with diffrent name.")
+        return True
+    else:
+        return False
+    
+    
+def add_new_item_to_warehouse(new_item, items):
+    items.append(new_item)
+    print("Succesfully added new item to warehouse.")
+    export_array_to_csv_file(items, file_warehouse)
+    logging.info("New item added")
+    
+    
+def item_already_in_array(item, array):  
+    for item_from_array in array:
+        if items_match(item_from_array, item):
+            return True
     
     
 # OLD FUNCTIONS TO SORT / REFACTOR !!!
@@ -105,64 +177,7 @@ def get_user_input(type, question):
 def handle_wrong_input():
     print("Wrong input. Try again.")
     logging.warning("Wrong input.")
-          
-          
-def create_new_product(name, quantity, unit, unit_price):
-    return Product(name, quantity, unit, unit_price)
-         
-         
-def add_items_to_warehouse():
-    print("\nAdding to warehouse...")
-    new_item = create_new_product(get_user_input('str', "New item name: "),
-                           round(get_user_input('num', "New item quantity: "), 2),
-                           get_user_input('str', "New item unit: "),
-                           round(get_user_input('num', "New item unit price: "), 2)
-                           )
-    if item_already_in_array(new_item, items):
-        update_existing_item(new_item, items)
-    else:      
-        add_new_item_to_warehouse(new_item, items)
-    
-    
-def update_existing_item(new_item, items):
-    print(f"{new_item.name} already exists in warehouse. Trying to update...")
-    for item in items:
-        if items_match(item, new_item):
-            if not item_in_conflict_with_other_items(new_item, item):
-                update_item_action(item, new_item)
-                print(f"Succesfully added {new_item.quantity} {item.unit} {item.name}s to warehouse.")
-                export_array_to_csv_file(items, file_warehouse)
-                logging.info(f"Added {new_item.quantity} {item.unit} {item.name}s to warehouse.")
-                 
-                              
-def update_item_action(item, new_item):
-    item.quantity = float(item.quantity) + float(new_item.quantity)
               
-              
-def items_match(item_one, item_two):
-    return True if item_one == item_two else False
-   
-   
-def item_in_conflict_with_other_items(item_one, item_two):
-    if item_one.unit != item_two.unit or item_one.unit_price != float(item_two.unit_price):
-        print("Diffrent unit or unit price. Please add this product again with diffrent name.")
-        return True
-    else:
-        return False
-    
-    
-def add_new_item_to_warehouse(new_item, items):
-    items.append(new_item)
-    print("Succesfully added new item to warehouse.")
-    export_array_to_csv_file(items, file_warehouse)
-    logging.info("New item added")
-    
-    
-def item_already_in_array(item, array):  
-    for item_from_array in array:
-        if items_match(item_from_array, item):
-            return True
-    
     
 def convert_input_to_float(input):
     if ',' in input:
