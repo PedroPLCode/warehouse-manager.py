@@ -3,33 +3,42 @@
 {% block content %}
 
 <div>
-    <h3>warehouse_manager.py</h3>
     <h4>Products List</h4>
-
-    <h4>Name Quantity Unit Unit price
-    </h4>
-
-    <ul>
-    {% for item in items %}
-    <li>
-        <h4>{{ item.name }} {{ item.quantity }} {{ item.unit }} {{ item.unit_price }}</h4>
-    </li>
-    {% endfor %}
-    </ul>
-
-    <form method="POST" action="/expenses/">
-        {{ form.hidden_tag() }}
-        <table>
-            {% for field in form if field.widget.input_type != 'hidden' %}
-                <tr>
-                    <th>{{ field.label }} {% if field.flags.required %}*{% endif %}</th>
-                    <td>{{ field }}</td>
-                </tr>
+    <hr>
+    <div class="table-responsive">
+      <table class="table table-dark">
+        <thead>
+          <tr>
+            <th scope="col">#Index</th>
+            <th scope="col">Product name</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Unit</th>
+            <th scope="col">Unit price</th>
+          </tr>
+        </thead>
+        <tbody>
+            {% for item in items %}
+            <tr>
+                <th scope="row">{{ item.product_index }}</th>
+                <td>{{ item.name }}</td>
+                <td>{{ item.quantity }}</td>
+                <td>{{ item.unit }}</td>
+                <td>{{ item.unit_price }}</td>
+            </tr>
             {% endfor %}
-        </table>
-        <input type="submit" value="Klik">
-    </form>
-    
+            {{ form.hidden_tag() }}
+            <form method="POST" action="/products">
+                <tr>
+                    <th score="row">Add Item</th>
+                    {% for field in form if field.widget.input_type != 'hidden' %}
+                        <td>{{ field }}</td>
+                    {% endfor %}
+                        <td><input type="submit" value="Klikcik"></td>
+                </tr>
+            </form>
+        </tbody>
+      </table>
+    </div>
 </div>
 
 {% endblock %}

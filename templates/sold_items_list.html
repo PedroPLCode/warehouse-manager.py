@@ -3,19 +3,33 @@
 {% block content %}
 
 <div>
-    <h3>warehouse_manager.py</h3>
     <h4>SOLD ITEMS LIST</h4>
 
-    <h4>Name Quantity Unit Unit price
-    </h4>
-
-    <ul>
-    {% for item in sold_items %}
-    <li>
-        <h4>{{ item.name }} {{ item.quantity }} {{ item.unit }} {{ item.unit_price }}</h4>
-    </li>
-    {% endfor %}
-    </ul>
+    <hr>
+    <div class="table-responsive">
+      <table class="table table-dark">
+        <thead>
+          <tr>
+            <th scope="col">#Index</th>
+            <th scope="col">Product name</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Unit</th>
+            <th scope="col">Unit price</th>
+          </tr>
+        </thead>
+        <tbody>
+            {% for item in items %}
+            <tr>
+                <th scope="row">{{ item.product_index }}</th>
+                <td>{{ item.name }}</td>
+                <td>{{ item.quantity }}</td>
+                <td>{{ item.unit }}</td>
+                <td>{{ item.unit_price }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+  </div>
     
 </div>
 
