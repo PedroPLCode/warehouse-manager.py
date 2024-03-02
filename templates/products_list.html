@@ -14,9 +14,11 @@
             <th scope="col">Quantity</th>
             <th scope="col">Unit</th>
             <th scope="col">Unit price</th>
+            <th scope="col">Action</th>
           </tr>
         </thead>
         <tbody>
+            {% if items %}
             {% for item in items %}
             <tr>
                 <th scope="row">{{ item.product_index }}</th>
@@ -24,16 +26,22 @@
                 <td>{{ item.quantity }}</td>
                 <td>{{ item.unit }}</td>
                 <td>{{ item.unit_price }}</td>
+                <td>
+                  <form method="GET" action="/sell/{{ item.name }}">
+                    <input type="submit" value="Sell">
+                  </form>
+                </td>
             </tr>
             {% endfor %}
+            {% endif %}
             {{ form.hidden_tag() }}
             <form method="POST" action="/products">
                 <tr>
-                    <th score="row">Add Item</th>
+                    <th score="row">New</th>
                     {% for field in form if field.widget.input_type != 'hidden' %}
                         <td>{{ field }}</td>
                     {% endfor %}
-                        <td><input type="submit" value="Klikcik"></td>
+                        <td><input type="submit" value="Add"></td>
                 </tr>
             </form>
         </tbody>

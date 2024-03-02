@@ -1,90 +1,127 @@
-from flask import Flask, render_template, make_response, abort, url_for, request, redirect, flash, jsonify
+# słownik zamiast listy
+# szybkie wyszukiwanie
+# jednostki int float
+# reafaktoryzacja całości
+
+from flask import Flask, render_template, abort, request, flash
 from product import Product
-from forms import ProductForm
-import json
+from forms import ProductForm, ProductSaleForm
 import datetime
-import os
-import sys
 import csv
 import logging
+
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s %(levelname)s %(message)s',
                     filename="warehouse_manager.log")
 
 app = Flask(__name__)
-
 app.secret_key = b'my-secret'
 
 file_warehouse = './warehouse.csv'
 file_sold_items = './sold.csv'
-items = []
-sold_items = []
 
 @app.route('/', methods=["GET"])
 def show_base_view():
-    return render_template('homepage.html')
+    return render_template('homepage.html', 
+                           date_and_time=get_current_time_and_date()
+                           )
+    
 
+@app.route('/load', methods=["GET"])
+def load_data():
+    flash('Data loaded succesfully')  
+    return render_template('homepage.html', 
+                           date_and_time=get_current_time_and_date()
+                           )
+    
 
+@app.route('/save', methods=["GET"])
+def save_data():
+    flash('Data saved succesfully')  
+    return render_template('homepage.html', 
+                           date_and_time=get_current_time_and_date()
+                           )
+
+    
 @app.route('/products', methods=["GET", "POST"])
 def products_list():
     items = load_array_from_csv_file(file_warehouse)
-    remove_empty_items_from_array(items)
-    form = ProductForm()
-    error = ""
+    addItemForm = ProductForm()
     if request.method == "POST":
         if not request.form:
             abort(400)
-        if not form.validate_on_submit():
-            print(request.form['name'])
+        if not addItemForm.validate_on_submit():
             new_item = create_new_product(request.form['name'],
                                           request.form['quantity'],
                                           request.form['unit'],
                                           request.form['unit_price'],
-                                          len(items),
-                                        )
-            if item_already_in_array(new_item, items):
+                                          len(items) if items else 1,
+                                          )
+            if item_already_in_dict(new_item, items):
                 update_existing_item(new_item, items)
             else:      
-                add_new_item_to_warehouse(new_item, items)
-#            return redirect(url_for("products_list"))
-    return render_template("products_list.html", form=form, error=error, items=items)
+                add_new_item_to_warehouse(new_item, items if items else {})
+    return render_template("products_list.html", 
+                           date_and_time=get_current_time_and_date(), 
+                           form=addItemForm, 
+                           items=items.values() if items else {}
+                           )
 
 
-@app.errorhandler(400)
-def bad_request(error):
-    return make_response(jsonify({'error': 'Bad request', 'status_code': 400}), 400)
-
-
-@app.route('/sold', methods=["GET"])
+@app.route('/sold', methods=["GET",])
 def sold_list():
     sold_items = load_array_from_csv_file(file_sold_items)
-    remove_empty_items_from_array(sold_items)
-    return render_template('sold_items_list.html', items=sold_items)
+    return render_template('sold_items_list.html', 
+                           date_and_time=get_current_time_and_date(), 
+                           items=sold_items.values() if sold_items else {}
+                           )
 
 
-@app.route('/sold', methods=["POST"])
-def sell_item_and_add_to_sold_items_array():
-    error = ""
-    if request.method == "POST":
-        new_item = create_new_product(request.json.get('description', ""),
-                                    request.json.get('quantity', ""),
-                                    request.json.get('price', ""),
-                                    request.json.get('unit_price', ""),
-                                    )
-        if item_already_in_array(new_item, items):
-            update_existing_item(new_item, items)
-        else:      
-            add_new_item_to_warehouse(new_item, items)
-        return redirect(url_for("products_list"))
-    return render_template("products_list.html", error=error)
+@app.route('/remove/<product_name>', methods=["POST"])
+def remove_sold_item(product_name):
+    sold_items = load_array_from_csv_file(file_sold_items)    
+    keys_to_delete = []
+    for single_key in sold_items.keys():
+        if single_key.strip() == product_name.strip():
+            keys_to_delete.append(single_key)
+    for key in keys_to_delete:
+        del sold_items[key]
+    export_dict_to_csv_file(sold_items, file_sold_items)
+    flash(f'{single_key} succesfully removed from list.')
+    return render_template('sold_items_list.html', 
+                           date_and_time=get_current_time_and_date(), 
+                           items=sold_items.values()
+                           )
 
+
+@app.route('/sell/<product_name>', methods=["GET", "POST"])
+def sell_product(product_name):
+    items = load_array_from_csv_file(file_warehouse)
+    addItemForm = ProductForm()
+    sellItemForm = ProductSaleForm()
+    if product_name.strip() in items.keys():
+        if request.method == 'GET':
+            return render_template("sell_product.html", 
+                                   date_and_time=get_current_time_and_date(), 
+                                   form=sellItemForm, 
+                                   product_name=product_name)
+        elif request.method == 'POST':
+            quantity_to_sell = request.form['quantity_to_sell']
+            sell_items_from_warehouse(product_name, int(quantity_to_sell))
+    items = load_array_from_csv_file(file_warehouse)
+    return render_template("products_list.html", 
+                           date_and_time=get_current_time_and_date(), 
+                           items=items.values() if items else {}, 
+                           form=addItemForm, 
+                           )
+    
 
 @app.route('/revenue', methods=["GET"])
 def show_revenue():
     items = load_array_from_csv_file(file_warehouse)
     sold_items = load_array_from_csv_file(file_sold_items)
-    income = calculate_value_of_products(sold_items)
-    costs = calculate_value_of_products(items)
+    income = calculate_value_of_products(sold_items.values()) if sold_items else 0
+    costs = calculate_value_of_products(items.values()) if sold_items else 0
     total = income - costs
     revenue = [
         {
@@ -100,102 +137,73 @@ def show_revenue():
           'value': round(total, 2),
         }
     ]
-    return render_template('revenue.html', revenue=revenue)
+    return render_template('revenue.html', 
+                           date_and_time=get_current_time_and_date(), 
+                           revenue=revenue)
 
 
-def sell_items_from_warehouse():
-    sell_item_name = get_user_input('str', "Item to sell: ")
-    sell_item_quantity = round(get_user_input('num', "Quantity to sell: "), 2)
+def get_current_time_and_date():
+    date_and_time = datetime.datetime.now()
+    return date_and_time.strftime("%X %x")
+
+
+def sell_items_from_warehouse(sell_item_name, sell_item_quantity):
+    items = load_array_from_csv_file(file_warehouse)
     logging.info(f"Item to sell: {sell_item_name} quantity {sell_item_quantity}")
-    item_found = False
-    for item in items:
+    for item in items.values():
         if (item.name).strip().lower() == sell_item_name.strip().lower():
             if float(item.quantity) >= sell_item_quantity:
                 sell_action(item, sell_item_name, sell_item_quantity)
-                save_data(file_warehouse, file_sold_items)
-                item_found = True
                 break
             else:
                 handle_not_enough_items(item, sell_item_name, sell_item_quantity)
-                item_found = True
                 break
-    if not item_found:
-        handle_item_not_found(sell_item_name)
 
 
 def sell_action(item, sell_item_name, sell_item_quantity):
-    item.quantity = round(float(item.quantity) - sell_item_quantity, 2)
+    items = load_array_from_csv_file(file_warehouse)
+    sold_items = load_array_from_csv_file(file_sold_items)
+    if not sold_items:
+        sold_items = {}
+    item.quantity = round(int(item.quantity) - sell_item_quantity, 2)
+    items[item.name].quantity = item.quantity
     sold_item = create_new_product(sell_item_name,
                             sell_item_quantity,
                             item.unit,
-                            item.unit_price)
-    sold_items.append(sold_item)
-    print(f"Succesfully sold {sell_item_quantity} {item.unit} of {sell_item_name}")
-    logging.info("Item sold")         
+                            item.unit_price,
+                            len(sold_items) if sold_items else 1,
+                            )
+    sold_items[sold_item.name] = sold_item
+    logging.info("Item sold")     
+    flash(f'{sold_item.quantity} {sold_item.unit} {sold_item.name} '
+          f'succesfully sold from warehouse')    
+    export_dict_to_csv_file(items, file_warehouse)
+    export_dict_to_csv_file(sold_items, file_sold_items)
             
                    
 def handle_not_enough_items(item, sell_item_name, sell_item_quantity):
-    print(f"We dont have {sell_item_quantity} {item.unit} of {sell_item_name}s")
+    flash(f'We dont have {sell_item_quantity} {item.unit} of {item.name}')   
     logging.info(f"We dont have {sell_item_quantity} of {sell_item_name}")
-
-
-def handle_item_not_found(item):
-    print(f"{item} not found in warehouse")
-    logging.info(f"{item} not found in warehouse")
-    
-    
-def load_data_from_files(file_warehouse, file_sold_items):
-    items = load_array_from_csv_file(file_warehouse)
-    sold_items = load_array_from_csv_file(file_sold_items)
-    remove_empty_items_from_array(items)
-    remove_empty_items_from_array(sold_items)
-    
-
-def load_array_from_csv_file(filename):
-    #array.clear()
-    array = []
-    product_index = 1
-    try:
-        with open(filename, newline='') as csvfile:
-            reader = csv.DictReader(csvfile)
-            for row in reader:
-                temp_item = create_new_product(row['name'], row['quantity'], row['unit'], row['unit_price'], product_index)
-                array.append(temp_item)
-                product_index += 1
-        logging.info(f"Loaded {filename}")
-        return array
-    except FileNotFoundError:
-        handle_file_not_found(filename)
         
-        
-def handle_file_not_found(filename):
-    logging.info(f"File {filename} not found")     
-        
-    
-def remove_empty_items_from_array(array):
-    for item in array:
-        if float(item.quantity) <= 0:
-            array.remove(item)
-    logging.info(f"{array} cleaned empty items.")
-    
     
 def create_new_product(name, quantity, unit, unit_price, product_index):
     return Product(name, quantity, unit, unit_price, product_index)
     
     
 def update_existing_item(new_item, items):
-    print(f"{new_item.name} already exists in warehouse. Trying to update...")
-    for item in items:
+    for item in items.values():
         if items_match(item, new_item):
             if not item_in_conflict_with_other_items(new_item, item):
                 update_item_action(item, new_item)
-                print(f"Succesfully added {new_item.quantity} {item.unit} {item.name}s to warehouse.")
-                export_array_to_csv_file(items, file_warehouse)
-                logging.info(f"Added {new_item.quantity} {item.unit} {item.name}s to warehouse.")
+                export_dict_to_csv_file(items, file_warehouse)
+                logging.info(f"Added {new_item.quantity} "
+                             f"{item.unit} {item.name} to warehouse.")
                  
                               
 def update_item_action(item, new_item):
     item.quantity = float(item.quantity) + float(new_item.quantity)
+    flash(f'Added {new_item.quantity} {new_item.unit} '
+          f'of {new_item.name} to warehouse.')
               
               
 def items_match(item_one, item_two):
@@ -203,70 +211,29 @@ def items_match(item_one, item_two):
    
    
 def item_in_conflict_with_other_items(item_one, item_two):
-    if item_one.unit != item_two.unit or item_one.unit_price != float(item_two.unit_price):
-        print("Diffrent unit or unit price. Please add this product again with diffrent name.")
+    if item_one.unit != item_two.unit or item_one.unit_price != item_two.unit_price:
+        flash(f'Diffrent unit or unit price. '
+              f'Try add this product with diffrent name.')   
         return True
     else:
         return False
     
     
 def add_new_item_to_warehouse(new_item, items):
-    items.append(new_item)
-    print("Succesfully added new item to warehouse.")
-    export_array_to_csv_file(items, file_warehouse)
+    items[new_item.name] = new_item
+    export_dict_to_csv_file(items, file_warehouse)
+    flash(f'{new_item.quantity} {new_item.unit} {new_item.name} '
+          f'succesfully added to warehouse')
     logging.info("New item added")
     
     
-def item_already_in_array(item, array):  
-    for item_from_array in array:
-        if items_match(item_from_array, item):
-            return True
-
-    
-def get_user_input(type, question):
-    while True:
-        user_input = input(question)
-        logging.info(f"User input: {user_input}")
-        if type == 'str':
-            if is_string(user_input):
-                return user_input.lower().strip()
-            else:
-                print("Wrong input. Not a string. Try again.")
-                logging.warning(f"{input} not a string.")
-        elif type == 'num':
-            if not is_string(user_input):
-                return convert_input_to_float(user_input)
-            else:
-                print("Wrong input. Lookas like string. Try again.")
-                logging.warning(f"{input} is a string.")
-
-
-def handle_wrong_input():
-    print("Wrong input. Try again.")
-    logging.warning("Wrong input.")
-              
-    
-def convert_input_to_float(input):
-    if ',' in input:
-        splitted = input.split(',')
-        return float(splitted[0]+'.'+splitted[1]) if len(splitted) == 2 else input
-    else:
-        return float(input)  
-    
-    
-def is_string(input):
-    try:
-        input = float(convert_input_to_float(input))
-        logging.info(f"{input} is float")
+def item_already_in_dict(item, dict):  
+    if not dict: 
         return False
-    except ValueError:
-        try:
-            input = int(input)
-            logging.info(f"{input} is integer")
-            return False
-        except ValueError:
-            logging.info(f"{input} is string")
-            return True       
+    for item_from_dict in dict.values():
+        if items_match(item_from_dict, item):
+            return True
+    return False
       
       
 def calculate_value_of_products(array):
@@ -274,39 +241,56 @@ def calculate_value_of_products(array):
     return sum(value)
      
      
-def export_array_to_csv_file(array, filename):
+def load_array_from_csv_file(filename):
+    dict = {}
+    product_index = 1
+    try:
+        with open(filename, newline='') as csvfile:
+            reader = csv.DictReader(csvfile)
+            for row in reader:
+                temp_item = create_new_product(row['name'], 
+                                               row['quantity'], 
+                                               row['unit'], 
+                                               row['unit_price'], 
+                                               product_index
+                                               )
+                dict[temp_item.name] = temp_item
+                product_index += 1
+        logging.info(f"Loaded {filename}")
+        remove_empty_items_from_dict(dict)
+        return dict
+    except FileNotFoundError:
+        handle_file_not_found(filename)
+        
+
+def handle_file_not_found(filename):
+    logging.info(f"File {filename} not found")     
+     
+     
+def export_dict_to_csv_file(dict, filename):
+    remove_empty_items_from_dict(dict)
     with open(filename, 'w', newline='') as csvfile:
         fieldnames = ['name', 'quantity', 'unit', 'unit_price']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
-        for item in array:
+        for item in dict.values():
             writer.writerow({'name': item.name,
                              'quantity': item.quantity,
                              'unit': item.unit,
-                             'unit_price': item.unit_price})
-        print(f"Saved {filename}")
+                             'unit_price': item.unit_price}
+                            )
         logging.info(f"Saved {filename}")
-
-
-def save_data(file_warehouse, file_sold_items):
-    clear_warehouse_from_empty_items(items, sold_items)
-    export_array_to_csv_file(items, file_warehouse)
-    export_array_to_csv_file(sold_items, file_sold_items)
-     
-     
-def exit_program():
-    save_data(file_warehouse, file_sold_items)
-    print("\nExit program... Bye.\n")
-    logging.info("Exit program warehouse_manager.py")
-    exit(1)
-    
-    
-def program_not_start():
-    print("Program cant start without necessary arguments.\n"
-          "Try python3 warehouse_manager.py file_warehouse.csv file_sold_items.csv")
-    logging.info("Didnt start. Missing required argunemts / filemanes")
-    exit(1)
-
         
+        
+def remove_empty_items_from_dict(dict):            
+    keys_to_delete = [] 
+    for key, item in dict.items(): 
+        if float(item.quantity) <= 0:
+            keys_to_delete.append(key)
+    for key in keys_to_delete:
+        del dict[key]
+    logging.info(f"{dict} cleaned empty items.")
+
+
 if __name__ == '__main__':
     app.run(debug=True)

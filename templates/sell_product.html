@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h4>sprzedaż {{ product_name }}</h4>
+<form method="POST" action="/sell/ {{ product_name }}">
+    {{ form.hidden_tag() }}
+    <table>
+        {% for field in form if field.widget.input_type != 'hidden' %}
+            <tr>
+                <th>{{ field.label }} {% if field.flags.required %}*{% endif %}</th>
+                <td>{{ field }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    <input type="submit" value="Klik">
+</form>
+
+{% endblock %}
