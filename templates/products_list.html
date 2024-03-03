@@ -3,50 +3,52 @@
 {% block content %}
 
 <div>
+  <div class="w-100 d-flex flex-row justify-content-center align-items-center">
     <h4>Products List</h4>
+  </div>
     <hr>
-    <div class="table-responsive">
-      <table class="table table-dark">
-        <thead>
+  <div class="table-responsive">
+    <table class="table table-dark">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Product name</th>
+          <th scope="col">Quantity in stock</th>
+          <th scope="col">Unit</th>
+          <th scope="col">Unit price</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% if items %}
+        {% for item in items %}
           <tr>
-            <th scope="col">#Index</th>
-            <th scope="col">Product name</th>
-            <th scope="col">Quantity</th>
-            <th scope="col">Unit</th>
-            <th scope="col">Unit price</th>
-            <th scope="col">Action</th>
+            <th scope="row">{{ item.product_index }}</th>
+            <td>{{ item.name }}</td>
+            <td>{{ item.quantity }}</td>
+            <td>{{ item.unit }}</td>
+            <td>{{ item.unit_price }} EUR</td>
+            <td>
+              <form method="GET" action="/sell/{{ item.name }}">
+                <input type="submit" value="Sell">
+              </form>
+            </td>
           </tr>
-        </thead>
-        <tbody>
-            {% if items %}
-            {% for item in items %}
+        {% endfor %}
+        {% endif %}
+        {{ form.hidden_tag() }}
+          <form method="POST" action="/products">
             <tr>
-                <th scope="row">{{ item.product_index }}</th>
-                <td>{{ item.name }}</td>
-                <td>{{ item.quantity }}</td>
-                <td>{{ item.unit }}</td>
-                <td>{{ item.unit_price }}</td>
-                <td>
-                  <form method="GET" action="/sell/{{ item.name }}">
-                    <input type="submit" value="Sell">
-                  </form>
-                </td>
-            </tr>
-            {% endfor %}
-            {% endif %}
-            {{ form.hidden_tag() }}
-            <form method="POST" action="/products">
-                <tr>
-                    <th score="row">New</th>
-                    {% for field in form if field.widget.input_type != 'hidden' %}
-                        <td>{{ field }}</td>
-                    {% endfor %}
-                        <td><input type="submit" value="Add"></td>
-                </tr>
-            </form>
+              <th score="row">New</th>
+                {% for field in form if field.widget.input_type != 'hidden' %}
+                  <td>{{ field }}</td>
+                {% endfor %}
+                <td><input type="submit" value="Add"></td>
+              </tr>
+          </form>
         </tbody>
-      </table>
-    </div>
+    </table>
+  </div>
 </div>
 
 {% endblock %}

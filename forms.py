@@ -1,12 +1,28 @@
 from flask_wtf import FlaskForm
-from wtforms import StringField, DecimalField, IntegerField
-from wtforms.validators import DataRequired
+from wtforms import StringField, DecimalField, SelectField
+from wtforms.validators import DataRequired, NumberRange
 
-class ProductForm(FlaskForm):
-    name = StringField('Name', validators=[DataRequired()])
-    quantity = IntegerField('Quantity', validators=[DataRequired()])
-    unit = StringField('Unit', validators=[DataRequired()])
-    unit_price = DecimalField('Unit price', validators=[DataRequired()])
+class ProductAddForm(FlaskForm):
+    name = StringField('Name', 
+                       validators=[DataRequired()])
+    quantity = DecimalField('Quantity', 
+                            validators=[DataRequired(), 
+                                        NumberRange(min=0, 
+                                                    message=None)])
+    unit = SelectField('Unit', 
+                       validators=[DataRequired()],
+                       choices=[('m', 'm'), 
+                                ('kg', 'kg'), 
+                                ('pcs', 'pcs'), 
+                                ('box', 'box'), 
+                                ('pallet', 'pallet')])
+    unit_price = DecimalField('Unit price',
+                              validators=[DataRequired(), 
+                                          NumberRange(min=0, 
+                                                      message=None)])
     
 class ProductSaleForm(FlaskForm):
-    quantity_to_sell = IntegerField('Quantity to sell', validators=[DataRequired()])
+    quantity_to_sell = DecimalField('Quantity to sell', 
+                                    validators=[DataRequired(), 
+                                                NumberRange(min=0, 
+                                                            message=None)])

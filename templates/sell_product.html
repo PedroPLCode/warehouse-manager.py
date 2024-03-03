@@ -2,18 +2,20 @@
 
 {% block content %}
 
-<h4>sprzedaż {{ product_name }}</h4>
+<div class="w-100 d-flex flex-row justify-content-start align-items-center">
+  <h4>{{ product_name }} sell</h4>
+</div>
 <form method="POST" action="/sell/ {{ product_name }}">
-    {{ form.hidden_tag() }}
+  {{ form.hidden_tag() }}
     <table>
-        {% for field in form if field.widget.input_type != 'hidden' %}
-            <tr>
-                <th>{{ field.label }} {% if field.flags.required %}*{% endif %}</th>
-                <td>{{ field }}</td>
-            </tr>
-        {% endfor %}
+      {% for field in form if field.widget.input_type != 'hidden' %}
+        <tr>
+          <th>{{ field.label }} {% if field.flags.required %}{% endif %}</th>
+          <td>{{ field }}</td>
+        </tr>
+      {% endfor %}
     </table>
-    <input type="submit" value="Klik">
+  <input type="submit" value="Confirm">
 </form>
 
 {% endblock %}
