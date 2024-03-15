@@ -32172,3 +32172,4741 @@ Product index 4
 2024-03-03 21:54:52,305 INFO 192.168.50.181 - - [03/Mar/2024 21:54:52] "GET / HTTP/1.1" 200 -
 2024-03-03 21:54:52,389 INFO 192.168.50.181 - - [03/Mar/2024 21:54:52] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
 2024-03-03 21:54:52,408 INFO 192.168.50.181 - - [03/Mar/2024 21:54:52] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-14 14:23:14,190 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-14 14:23:14,193 INFO [33mPress CTRL+C to quit[0m
+2024-03-14 14:23:14,206 INFO  * Restarting with watchdog (inotify)
+2024-03-14 14:23:14,386 WARNING  * Debugger is active!
+2024-03-14 14:23:14,386 INFO  * Debugger PIN: 117-636-696
+2024-03-14 14:23:17,280 INFO 127.0.0.1 - - [14/Mar/2024 14:23:17] "GET /?list_type=now_playing HTTP/1.1" 200 -
+2024-03-14 14:23:17,308 INFO 127.0.0.1 - - [14/Mar/2024 14:23:17] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-14 14:23:17,324 INFO 127.0.0.1 - - [14/Mar/2024 14:23:17] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-14 14:23:20,388 INFO Loaded ./warehouse.csv
+2024-03-14 14:23:20,389 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+} cleaned empty items.
+2024-03-14 14:23:20,401 INFO 127.0.0.1 - - [14/Mar/2024 14:23:20] "GET /products HTTP/1.1" 200 -
+2024-03-14 14:23:20,415 INFO 127.0.0.1 - - [14/Mar/2024 14:23:20] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-14 14:23:20,419 INFO 127.0.0.1 - - [14/Mar/2024 14:23:20] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-14 14:23:35,150 INFO Loaded ./warehouse.csv
+2024-03-14 14:23:35,150 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+} cleaned empty items.
+2024-03-14 14:23:35,156 INFO The CSRF token is missing.
+2024-03-14 14:23:35,156 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 33
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-14 14:23:35,157 INFO Saved ./warehouse.csv
+2024-03-14 14:23:35,158 INFO New item added
+2024-03-14 14:23:35,159 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-14 14:23:35,161 INFO 127.0.0.1 - - [14/Mar/2024 14:23:35] "POST /products HTTP/1.1" 200 -
+2024-03-14 14:23:35,177 INFO 127.0.0.1 - - [14/Mar/2024 14:23:35] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-14 14:23:35,178 INFO 127.0.0.1 - - [14/Mar/2024 14:23:35] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-14 14:23:35,666 INFO  * Restarting with watchdog (inotify)
+2024-03-14 14:23:35,848 WARNING  * Debugger is active!
+2024-03-14 14:23:35,848 INFO  * Debugger PIN: 117-636-696
+2024-03-14 14:23:48,091 INFO 127.0.0.1 - - [14/Mar/2024 14:23:48] "GET /load HTTP/1.1" 200 -
+2024-03-14 14:23:48,119 INFO 127.0.0.1 - - [14/Mar/2024 14:23:48] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-14 14:23:48,119 INFO 127.0.0.1 - - [14/Mar/2024 14:23:48] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-14 14:23:50,026 INFO 127.0.0.1 - - [14/Mar/2024 14:23:50] "GET /save HTTP/1.1" 200 -
+2024-03-14 14:23:50,042 INFO 127.0.0.1 - - [14/Mar/2024 14:23:50] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-14 14:23:50,051 INFO 127.0.0.1 - - [14/Mar/2024 14:23:50] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-14 14:23:51,755 INFO Loaded ./warehouse.csv
+2024-03-14 14:23:51,755 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 33
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-14 14:23:51,766 INFO 127.0.0.1 - - [14/Mar/2024 14:23:51] "GET /products HTTP/1.1" 200 -
+2024-03-14 14:23:51,781 INFO 127.0.0.1 - - [14/Mar/2024 14:23:51] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-14 14:23:51,791 INFO 127.0.0.1 - - [14/Mar/2024 14:23:51] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-14 14:23:53,577 INFO Loaded ./warehouse.csv
+2024-03-14 14:23:53,578 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 33
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-14 14:23:53,586 INFO 127.0.0.1 - - [14/Mar/2024 14:23:53] "GET /sell/dog HTTP/1.1" 200 -
+2024-03-14 14:23:53,601 INFO 127.0.0.1 - - [14/Mar/2024 14:23:53] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-14 14:23:53,605 INFO 127.0.0.1 - - [14/Mar/2024 14:23:53] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-14 14:23:56,535 INFO Loaded ./warehouse.csv
+2024-03-14 14:23:56,535 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 33
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-14 14:23:56,539 INFO Loaded ./warehouse.csv
+2024-03-14 14:23:56,540 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 33
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-14 14:23:56,540 INFO Item to sell:  dog quantity 231.0
+2024-03-14 14:23:56,541 INFO We dont have 231.0 of  dog
+2024-03-14 14:23:56,542 INFO Loaded ./warehouse.csv
+2024-03-14 14:23:56,542 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 33
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-14 14:23:56,544 INFO 127.0.0.1 - - [14/Mar/2024 14:23:56] "POST /sell/%20dog HTTP/1.1" 200 -
+2024-03-14 14:23:56,558 INFO 127.0.0.1 - - [14/Mar/2024 14:23:56] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-14 14:23:56,565 INFO 127.0.0.1 - - [14/Mar/2024 14:23:56] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-14 14:24:07,776 INFO Loaded ./warehouse.csv
+2024-03-14 14:24:07,777 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 33
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-14 14:24:07,779 INFO The CSRF token is missing.
+2024-03-14 14:24:07,782 INFO 127.0.0.1 - - [14/Mar/2024 14:24:07] "POST /products HTTP/1.1" 200 -
+2024-03-14 14:24:07,797 INFO 127.0.0.1 - - [14/Mar/2024 14:24:07] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-14 14:24:07,802 INFO 127.0.0.1 - - [14/Mar/2024 14:24:07] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-14 14:24:17,358 INFO Loaded ./warehouse.csv
+2024-03-14 14:24:17,359 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 33
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-14 14:24:17,361 INFO The CSRF token is missing.
+2024-03-14 14:24:17,362 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 45.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-14 14:24:17,363 INFO Saved ./warehouse.csv
+2024-03-14 14:24:17,363 INFO Added 12 box dog to warehouse.
+2024-03-14 14:24:17,364 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-14 14:24:17,366 INFO 127.0.0.1 - - [14/Mar/2024 14:24:17] "POST /products HTTP/1.1" 200 -
+2024-03-14 14:24:17,388 INFO 127.0.0.1 - - [14/Mar/2024 14:24:17] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-14 14:24:17,400 INFO 127.0.0.1 - - [14/Mar/2024 14:24:17] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-14 14:24:17,888 INFO  * Restarting with watchdog (inotify)
+2024-03-14 14:24:18,074 WARNING  * Debugger is active!
+2024-03-14 14:24:18,074 INFO  * Debugger PIN: 117-636-696
+2024-03-14 14:24:21,063 INFO Loaded ./warehouse.csv
+2024-03-14 14:24:21,063 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 45.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-14 14:24:21,068 INFO The CSRF token is missing.
+2024-03-14 14:24:21,085 INFO 127.0.0.1 - - [14/Mar/2024 14:24:21] "POST /products HTTP/1.1" 200 -
+2024-03-14 14:24:21,112 INFO 127.0.0.1 - - [14/Mar/2024 14:24:21] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-14 14:24:21,114 INFO 127.0.0.1 - - [14/Mar/2024 14:24:21] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-14 14:24:24,346 INFO Loaded ./warehouse.csv
+2024-03-14 14:24:24,346 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 45.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-14 14:24:24,354 INFO 127.0.0.1 - - [14/Mar/2024 14:24:24] "GET /sell/dog HTTP/1.1" 200 -
+2024-03-14 14:24:24,370 INFO 127.0.0.1 - - [14/Mar/2024 14:24:24] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-14 14:24:24,383 INFO 127.0.0.1 - - [14/Mar/2024 14:24:24] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-14 14:24:29,694 INFO Loaded ./warehouse.csv
+2024-03-14 14:24:29,694 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 45.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-14 14:24:29,697 INFO Loaded ./warehouse.csv
+2024-03-14 14:24:29,697 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 45.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-14 14:24:29,697 INFO Item to sell:  dog quantity 4.0
+2024-03-14 14:24:29,698 INFO Loaded ./warehouse.csv
+2024-03-14 14:24:29,698 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 45.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-14 14:24:29,702 INFO Loaded ./sold.csv
+2024-03-14 14:24:29,703 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+} cleaned empty items.
+2024-03-14 14:24:29,703 INFO Item  dog sold
+2024-03-14 14:24:29,703 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 41.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-14 14:24:29,703 INFO Saved ./warehouse.csv
+2024-03-14 14:24:29,704 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 4.0
+Unit: box
+Unit price: 19.99
+Product index 3
+} cleaned empty items.
+2024-03-14 14:24:29,705 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-14 14:24:29,706 INFO Saved ./sold.csv
+2024-03-14 14:24:29,707 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-14 14:24:29,708 INFO Loaded ./warehouse.csv
+2024-03-14 14:24:29,708 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 41.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-14 14:24:29,710 INFO 127.0.0.1 - - [14/Mar/2024 14:24:29] "POST /sell/%20dog HTTP/1.1" 200 -
+2024-03-14 14:24:29,722 INFO 127.0.0.1 - - [14/Mar/2024 14:24:29] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-14 14:24:29,726 INFO 127.0.0.1 - - [14/Mar/2024 14:24:29] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-14 14:24:30,796 INFO  * Restarting with watchdog (inotify)
+2024-03-14 14:24:30,980 WARNING  * Debugger is active!
+2024-03-14 14:24:30,980 INFO  * Debugger PIN: 117-636-696
+2024-03-14 14:24:34,746 INFO Loaded ./sold.csv
+2024-03-14 14:24:34,748 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 4.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-14 14:24:34,769 INFO 127.0.0.1 - - [14/Mar/2024 14:24:34] "GET /sold HTTP/1.1" 200 -
+2024-03-14 14:24:34,803 INFO 127.0.0.1 - - [14/Mar/2024 14:24:34] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-14 14:24:34,806 INFO 127.0.0.1 - - [14/Mar/2024 14:24:34] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-14 14:24:37,977 INFO Loaded ./sold.csv
+2024-03-14 14:24:37,977 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 4.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-14 14:24:37,978 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+} cleaned empty items.
+2024-03-14 14:24:37,979 INFO Saved ./sold.csv
+2024-03-14 14:24:37,982 INFO 127.0.0.1 - - [14/Mar/2024 14:24:37] "POST /remove/%20dog HTTP/1.1" 200 -
+2024-03-14 14:24:37,985 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-14 14:24:37,997 INFO 127.0.0.1 - - [14/Mar/2024 14:24:37] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-14 14:24:38,006 INFO 127.0.0.1 - - [14/Mar/2024 14:24:38] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-14 14:24:38,840 INFO  * Restarting with watchdog (inotify)
+2024-03-14 14:24:39,028 WARNING  * Debugger is active!
+2024-03-14 14:24:39,028 INFO  * Debugger PIN: 117-636-696
+2024-03-14 14:24:41,780 INFO Loaded ./warehouse.csv
+2024-03-14 14:24:41,783 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 41.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-14 14:24:41,804 INFO 127.0.0.1 - - [14/Mar/2024 14:24:41] "GET /products HTTP/1.1" 200 -
+2024-03-14 14:24:41,832 INFO 127.0.0.1 - - [14/Mar/2024 14:24:41] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-14 14:24:41,834 INFO 127.0.0.1 - - [14/Mar/2024 14:24:41] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-14 14:24:43,322 INFO Loaded ./warehouse.csv
+2024-03-14 14:24:43,322 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 41.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-14 14:24:43,331 INFO 127.0.0.1 - - [14/Mar/2024 14:24:43] "GET /sell/dog HTTP/1.1" 200 -
+2024-03-14 14:24:43,349 INFO 127.0.0.1 - - [14/Mar/2024 14:24:43] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-14 14:24:43,350 INFO 127.0.0.1 - - [14/Mar/2024 14:24:43] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-14 14:24:45,510 INFO Loaded ./warehouse.csv
+2024-03-14 14:24:45,511 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 41.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-14 14:24:45,515 INFO Loaded ./warehouse.csv
+2024-03-14 14:24:45,515 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 41.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-14 14:24:45,515 INFO Item to sell:  dog quantity 21.0
+2024-03-14 14:24:45,517 INFO Loaded ./warehouse.csv
+2024-03-14 14:24:45,517 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 41.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-14 14:24:45,518 INFO Loaded ./sold.csv
+2024-03-14 14:24:45,518 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+} cleaned empty items.
+2024-03-14 14:24:45,518 INFO Item  dog sold
+2024-03-14 14:24:45,518 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-14 14:24:45,519 INFO Saved ./warehouse.csv
+2024-03-14 14:24:45,520 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 3
+} cleaned empty items.
+2024-03-14 14:24:45,522 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-14 14:24:45,524 INFO Saved ./sold.csv
+2024-03-14 14:24:45,525 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-14 14:24:45,526 INFO Loaded ./warehouse.csv
+2024-03-14 14:24:45,526 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-14 14:24:45,528 INFO 127.0.0.1 - - [14/Mar/2024 14:24:45] "POST /sell/%20dog HTTP/1.1" 200 -
+2024-03-14 14:24:45,541 INFO 127.0.0.1 - - [14/Mar/2024 14:24:45] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-14 14:24:45,546 INFO 127.0.0.1 - - [14/Mar/2024 14:24:45] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-14 14:24:45,910 INFO  * Restarting with watchdog (inotify)
+2024-03-14 14:24:46,086 WARNING  * Debugger is active!
+2024-03-14 14:24:46,087 INFO  * Debugger PIN: 117-636-696
+2024-03-14 14:24:46,935 INFO Loaded ./sold.csv
+2024-03-14 14:24:46,935 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-14 14:24:46,956 INFO 127.0.0.1 - - [14/Mar/2024 14:24:46] "GET /sold HTTP/1.1" 200 -
+2024-03-14 14:24:46,987 INFO 127.0.0.1 - - [14/Mar/2024 14:24:46] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-14 14:24:46,995 INFO 127.0.0.1 - - [14/Mar/2024 14:24:46] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-14 14:24:49,782 INFO Loaded ./warehouse.csv
+2024-03-14 14:24:49,783 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-14 14:24:49,784 INFO Loaded ./sold.csv
+2024-03-14 14:24:49,785 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-14 14:24:49,790 INFO 127.0.0.1 - - [14/Mar/2024 14:24:49] "GET /revenue HTTP/1.1" 200 -
+2024-03-14 14:24:49,803 INFO 127.0.0.1 - - [14/Mar/2024 14:24:49] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-14 14:24:49,811 INFO 127.0.0.1 - - [14/Mar/2024 14:24:49] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-14 14:25:01,624 INFO Loaded ./warehouse.csv
+2024-03-14 14:25:01,624 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-14 14:25:01,634 INFO 127.0.0.1 - - [14/Mar/2024 14:25:01] "GET /products HTTP/1.1" 200 -
+2024-03-14 14:25:01,648 INFO 127.0.0.1 - - [14/Mar/2024 14:25:01] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-14 14:25:01,652 INFO 127.0.0.1 - - [14/Mar/2024 14:25:01] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:01:37,201 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-15 19:01:37,202 INFO [33mPress CTRL+C to quit[0m
+2024-03-15 19:01:37,217 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:01:37,429 WARNING  * Debugger is active!
+2024-03-15 19:01:37,430 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:01:38,702 INFO 127.0.0.1 - - [15/Mar/2024 19:01:38] "GET / HTTP/1.1" 200 -
+2024-03-15 19:01:38,764 INFO 127.0.0.1 - - [15/Mar/2024 19:01:38] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:01:38,765 INFO 127.0.0.1 - - [15/Mar/2024 19:01:38] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:01:38,862 INFO 127.0.0.1 - - [15/Mar/2024 19:01:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-03-15 19:01:42,953 INFO 127.0.0.1 - - [15/Mar/2024 19:01:42] "GET /load HTTP/1.1" 200 -
+2024-03-15 19:01:42,974 INFO 127.0.0.1 - - [15/Mar/2024 19:01:42] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:01:42,988 INFO 127.0.0.1 - - [15/Mar/2024 19:01:42] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:01:45,461 INFO 127.0.0.1 - - [15/Mar/2024 19:01:45] "GET /save HTTP/1.1" 200 -
+2024-03-15 19:01:45,478 INFO 127.0.0.1 - - [15/Mar/2024 19:01:45] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:01:45,479 INFO 127.0.0.1 - - [15/Mar/2024 19:01:45] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:01:47,766 INFO Loaded ./warehouse.csv
+2024-03-15 19:01:47,766 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:01:47,778 INFO 127.0.0.1 - - [15/Mar/2024 19:01:47] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:01:47,790 INFO 127.0.0.1 - - [15/Mar/2024 19:01:47] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:01:47,797 INFO 127.0.0.1 - - [15/Mar/2024 19:01:47] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:01:48,740 INFO Loaded ./warehouse.csv
+2024-03-15 19:01:48,740 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:01:48,742 INFO Loaded ./sold.csv
+2024-03-15 19:01:48,742 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:01:48,747 INFO 127.0.0.1 - - [15/Mar/2024 19:01:48] "GET /revenue HTTP/1.1" 200 -
+2024-03-15 19:01:48,764 INFO 127.0.0.1 - - [15/Mar/2024 19:01:48] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:01:48,772 INFO 127.0.0.1 - - [15/Mar/2024 19:01:48] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:01:51,997 INFO Loaded ./sold.csv
+2024-03-15 19:01:51,997 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:01:52,002 INFO 127.0.0.1 - - [15/Mar/2024 19:01:52] "GET /sold HTTP/1.1" 200 -
+2024-03-15 19:01:52,017 INFO 127.0.0.1 - - [15/Mar/2024 19:01:52] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:01:52,021 INFO 127.0.0.1 - - [15/Mar/2024 19:01:52] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:01:55,909 INFO Loaded ./warehouse.csv
+2024-03-15 19:01:55,910 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:01:55,913 INFO 127.0.0.1 - - [15/Mar/2024 19:01:55] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:01:55,957 INFO 127.0.0.1 - - [15/Mar/2024 19:01:55] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:01:55,960 INFO 127.0.0.1 - - [15/Mar/2024 19:01:55] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:05:44,995 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:05:44,996 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:05:44,999 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:05:45,000 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:05:45,143 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:05:45,327 WARNING  * Debugger is active!
+2024-03-15 19:05:45,327 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:05:52,384 INFO 127.0.0.1 - - [15/Mar/2024 19:05:52] "GET / HTTP/1.1" 200 -
+2024-03-15 19:05:52,412 INFO 127.0.0.1 - - [15/Mar/2024 19:05:52] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:05:52,420 INFO 127.0.0.1 - - [15/Mar/2024 19:05:52] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:06:14,546 INFO Loaded ./warehouse.csv
+2024-03-15 19:06:14,546 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:06:14,556 INFO 127.0.0.1 - - [15/Mar/2024 19:06:14] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:06:14,568 INFO 127.0.0.1 - - [15/Mar/2024 19:06:14] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:06:14,574 INFO 127.0.0.1 - - [15/Mar/2024 19:06:14] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:06:15,791 INFO 127.0.0.1 - - [15/Mar/2024 19:06:15] "GET /load HTTP/1.1" 200 -
+2024-03-15 19:06:15,808 INFO 127.0.0.1 - - [15/Mar/2024 19:06:15] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:06:15,817 INFO 127.0.0.1 - - [15/Mar/2024 19:06:15] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:06:58,578 INFO 127.0.0.1 - - [15/Mar/2024 19:06:58] "[33mGET /loawqe HTTP/1.1[0m" 404 -
+2024-03-15 19:08:14,623 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:08:14,624 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:08:14,628 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:08:14,629 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:08:15,718 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:08:15,901 WARNING  * Debugger is active!
+2024-03-15 19:08:15,901 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:08:18,046 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-15 19:08:18,046 INFO [33mPress CTRL+C to quit[0m
+2024-03-15 19:08:18,053 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:08:18,268 WARNING  * Debugger is active!
+2024-03-15 19:08:18,268 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:08:20,704 INFO 127.0.0.1 - - [15/Mar/2024 19:08:20] "[33mGET /loawqe HTTP/1.1[0m" 404 -
+2024-03-15 19:08:24,963 INFO 127.0.0.1 - - [15/Mar/2024 19:08:24] "GET /load HTTP/1.1" 200 -
+2024-03-15 19:08:24,991 INFO 127.0.0.1 - - [15/Mar/2024 19:08:24] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:08:24,992 INFO 127.0.0.1 - - [15/Mar/2024 19:08:24] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:08:26,994 INFO 127.0.0.1 - - [15/Mar/2024 19:08:26] "GET /load HTTP/1.1" 200 -
+2024-03-15 19:08:27,012 INFO 127.0.0.1 - - [15/Mar/2024 19:08:27] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:08:27,019 INFO 127.0.0.1 - - [15/Mar/2024 19:08:27] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:08:32,670 INFO Loaded ./sold.csv
+2024-03-15 19:08:32,670 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:08:32,677 INFO 127.0.0.1 - - [15/Mar/2024 19:08:32] "GET /sold HTTP/1.1" 200 -
+2024-03-15 19:08:32,691 INFO 127.0.0.1 - - [15/Mar/2024 19:08:32] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:08:32,694 INFO 127.0.0.1 - - [15/Mar/2024 19:08:32] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:08:34,395 INFO 127.0.0.1 - - [15/Mar/2024 19:08:34] "GET /load HTTP/1.1" 200 -
+2024-03-15 19:08:34,409 INFO 127.0.0.1 - - [15/Mar/2024 19:08:34] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:08:34,415 INFO 127.0.0.1 - - [15/Mar/2024 19:08:34] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:08:54,502 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:08:54,502 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:08:54,506 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:08:54,507 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:08:55,217 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:08:55,461 WARNING  * Debugger is active!
+2024-03-15 19:08:55,461 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:10:23,720 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:10:23,720 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:10:23,727 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:10:23,727 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:10:24,468 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:10:24,672 WARNING  * Debugger is active!
+2024-03-15 19:10:24,673 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:10:25,558 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-15 19:10:25,559 INFO [33mPress CTRL+C to quit[0m
+2024-03-15 19:10:25,565 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:10:25,761 WARNING  * Debugger is active!
+2024-03-15 19:10:25,761 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:10:28,516 INFO 127.0.0.1 - - [15/Mar/2024 19:10:28] "GET / HTTP/1.1" 200 -
+2024-03-15 19:10:28,546 INFO 127.0.0.1 - - [15/Mar/2024 19:10:28] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:10:28,549 INFO 127.0.0.1 - - [15/Mar/2024 19:10:28] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:10:29,120 INFO 127.0.0.1 - - [15/Mar/2024 19:10:29] "GET / HTTP/1.1" 200 -
+2024-03-15 19:10:29,141 INFO 127.0.0.1 - - [15/Mar/2024 19:10:29] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:10:29,145 INFO 127.0.0.1 - - [15/Mar/2024 19:10:29] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:10:30,071 INFO Loaded ./warehouse.csv
+2024-03-15 19:10:30,072 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:10:30,079 INFO 127.0.0.1 - - [15/Mar/2024 19:10:30] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:10:30,091 INFO 127.0.0.1 - - [15/Mar/2024 19:10:30] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:10:30,102 INFO 127.0.0.1 - - [15/Mar/2024 19:10:30] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:10:31,100 INFO 127.0.0.1 - - [15/Mar/2024 19:10:31] "GET /load HTTP/1.1" 200 -
+2024-03-15 19:10:31,127 INFO 127.0.0.1 - - [15/Mar/2024 19:10:31] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:10:31,127 INFO 127.0.0.1 - - [15/Mar/2024 19:10:31] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:13:19,852 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:13:19,853 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:13:19,856 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:13:19,856 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:13:20,251 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:13:20,529 WARNING  * Debugger is active!
+2024-03-15 19:13:20,530 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:13:21,903 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-15 19:13:21,903 INFO [33mPress CTRL+C to quit[0m
+2024-03-15 19:13:21,911 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:13:22,100 WARNING  * Debugger is active!
+2024-03-15 19:13:22,100 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:13:24,416 INFO 127.0.0.1 - - [15/Mar/2024 19:13:24] "GET /load HTTP/1.1" 200 -
+2024-03-15 19:13:24,443 INFO 127.0.0.1 - - [15/Mar/2024 19:13:24] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:13:24,450 INFO 127.0.0.1 - - [15/Mar/2024 19:13:24] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:13:25,629 INFO Loaded ./sold.csv
+2024-03-15 19:13:25,629 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:13:25,636 INFO 127.0.0.1 - - [15/Mar/2024 19:13:25] "GET /sold HTTP/1.1" 200 -
+2024-03-15 19:13:25,654 INFO 127.0.0.1 - - [15/Mar/2024 19:13:25] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:13:25,659 INFO 127.0.0.1 - - [15/Mar/2024 19:13:25] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:13:26,687 INFO 127.0.0.1 - - [15/Mar/2024 19:13:26] "GET /load HTTP/1.1" 200 -
+2024-03-15 19:13:26,702 INFO 127.0.0.1 - - [15/Mar/2024 19:13:26] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:13:26,708 INFO 127.0.0.1 - - [15/Mar/2024 19:13:26] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:13:32,046 INFO Loaded ./warehouse.csv
+2024-03-15 19:13:32,046 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:13:32,057 INFO 127.0.0.1 - - [15/Mar/2024 19:13:32] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:13:32,074 INFO 127.0.0.1 - - [15/Mar/2024 19:13:32] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:13:32,076 INFO 127.0.0.1 - - [15/Mar/2024 19:13:32] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:13:33,390 INFO Loaded ./warehouse.csv
+2024-03-15 19:13:33,390 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:13:33,394 INFO 127.0.0.1 - - [15/Mar/2024 19:13:33] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:13:33,408 INFO 127.0.0.1 - - [15/Mar/2024 19:13:33] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:13:33,414 INFO 127.0.0.1 - - [15/Mar/2024 19:13:33] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:13:34,561 INFO 127.0.0.1 - - [15/Mar/2024 19:13:34] "GET /load HTTP/1.1" 200 -
+2024-03-15 19:13:34,577 INFO 127.0.0.1 - - [15/Mar/2024 19:13:34] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:13:34,582 INFO 127.0.0.1 - - [15/Mar/2024 19:13:34] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:14:25,791 INFO Loaded ./sold.csv
+2024-03-15 19:14:25,791 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:14:25,794 INFO 127.0.0.1 - - [15/Mar/2024 19:14:25] "GET /sold HTTP/1.1" 200 -
+2024-03-15 19:14:25,813 INFO 127.0.0.1 - - [15/Mar/2024 19:14:25] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:14:25,818 INFO 127.0.0.1 - - [15/Mar/2024 19:14:25] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:14:26,876 INFO Loaded ./warehouse.csv
+2024-03-15 19:14:26,877 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:14:26,880 INFO 127.0.0.1 - - [15/Mar/2024 19:14:26] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:14:26,895 INFO 127.0.0.1 - - [15/Mar/2024 19:14:26] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:14:26,900 INFO 127.0.0.1 - - [15/Mar/2024 19:14:26] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:14:28,677 INFO 127.0.0.1 - - [15/Mar/2024 19:14:28] "GET /load HTTP/1.1" 200 -
+2024-03-15 19:14:28,695 INFO 127.0.0.1 - - [15/Mar/2024 19:14:28] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:14:28,711 INFO 127.0.0.1 - - [15/Mar/2024 19:14:28] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:17:30,781 INFO 127.0.0.1 - - [15/Mar/2024 19:17:30] "GET /save HTTP/1.1" 200 -
+2024-03-15 19:17:30,800 INFO 127.0.0.1 - - [15/Mar/2024 19:17:30] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:17:30,808 INFO 127.0.0.1 - - [15/Mar/2024 19:17:30] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:17:31,480 INFO 127.0.0.1 - - [15/Mar/2024 19:17:31] "GET /load HTTP/1.1" 200 -
+2024-03-15 19:17:31,500 INFO 127.0.0.1 - - [15/Mar/2024 19:17:31] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:17:31,502 INFO 127.0.0.1 - - [15/Mar/2024 19:17:31] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:17:32,717 INFO 127.0.0.1 - - [15/Mar/2024 19:17:32] "GET /load HTTP/1.1" 200 -
+2024-03-15 19:17:32,731 INFO 127.0.0.1 - - [15/Mar/2024 19:17:32] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:17:32,737 INFO 127.0.0.1 - - [15/Mar/2024 19:17:32] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:17:34,352 INFO Loaded ./warehouse.csv
+2024-03-15 19:17:34,352 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:17:34,356 INFO 127.0.0.1 - - [15/Mar/2024 19:17:34] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:17:34,369 INFO 127.0.0.1 - - [15/Mar/2024 19:17:34] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:17:34,374 INFO 127.0.0.1 - - [15/Mar/2024 19:17:34] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:17:38,958 INFO 127.0.0.1 - - [15/Mar/2024 19:17:38] "GET /load HTTP/1.1" 200 -
+2024-03-15 19:17:38,978 INFO 127.0.0.1 - - [15/Mar/2024 19:17:38] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:17:38,986 INFO 127.0.0.1 - - [15/Mar/2024 19:17:38] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:18:50,297 INFO Loaded ./sold.csv
+2024-03-15 19:18:50,299 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:18:50,302 INFO 127.0.0.1 - - [15/Mar/2024 19:18:50] "GET /sold HTTP/1.1" 200 -
+2024-03-15 19:18:50,321 INFO 127.0.0.1 - - [15/Mar/2024 19:18:50] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:18:50,326 INFO 127.0.0.1 - - [15/Mar/2024 19:18:50] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:18:52,464 INFO 127.0.0.1 - - [15/Mar/2024 19:18:52] "GET /load HTTP/1.1" 200 -
+2024-03-15 19:18:52,486 INFO 127.0.0.1 - - [15/Mar/2024 19:18:52] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:18:52,487 INFO 127.0.0.1 - - [15/Mar/2024 19:18:52] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:19:05,732 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:19:05,732 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:19:05,737 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:19:05,738 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:19:06,028 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:19:06,029 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:19:06,034 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:19:06,034 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:19:06,326 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:19:06,603 WARNING  * Debugger is active!
+2024-03-15 19:19:06,604 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:19:12,037 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-15 19:19:12,038 INFO [33mPress CTRL+C to quit[0m
+2024-03-15 19:19:12,044 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:19:12,228 WARNING  * Debugger is active!
+2024-03-15 19:19:12,228 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:19:14,912 INFO 127.0.0.1 - - [15/Mar/2024 19:19:14] "GET / HTTP/1.1" 200 -
+2024-03-15 19:19:14,933 INFO 127.0.0.1 - - [15/Mar/2024 19:19:14] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:19:14,937 INFO 127.0.0.1 - - [15/Mar/2024 19:19:14] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:19:15,633 INFO 127.0.0.1 - - [15/Mar/2024 19:19:15] "GET / HTTP/1.1" 200 -
+2024-03-15 19:19:15,649 INFO 127.0.0.1 - - [15/Mar/2024 19:19:15] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:19:15,654 INFO 127.0.0.1 - - [15/Mar/2024 19:19:15] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:19:16,533 INFO 127.0.0.1 - - [15/Mar/2024 19:19:16] "GET / HTTP/1.1" 200 -
+2024-03-15 19:19:16,560 INFO 127.0.0.1 - - [15/Mar/2024 19:19:16] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:19:16,566 INFO 127.0.0.1 - - [15/Mar/2024 19:19:16] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:19:19,944 INFO Loaded ./warehouse.csv
+2024-03-15 19:19:19,945 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:19:19,954 INFO 127.0.0.1 - - [15/Mar/2024 19:19:19] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:19:19,971 INFO 127.0.0.1 - - [15/Mar/2024 19:19:19] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:19:19,974 INFO 127.0.0.1 - - [15/Mar/2024 19:19:19] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:19:21,103 INFO 127.0.0.1 - - [15/Mar/2024 19:19:21] "GET /load HTTP/1.1" 200 -
+2024-03-15 19:19:21,119 INFO 127.0.0.1 - - [15/Mar/2024 19:19:21] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:19:21,126 INFO 127.0.0.1 - - [15/Mar/2024 19:19:21] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:24:44,148 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:24:44,149 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:24:44,154 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:24:44,155 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:24:44,508 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:24:44,754 WARNING  * Debugger is active!
+2024-03-15 19:24:44,754 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:24:46,979 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-15 19:24:46,979 INFO [33mPress CTRL+C to quit[0m
+2024-03-15 19:24:46,985 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:24:47,167 WARNING  * Debugger is active!
+2024-03-15 19:24:47,167 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:24:49,461 INFO 127.0.0.1 - - [15/Mar/2024 19:24:49] "[35m[1mGET /load HTTP/1.1[0m" 500 -
+2024-03-15 19:24:49,489 INFO 127.0.0.1 - - [15/Mar/2024 19:24:49] "GET /load?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-03-15 19:24:49,489 INFO 127.0.0.1 - - [15/Mar/2024 19:24:49] "GET /load?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-03-15 19:24:49,523 INFO 127.0.0.1 - - [15/Mar/2024 19:24:49] "GET /load?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-03-15 19:24:49,547 INFO 127.0.0.1 - - [15/Mar/2024 19:24:49] "[36mGET /load?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-15 19:25:38,144 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:25:38,144 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:25:38,148 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:25:38,149 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:25:39,199 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:25:39,375 WARNING  * Debugger is active!
+2024-03-15 19:25:39,375 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:25:42,064 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-15 19:25:42,064 INFO [33mPress CTRL+C to quit[0m
+2024-03-15 19:25:42,070 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:25:42,252 WARNING  * Debugger is active!
+2024-03-15 19:25:42,252 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:25:43,692 INFO 127.0.0.1 - - [15/Mar/2024 19:25:43] "GET /load HTTP/1.1" 200 -
+2024-03-15 19:25:43,714 INFO 127.0.0.1 - - [15/Mar/2024 19:25:43] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:25:43,715 INFO 127.0.0.1 - - [15/Mar/2024 19:25:43] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:25:45,205 INFO Loaded ./warehouse.csv
+2024-03-15 19:25:45,205 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:25:45,216 INFO 127.0.0.1 - - [15/Mar/2024 19:25:45] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:25:45,231 INFO 127.0.0.1 - - [15/Mar/2024 19:25:45] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:25:45,234 INFO 127.0.0.1 - - [15/Mar/2024 19:25:45] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:25:46,570 INFO 127.0.0.1 - - [15/Mar/2024 19:25:46] "GET /load HTTP/1.1" 200 -
+2024-03-15 19:25:46,584 INFO 127.0.0.1 - - [15/Mar/2024 19:25:46] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:25:46,587 INFO 127.0.0.1 - - [15/Mar/2024 19:25:46] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:26:52,326 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:26:52,327 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:26:52,331 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:26:52,331 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:26:52,559 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:26:52,561 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:26:52,564 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:26:52,565 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:26:53,366 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:26:53,563 WARNING  * Debugger is active!
+2024-03-15 19:26:53,564 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:26:57,248 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-15 19:26:57,249 INFO [33mPress CTRL+C to quit[0m
+2024-03-15 19:26:57,255 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:26:57,435 WARNING  * Debugger is active!
+2024-03-15 19:26:57,435 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:26:59,490 INFO 127.0.0.1 - - [15/Mar/2024 19:26:59] "GET /load HTTP/1.1" 200 -
+2024-03-15 19:26:59,520 INFO 127.0.0.1 - - [15/Mar/2024 19:26:59] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:26:59,526 INFO 127.0.0.1 - - [15/Mar/2024 19:26:59] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:27:00,553 INFO Loaded ./warehouse.csv
+2024-03-15 19:27:00,555 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:27:00,562 INFO 127.0.0.1 - - [15/Mar/2024 19:27:00] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:27:00,575 INFO 127.0.0.1 - - [15/Mar/2024 19:27:00] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:27:00,578 INFO 127.0.0.1 - - [15/Mar/2024 19:27:00] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:27:01,815 INFO 127.0.0.1 - - [15/Mar/2024 19:27:01] "[32mGET /load HTTP/1.1[0m" 302 -
+2024-03-15 19:27:01,820 INFO Loaded ./warehouse.csv
+2024-03-15 19:27:01,820 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:27:01,823 INFO 127.0.0.1 - - [15/Mar/2024 19:27:01] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:27:01,840 INFO 127.0.0.1 - - [15/Mar/2024 19:27:01] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:27:01,846 INFO 127.0.0.1 - - [15/Mar/2024 19:27:01] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:27:03,783 INFO Loaded ./sold.csv
+2024-03-15 19:27:03,783 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:27:03,791 INFO 127.0.0.1 - - [15/Mar/2024 19:27:03] "GET /sold HTTP/1.1" 200 -
+2024-03-15 19:27:03,805 INFO 127.0.0.1 - - [15/Mar/2024 19:27:03] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:27:03,811 INFO 127.0.0.1 - - [15/Mar/2024 19:27:03] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:27:04,734 INFO 127.0.0.1 - - [15/Mar/2024 19:27:04] "[32mGET /load HTTP/1.1[0m" 302 -
+2024-03-15 19:27:04,740 INFO Loaded ./warehouse.csv
+2024-03-15 19:27:04,740 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:27:04,743 INFO 127.0.0.1 - - [15/Mar/2024 19:27:04] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:27:04,756 INFO 127.0.0.1 - - [15/Mar/2024 19:27:04] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:27:04,762 INFO 127.0.0.1 - - [15/Mar/2024 19:27:04] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:27:07,860 INFO Loaded ./warehouse.csv
+2024-03-15 19:27:07,861 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:27:07,862 INFO Loaded ./sold.csv
+2024-03-15 19:27:07,862 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:27:07,867 INFO 127.0.0.1 - - [15/Mar/2024 19:27:07] "GET /revenue HTTP/1.1" 200 -
+2024-03-15 19:27:07,879 INFO 127.0.0.1 - - [15/Mar/2024 19:27:07] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:27:07,884 INFO 127.0.0.1 - - [15/Mar/2024 19:27:07] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:27:09,006 INFO 127.0.0.1 - - [15/Mar/2024 19:27:09] "[32mGET /load HTTP/1.1[0m" 302 -
+2024-03-15 19:27:09,012 INFO Loaded ./warehouse.csv
+2024-03-15 19:27:09,013 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:27:09,015 INFO 127.0.0.1 - - [15/Mar/2024 19:27:09] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:27:09,032 INFO 127.0.0.1 - - [15/Mar/2024 19:27:09] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:27:09,036 INFO 127.0.0.1 - - [15/Mar/2024 19:27:09] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:28:09,216 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:28:09,218 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:28:09,221 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:28:09,222 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:28:09,432 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:28:09,634 WARNING  * Debugger is active!
+2024-03-15 19:28:09,635 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:28:17,389 INFO Loaded ./warehouse.csv
+2024-03-15 19:28:17,389 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:28:17,404 INFO 127.0.0.1 - - [15/Mar/2024 19:28:17] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:28:17,439 INFO 127.0.0.1 - - [15/Mar/2024 19:28:17] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:28:17,441 INFO 127.0.0.1 - - [15/Mar/2024 19:28:17] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:28:18,536 INFO Loaded ./sold.csv
+2024-03-15 19:28:18,536 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:28:18,543 INFO 127.0.0.1 - - [15/Mar/2024 19:28:18] "GET /sold HTTP/1.1" 200 -
+2024-03-15 19:28:18,556 INFO 127.0.0.1 - - [15/Mar/2024 19:28:18] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:28:18,560 INFO 127.0.0.1 - - [15/Mar/2024 19:28:18] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:28:19,735 INFO 127.0.0.1 - - [15/Mar/2024 19:28:19] "[32mGET /load HTTP/1.1[0m" 302 -
+2024-03-15 19:28:19,739 INFO Loaded ./sold.csv
+2024-03-15 19:28:19,739 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:28:19,741 INFO 127.0.0.1 - - [15/Mar/2024 19:28:19] "GET /sold HTTP/1.1" 200 -
+2024-03-15 19:28:19,758 INFO 127.0.0.1 - - [15/Mar/2024 19:28:19] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:28:19,762 INFO 127.0.0.1 - - [15/Mar/2024 19:28:19] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:28:22,783 INFO Loaded ./warehouse.csv
+2024-03-15 19:28:22,783 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:28:22,784 INFO Loaded ./sold.csv
+2024-03-15 19:28:22,785 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:28:22,788 INFO 127.0.0.1 - - [15/Mar/2024 19:28:22] "GET /revenue HTTP/1.1" 200 -
+2024-03-15 19:28:22,803 INFO 127.0.0.1 - - [15/Mar/2024 19:28:22] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:28:22,807 INFO 127.0.0.1 - - [15/Mar/2024 19:28:22] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:28:24,691 INFO 127.0.0.1 - - [15/Mar/2024 19:28:24] "[35m[1mGET /load HTTP/1.1[0m" 500 -
+2024-03-15 19:28:24,706 INFO 127.0.0.1 - - [15/Mar/2024 19:28:24] "[36mGET /load?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-15 19:28:24,710 INFO 127.0.0.1 - - [15/Mar/2024 19:28:24] "[36mGET /load?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-15 19:28:24,729 INFO 127.0.0.1 - - [15/Mar/2024 19:28:24] "[36mGET /load?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-15 19:28:24,774 INFO 127.0.0.1 - - [15/Mar/2024 19:28:24] "[36mGET /load?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-15 19:28:39,040 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:28:39,041 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:28:39,046 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:28:39,046 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:28:39,344 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:28:39,580 WARNING  * Debugger is active!
+2024-03-15 19:28:39,581 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:29:00,039 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:29:00,040 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:29:00,045 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:29:00,046 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:29:00,401 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:29:00,586 WARNING  * Debugger is active!
+2024-03-15 19:29:00,587 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:29:55,658 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:29:55,660 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:29:55,663 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:29:55,664 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:29:56,515 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:29:56,723 WARNING  * Debugger is active!
+2024-03-15 19:29:56,724 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:30:00,370 INFO 127.0.0.1 - - [15/Mar/2024 19:30:00] "[32mGET /load HTTP/1.1[0m" 302 -
+2024-03-15 19:30:00,387 INFO 127.0.0.1 - - [15/Mar/2024 19:30:00] "GET / HTTP/1.1" 200 -
+2024-03-15 19:30:00,414 INFO 127.0.0.1 - - [15/Mar/2024 19:30:00] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:30:00,415 INFO 127.0.0.1 - - [15/Mar/2024 19:30:00] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:30:01,750 INFO Loaded ./warehouse.csv
+2024-03-15 19:30:01,751 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:30:01,752 INFO Loaded ./sold.csv
+2024-03-15 19:30:01,752 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:30:01,757 INFO 127.0.0.1 - - [15/Mar/2024 19:30:01] "GET /revenue HTTP/1.1" 200 -
+2024-03-15 19:30:01,771 INFO 127.0.0.1 - - [15/Mar/2024 19:30:01] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:30:01,778 INFO 127.0.0.1 - - [15/Mar/2024 19:30:01] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:30:02,931 INFO 127.0.0.1 - - [15/Mar/2024 19:30:02] "[32mGET /save HTTP/1.1[0m" 302 -
+2024-03-15 19:30:02,937 INFO Loaded ./warehouse.csv
+2024-03-15 19:30:02,938 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:30:02,938 INFO Loaded ./sold.csv
+2024-03-15 19:30:02,938 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:30:02,940 INFO 127.0.0.1 - - [15/Mar/2024 19:30:02] "GET /revenue HTTP/1.1" 200 -
+2024-03-15 19:30:02,969 INFO 127.0.0.1 - - [15/Mar/2024 19:30:02] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:30:02,983 INFO 127.0.0.1 - - [15/Mar/2024 19:30:02] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:30:05,217 INFO 127.0.0.1 - - [15/Mar/2024 19:30:05] "[32mGET /load HTTP/1.1[0m" 302 -
+2024-03-15 19:30:05,222 INFO Loaded ./warehouse.csv
+2024-03-15 19:30:05,222 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:30:05,223 INFO Loaded ./sold.csv
+2024-03-15 19:30:05,223 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:30:05,224 INFO 127.0.0.1 - - [15/Mar/2024 19:30:05] "GET /revenue HTTP/1.1" 200 -
+2024-03-15 19:30:05,243 INFO 127.0.0.1 - - [15/Mar/2024 19:30:05] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:30:05,243 INFO 127.0.0.1 - - [15/Mar/2024 19:30:05] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:30:07,231 INFO Loaded ./sold.csv
+2024-03-15 19:30:07,231 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:30:07,236 INFO 127.0.0.1 - - [15/Mar/2024 19:30:07] "GET /sold HTTP/1.1" 200 -
+2024-03-15 19:30:07,250 INFO 127.0.0.1 - - [15/Mar/2024 19:30:07] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:30:07,253 INFO 127.0.0.1 - - [15/Mar/2024 19:30:07] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:30:08,529 INFO Loaded ./warehouse.csv
+2024-03-15 19:30:08,530 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:30:08,538 INFO 127.0.0.1 - - [15/Mar/2024 19:30:08] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:30:08,551 INFO 127.0.0.1 - - [15/Mar/2024 19:30:08] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:30:08,557 INFO 127.0.0.1 - - [15/Mar/2024 19:30:08] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:30:09,511 INFO 127.0.0.1 - - [15/Mar/2024 19:30:09] "GET / HTTP/1.1" 200 -
+2024-03-15 19:30:09,527 INFO 127.0.0.1 - - [15/Mar/2024 19:30:09] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:30:09,531 INFO 127.0.0.1 - - [15/Mar/2024 19:30:09] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:30:10,777 INFO 127.0.0.1 - - [15/Mar/2024 19:30:10] "[32mGET /load HTTP/1.1[0m" 302 -
+2024-03-15 19:30:10,782 INFO 127.0.0.1 - - [15/Mar/2024 19:30:10] "GET / HTTP/1.1" 200 -
+2024-03-15 19:30:10,801 INFO 127.0.0.1 - - [15/Mar/2024 19:30:10] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:30:10,808 INFO 127.0.0.1 - - [15/Mar/2024 19:30:10] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:31:29,016 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:31:29,017 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:31:29,021 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:31:29,021 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:31:29,937 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:31:30,128 WARNING  * Debugger is active!
+2024-03-15 19:31:30,128 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:33:39,563 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/utils.py', reloading
+2024-03-15 19:33:39,564 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/utils.py', reloading
+2024-03-15 19:33:39,568 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/utils.py', reloading
+2024-03-15 19:33:39,569 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:33:40,256 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:33:40,484 WARNING  * Debugger is active!
+2024-03-15 19:33:40,484 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:33:45,143 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:33:45,144 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:33:45,148 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:33:45,149 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:33:46,106 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:33:46,314 WARNING  * Debugger is active!
+2024-03-15 19:33:46,314 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:33:47,022 INFO 127.0.0.1 - - [15/Mar/2024 19:33:47] "GET / HTTP/1.1" 200 -
+2024-03-15 19:33:47,048 INFO 127.0.0.1 - - [15/Mar/2024 19:33:47] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:33:47,054 INFO 127.0.0.1 - - [15/Mar/2024 19:33:47] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:33:47,924 INFO 127.0.0.1 - - [15/Mar/2024 19:33:47] "GET / HTTP/1.1" 200 -
+2024-03-15 19:33:47,938 INFO 127.0.0.1 - - [15/Mar/2024 19:33:47] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:33:47,943 INFO 127.0.0.1 - - [15/Mar/2024 19:33:47] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:33:49,937 INFO Loaded ./warehouse.csv
+2024-03-15 19:33:49,938 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:33:49,948 INFO 127.0.0.1 - - [15/Mar/2024 19:33:49] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:33:49,965 INFO 127.0.0.1 - - [15/Mar/2024 19:33:49] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:33:49,966 INFO 127.0.0.1 - - [15/Mar/2024 19:33:49] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:33:50,960 INFO 127.0.0.1 - - [15/Mar/2024 19:33:50] "[32mGET /load HTTP/1.1[0m" 302 -
+2024-03-15 19:33:50,966 INFO Loaded ./warehouse.csv
+2024-03-15 19:33:50,966 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:33:50,969 INFO 127.0.0.1 - - [15/Mar/2024 19:33:50] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:33:50,985 INFO 127.0.0.1 - - [15/Mar/2024 19:33:50] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:33:50,989 INFO 127.0.0.1 - - [15/Mar/2024 19:33:50] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:33:51,962 INFO 127.0.0.1 - - [15/Mar/2024 19:33:51] "[32mGET /save HTTP/1.1[0m" 302 -
+2024-03-15 19:33:51,967 INFO Loaded ./warehouse.csv
+2024-03-15 19:33:51,967 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:33:51,970 INFO 127.0.0.1 - - [15/Mar/2024 19:33:51] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:33:51,987 INFO 127.0.0.1 - - [15/Mar/2024 19:33:51] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:33:51,991 INFO 127.0.0.1 - - [15/Mar/2024 19:33:51] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:33:53,396 INFO Loaded ./sold.csv
+2024-03-15 19:33:53,396 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:33:53,402 INFO 127.0.0.1 - - [15/Mar/2024 19:33:53] "GET /sold HTTP/1.1" 200 -
+2024-03-15 19:33:53,415 INFO 127.0.0.1 - - [15/Mar/2024 19:33:53] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:33:53,419 INFO 127.0.0.1 - - [15/Mar/2024 19:33:53] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:33:54,414 INFO 127.0.0.1 - - [15/Mar/2024 19:33:54] "[32mGET /load HTTP/1.1[0m" 302 -
+2024-03-15 19:33:54,419 INFO Loaded ./sold.csv
+2024-03-15 19:33:54,420 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:33:54,422 INFO 127.0.0.1 - - [15/Mar/2024 19:33:54] "GET /sold HTTP/1.1" 200 -
+2024-03-15 19:33:54,437 INFO 127.0.0.1 - - [15/Mar/2024 19:33:54] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:33:54,440 INFO 127.0.0.1 - - [15/Mar/2024 19:33:54] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:33:55,404 INFO 127.0.0.1 - - [15/Mar/2024 19:33:55] "[32mGET /save HTTP/1.1[0m" 302 -
+2024-03-15 19:33:55,411 INFO Loaded ./sold.csv
+2024-03-15 19:33:55,412 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:33:55,413 INFO 127.0.0.1 - - [15/Mar/2024 19:33:55] "GET /sold HTTP/1.1" 200 -
+2024-03-15 19:33:55,432 INFO 127.0.0.1 - - [15/Mar/2024 19:33:55] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:33:55,435 INFO 127.0.0.1 - - [15/Mar/2024 19:33:55] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:33:56,830 INFO Loaded ./warehouse.csv
+2024-03-15 19:33:56,831 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:33:56,832 INFO Loaded ./sold.csv
+2024-03-15 19:33:56,833 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:33:56,838 INFO 127.0.0.1 - - [15/Mar/2024 19:33:56] "GET /revenue HTTP/1.1" 200 -
+2024-03-15 19:33:56,854 INFO 127.0.0.1 - - [15/Mar/2024 19:33:56] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:33:56,858 INFO 127.0.0.1 - - [15/Mar/2024 19:33:56] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:33:58,374 INFO Loaded ./warehouse.csv
+2024-03-15 19:33:58,374 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:33:58,377 INFO 127.0.0.1 - - [15/Mar/2024 19:33:58] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:33:58,394 INFO 127.0.0.1 - - [15/Mar/2024 19:33:58] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:33:58,397 INFO 127.0.0.1 - - [15/Mar/2024 19:33:58] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:34:04,965 INFO Loaded ./sold.csv
+2024-03-15 19:34:04,966 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:34:04,969 INFO 127.0.0.1 - - [15/Mar/2024 19:34:04] "GET /sold HTTP/1.1" 200 -
+2024-03-15 19:34:04,984 INFO 127.0.0.1 - - [15/Mar/2024 19:34:04] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:34:04,988 INFO 127.0.0.1 - - [15/Mar/2024 19:34:04] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:34:08,196 INFO Loaded ./warehouse.csv
+2024-03-15 19:34:08,196 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:34:08,200 INFO 127.0.0.1 - - [15/Mar/2024 19:34:08] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:34:08,214 INFO 127.0.0.1 - - [15/Mar/2024 19:34:08] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:34:08,222 INFO 127.0.0.1 - - [15/Mar/2024 19:34:08] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:38:37,742 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:38:37,743 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:38:37,747 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:38:37,748 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:38:38,334 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:38:38,608 WARNING  * Debugger is active!
+2024-03-15 19:38:38,609 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:38:39,558 INFO Loaded ./warehouse.csv
+2024-03-15 19:38:39,559 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:38:39,577 INFO 127.0.0.1 - - [15/Mar/2024 19:38:39] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:38:39,604 INFO 127.0.0.1 - - [15/Mar/2024 19:38:39] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:38:39,607 INFO 127.0.0.1 - - [15/Mar/2024 19:38:39] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:38:49,362 INFO Loaded ./warehouse.csv
+2024-03-15 19:38:49,362 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:38:49,377 INFO 127.0.0.1 - - [15/Mar/2024 19:38:49] "[35m[1mGET /products?search=cat HTTP/1.1[0m" 500 -
+2024-03-15 19:38:49,393 INFO 127.0.0.1 - - [15/Mar/2024 19:38:49] "[36mGET /products?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-15 19:38:49,397 INFO 127.0.0.1 - - [15/Mar/2024 19:38:49] "[36mGET /products?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-15 19:38:49,417 INFO 127.0.0.1 - - [15/Mar/2024 19:38:49] "[36mGET /products?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-15 19:38:49,464 INFO 127.0.0.1 - - [15/Mar/2024 19:38:49] "[36mGET /products?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-15 19:40:02,038 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:40:02,039 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:40:02,043 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:40:02,043 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:40:02,771 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:40:02,985 WARNING  * Debugger is active!
+2024-03-15 19:40:02,985 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:40:03,802 INFO Loaded ./warehouse.csv
+2024-03-15 19:40:03,803 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:40:03,815 INFO 127.0.0.1 - - [15/Mar/2024 19:40:03] "[35m[1mGET /products?search=cat HTTP/1.1[0m" 500 -
+2024-03-15 19:40:03,844 INFO 127.0.0.1 - - [15/Mar/2024 19:40:03] "[36mGET /products?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-15 19:40:03,851 INFO 127.0.0.1 - - [15/Mar/2024 19:40:03] "[36mGET /products?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-15 19:40:03,871 INFO 127.0.0.1 - - [15/Mar/2024 19:40:03] "[36mGET /products?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-15 19:40:03,895 INFO 127.0.0.1 - - [15/Mar/2024 19:40:03] "[36mGET /products?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-15 19:40:24,619 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:40:24,621 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:40:24,624 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:40:24,624 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:40:24,872 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:40:40,318 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-15 19:40:40,318 INFO [33mPress CTRL+C to quit[0m
+2024-03-15 19:40:40,325 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:40:40,507 WARNING  * Debugger is active!
+2024-03-15 19:40:40,507 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:40:42,283 INFO Loaded ./warehouse.csv
+2024-03-15 19:40:42,284 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:40:42,305 INFO 127.0.0.1 - - [15/Mar/2024 19:40:42] "GET /products?search=cat HTTP/1.1" 200 -
+2024-03-15 19:40:42,332 INFO 127.0.0.1 - - [15/Mar/2024 19:40:42] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:40:42,339 INFO 127.0.0.1 - - [15/Mar/2024 19:40:42] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:40:48,419 INFO Loaded ./warehouse.csv
+2024-03-15 19:40:48,420 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:40:48,424 INFO 127.0.0.1 - - [15/Mar/2024 19:40:48] "GET /products?se HTTP/1.1" 200 -
+2024-03-15 19:40:48,445 INFO 127.0.0.1 - - [15/Mar/2024 19:40:48] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:40:48,447 INFO 127.0.0.1 - - [15/Mar/2024 19:40:48] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:40:52,133 INFO Loaded ./warehouse.csv
+2024-03-15 19:40:52,134 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:40:52,138 INFO 127.0.0.1 - - [15/Mar/2024 19:40:52] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:40:52,153 INFO 127.0.0.1 - - [15/Mar/2024 19:40:52] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:40:52,162 INFO 127.0.0.1 - - [15/Mar/2024 19:40:52] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:40:54,147 INFO Loaded ./warehouse.csv
+2024-03-15 19:40:54,148 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:40:54,151 INFO 127.0.0.1 - - [15/Mar/2024 19:40:54] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:40:54,165 INFO 127.0.0.1 - - [15/Mar/2024 19:40:54] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:40:54,168 INFO 127.0.0.1 - - [15/Mar/2024 19:40:54] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:40:54,976 INFO Loaded ./sold.csv
+2024-03-15 19:40:54,976 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:40:54,982 INFO 127.0.0.1 - - [15/Mar/2024 19:40:54] "GET /sold HTTP/1.1" 200 -
+2024-03-15 19:40:54,996 INFO 127.0.0.1 - - [15/Mar/2024 19:40:54] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:40:55,003 INFO 127.0.0.1 - - [15/Mar/2024 19:40:55] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:40:55,860 INFO Loaded ./warehouse.csv
+2024-03-15 19:40:55,860 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:40:55,863 INFO 127.0.0.1 - - [15/Mar/2024 19:40:55] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:40:55,877 INFO 127.0.0.1 - - [15/Mar/2024 19:40:55] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:40:55,881 INFO 127.0.0.1 - - [15/Mar/2024 19:40:55] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:40:58,344 INFO Loaded ./warehouse.csv
+2024-03-15 19:40:58,345 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:40:58,348 INFO 127.0.0.1 - - [15/Mar/2024 19:40:58] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:40:58,365 INFO 127.0.0.1 - - [15/Mar/2024 19:40:58] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:40:58,368 INFO 127.0.0.1 - - [15/Mar/2024 19:40:58] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:41:48,831 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:41:48,832 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:41:48,835 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:41:48,836 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:41:49,523 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:41:49,737 WARNING  * Debugger is active!
+2024-03-15 19:41:49,738 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:41:50,411 INFO Loaded ./warehouse.csv
+2024-03-15 19:41:50,411 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:41:50,427 INFO 127.0.0.1 - - [15/Mar/2024 19:41:50] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:41:50,458 INFO 127.0.0.1 - - [15/Mar/2024 19:41:50] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:41:50,460 INFO 127.0.0.1 - - [15/Mar/2024 19:41:50] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:43:05,729 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:43:05,730 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:43:05,734 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:43:05,735 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:43:06,176 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:43:06,177 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:43:06,179 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:43:06,179 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:43:06,493 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:43:06,494 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:43:06,497 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:43:06,498 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:43:06,630 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:43:06,865 WARNING  * Debugger is active!
+2024-03-15 19:43:06,866 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:43:09,748 INFO Loaded ./sold.csv
+2024-03-15 19:43:09,748 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:43:09,761 INFO 127.0.0.1 - - [15/Mar/2024 19:43:09] "GET /sold HTTP/1.1" 200 -
+2024-03-15 19:43:09,788 INFO 127.0.0.1 - - [15/Mar/2024 19:43:09] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:43:09,789 INFO 127.0.0.1 - - [15/Mar/2024 19:43:09] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:43:17,084 INFO 127.0.0.1 - - [15/Mar/2024 19:43:17] "[33mGET /sold@search=rocks HTTP/1.1[0m" 404 -
+2024-03-15 19:43:27,766 INFO Loaded ./sold.csv
+2024-03-15 19:43:27,766 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:43:27,767 INFO 127.0.0.1 - - [15/Mar/2024 19:43:27] "GET /sold?search=rocks HTTP/1.1" 200 -
+2024-03-15 19:43:27,785 INFO 127.0.0.1 - - [15/Mar/2024 19:43:27] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:43:27,788 INFO 127.0.0.1 - - [15/Mar/2024 19:43:27] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:43:30,842 INFO Loaded ./sold.csv
+2024-03-15 19:43:30,842 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:43:30,844 INFO 127.0.0.1 - - [15/Mar/2024 19:43:30] "GET /sold?search=roc HTTP/1.1" 200 -
+2024-03-15 19:43:30,863 INFO 127.0.0.1 - - [15/Mar/2024 19:43:30] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:43:30,867 INFO 127.0.0.1 - - [15/Mar/2024 19:43:30] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:43:34,747 INFO Loaded ./sold.csv
+2024-03-15 19:43:34,748 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:43:34,749 INFO 127.0.0.1 - - [15/Mar/2024 19:43:34] "GET /sold?search=rocasdsad HTTP/1.1" 200 -
+2024-03-15 19:43:34,765 INFO 127.0.0.1 - - [15/Mar/2024 19:43:34] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:43:34,768 INFO 127.0.0.1 - - [15/Mar/2024 19:43:34] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:43:39,334 INFO Loaded ./sold.csv
+2024-03-15 19:43:39,334 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:43:39,336 INFO 127.0.0.1 - - [15/Mar/2024 19:43:39] "GET /sold?as=rocasdsad HTTP/1.1" 200 -
+2024-03-15 19:43:39,355 INFO 127.0.0.1 - - [15/Mar/2024 19:43:39] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:43:39,355 INFO 127.0.0.1 - - [15/Mar/2024 19:43:39] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:43:42,942 INFO Loaded ./sold.csv
+2024-03-15 19:43:42,943 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:43:42,945 INFO 127.0.0.1 - - [15/Mar/2024 19:43:42] "GET /sold?aasdasd=rocasdsad HTTP/1.1" 200 -
+2024-03-15 19:43:42,960 INFO 127.0.0.1 - - [15/Mar/2024 19:43:42] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:43:42,965 INFO 127.0.0.1 - - [15/Mar/2024 19:43:42] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:43:45,778 INFO Loaded ./sold.csv
+2024-03-15 19:43:45,778 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:43:45,780 INFO 127.0.0.1 - - [15/Mar/2024 19:43:45] "GET /sold HTTP/1.1" 200 -
+2024-03-15 19:43:45,794 INFO 127.0.0.1 - - [15/Mar/2024 19:43:45] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:43:45,799 INFO 127.0.0.1 - - [15/Mar/2024 19:43:45] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:45:59,288 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:45:59,289 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:45:59,293 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:45:59,293 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:46:00,398 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:46:00,602 WARNING  * Debugger is active!
+2024-03-15 19:46:00,603 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:46:01,214 INFO Loaded ./sold.csv
+2024-03-15 19:46:01,220 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:46:01,290 INFO 127.0.0.1 - - [15/Mar/2024 19:46:01] "GET /sold HTTP/1.1" 200 -
+2024-03-15 19:46:01,320 INFO 127.0.0.1 - - [15/Mar/2024 19:46:01] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:46:01,325 INFO 127.0.0.1 - - [15/Mar/2024 19:46:01] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:46:04,794 INFO Loaded ./sold.csv
+2024-03-15 19:46:04,795 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:46:04,798 INFO 127.0.0.1 - - [15/Mar/2024 19:46:04] "GET /sold?search=roc HTTP/1.1" 200 -
+2024-03-15 19:46:04,813 INFO 127.0.0.1 - - [15/Mar/2024 19:46:04] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:46:04,817 INFO 127.0.0.1 - - [15/Mar/2024 19:46:04] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:46:33,710 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:46:33,711 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:46:33,715 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:46:33,715 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:46:33,882 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:46:33,883 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:46:33,886 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:46:33,887 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:46:34,294 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:46:34,515 WARNING  * Debugger is active!
+2024-03-15 19:46:34,515 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:46:38,567 INFO Loaded ./sold.csv
+2024-03-15 19:46:38,567 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:46:38,584 INFO 127.0.0.1 - - [15/Mar/2024 19:46:38] "GET /sold?search=roc HTTP/1.1" 200 -
+2024-03-15 19:46:38,611 INFO 127.0.0.1 - - [15/Mar/2024 19:46:38] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:46:38,614 INFO 127.0.0.1 - - [15/Mar/2024 19:46:38] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:46:41,430 INFO Loaded ./sold.csv
+2024-03-15 19:46:41,430 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:46:41,431 INFO 127.0.0.1 - - [15/Mar/2024 19:46:41] "GET /sold?search= HTTP/1.1" 200 -
+2024-03-15 19:46:41,446 INFO 127.0.0.1 - - [15/Mar/2024 19:46:41] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:46:41,447 INFO 127.0.0.1 - - [15/Mar/2024 19:46:41] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:46:53,507 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:46:53,508 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:46:53,511 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:46:53,512 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:46:54,407 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:46:54,673 WARNING  * Debugger is active!
+2024-03-15 19:46:54,673 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:47:23,394 INFO Loaded ./sold.csv
+2024-03-15 19:47:23,394 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:47:23,412 INFO 127.0.0.1 - - [15/Mar/2024 19:47:23] "GET /sold?search= HTTP/1.1" 200 -
+2024-03-15 19:47:23,446 INFO 127.0.0.1 - - [15/Mar/2024 19:47:23] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:47:23,452 INFO 127.0.0.1 - - [15/Mar/2024 19:47:23] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:47:26,968 INFO Loaded ./warehouse.csv
+2024-03-15 19:47:26,969 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:47:26,978 INFO 127.0.0.1 - - [15/Mar/2024 19:47:26] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:47:26,992 INFO 127.0.0.1 - - [15/Mar/2024 19:47:26] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:47:26,997 INFO 127.0.0.1 - - [15/Mar/2024 19:47:26] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:47:30,187 INFO Loaded ./warehouse.csv
+2024-03-15 19:47:30,188 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:47:30,191 INFO 127.0.0.1 - - [15/Mar/2024 19:47:30] "GET /products?search=r HTTP/1.1" 200 -
+2024-03-15 19:47:30,207 INFO 127.0.0.1 - - [15/Mar/2024 19:47:30] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:47:30,211 INFO 127.0.0.1 - - [15/Mar/2024 19:47:30] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:47:35,201 INFO Loaded ./warehouse.csv
+2024-03-15 19:47:35,202 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:47:35,205 INFO 127.0.0.1 - - [15/Mar/2024 19:47:35] "GET /products?search= HTTP/1.1" 200 -
+2024-03-15 19:47:35,224 INFO 127.0.0.1 - - [15/Mar/2024 19:47:35] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:47:35,228 INFO 127.0.0.1 - - [15/Mar/2024 19:47:35] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:47:37,851 INFO Loaded ./sold.csv
+2024-03-15 19:47:37,852 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:47:37,853 INFO 127.0.0.1 - - [15/Mar/2024 19:47:37] "GET /sold HTTP/1.1" 200 -
+2024-03-15 19:47:37,867 INFO 127.0.0.1 - - [15/Mar/2024 19:47:37] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:47:37,872 INFO 127.0.0.1 - - [15/Mar/2024 19:47:37] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:47:43,015 INFO Loaded ./sold.csv
+2024-03-15 19:47:43,015 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:47:43,016 INFO 127.0.0.1 - - [15/Mar/2024 19:47:43] "GET /sold?search=ho HTTP/1.1" 200 -
+2024-03-15 19:47:43,031 INFO 127.0.0.1 - - [15/Mar/2024 19:47:43] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:47:43,035 INFO 127.0.0.1 - - [15/Mar/2024 19:47:43] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:47:46,313 INFO Loaded ./sold.csv
+2024-03-15 19:47:46,314 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:47:46,316 INFO 127.0.0.1 - - [15/Mar/2024 19:47:46] "GET /sold?search= HTTP/1.1" 200 -
+2024-03-15 19:47:46,331 INFO 127.0.0.1 - - [15/Mar/2024 19:47:46] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:47:46,333 INFO 127.0.0.1 - - [15/Mar/2024 19:47:46] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:47:48,739 INFO Loaded ./warehouse.csv
+2024-03-15 19:47:48,739 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:47:48,740 INFO Loaded ./sold.csv
+2024-03-15 19:47:48,740 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:47:48,744 INFO 127.0.0.1 - - [15/Mar/2024 19:47:48] "GET /revenue HTTP/1.1" 200 -
+2024-03-15 19:47:48,761 INFO 127.0.0.1 - - [15/Mar/2024 19:47:48] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:47:48,763 INFO 127.0.0.1 - - [15/Mar/2024 19:47:48] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:47:52,277 INFO 127.0.0.1 - - [15/Mar/2024 19:47:52] "[32mGET /load HTTP/1.1[0m" 302 -
+2024-03-15 19:47:52,283 INFO Loaded ./warehouse.csv
+2024-03-15 19:47:52,284 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:47:52,285 INFO Loaded ./sold.csv
+2024-03-15 19:47:52,285 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:47:52,287 INFO 127.0.0.1 - - [15/Mar/2024 19:47:52] "GET /revenue HTTP/1.1" 200 -
+2024-03-15 19:47:52,302 INFO 127.0.0.1 - - [15/Mar/2024 19:47:52] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:47:52,305 INFO 127.0.0.1 - - [15/Mar/2024 19:47:52] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:52:13,676 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:52:13,676 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:52:13,680 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:52:13,681 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:52:13,865 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:52:14,075 WARNING  * Debugger is active!
+2024-03-15 19:52:14,076 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:52:55,651 INFO Loaded ./warehouse.csv
+2024-03-15 19:52:55,651 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:52:55,652 INFO Loaded ./sold.csv
+2024-03-15 19:52:55,652 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:52:55,664 INFO 127.0.0.1 - - [15/Mar/2024 19:52:55] "GET /revenue HTTP/1.1" 200 -
+2024-03-15 19:52:55,694 INFO 127.0.0.1 - - [15/Mar/2024 19:52:55] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:52:55,699 INFO 127.0.0.1 - - [15/Mar/2024 19:52:55] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:52:56,874 INFO Loaded ./warehouse.csv
+2024-03-15 19:52:56,874 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:52:56,886 INFO 127.0.0.1 - - [15/Mar/2024 19:52:56] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:52:56,900 INFO 127.0.0.1 - - [15/Mar/2024 19:52:56] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:52:56,903 INFO 127.0.0.1 - - [15/Mar/2024 19:52:56] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:52:58,264 INFO 127.0.0.1 - - [15/Mar/2024 19:52:58] "[32mGET /load HTTP/1.1[0m" 302 -
+2024-03-15 19:52:58,271 INFO Loaded ./warehouse.csv
+2024-03-15 19:52:58,271 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:52:58,273 INFO 127.0.0.1 - - [15/Mar/2024 19:52:58] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:52:58,292 INFO 127.0.0.1 - - [15/Mar/2024 19:52:58] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:52:58,292 INFO 127.0.0.1 - - [15/Mar/2024 19:52:58] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:52:59,195 INFO 127.0.0.1 - - [15/Mar/2024 19:52:59] "[32mGET /save HTTP/1.1[0m" 302 -
+2024-03-15 19:52:59,200 INFO Loaded ./warehouse.csv
+2024-03-15 19:52:59,201 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:52:59,203 INFO 127.0.0.1 - - [15/Mar/2024 19:52:59] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:52:59,218 INFO 127.0.0.1 - - [15/Mar/2024 19:52:59] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:52:59,224 INFO 127.0.0.1 - - [15/Mar/2024 19:52:59] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:53:01,797 INFO Loaded ./warehouse.csv
+2024-03-15 19:53:01,798 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:53:01,801 INFO 127.0.0.1 - - [15/Mar/2024 19:53:01] "GET /products?search=bb HTTP/1.1" 200 -
+2024-03-15 19:53:01,816 INFO 127.0.0.1 - - [15/Mar/2024 19:53:01] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:53:01,819 INFO 127.0.0.1 - - [15/Mar/2024 19:53:01] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:53:05,335 INFO Loaded ./warehouse.csv
+2024-03-15 19:53:05,336 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:53:05,339 INFO 127.0.0.1 - - [15/Mar/2024 19:53:05] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:53:05,352 INFO 127.0.0.1 - - [15/Mar/2024 19:53:05] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:53:05,356 INFO 127.0.0.1 - - [15/Mar/2024 19:53:05] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:53:06,290 INFO Loaded ./sold.csv
+2024-03-15 19:53:06,291 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:53:06,299 INFO 127.0.0.1 - - [15/Mar/2024 19:53:06] "GET /sold HTTP/1.1" 200 -
+2024-03-15 19:53:06,317 INFO 127.0.0.1 - - [15/Mar/2024 19:53:06] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:53:06,321 INFO 127.0.0.1 - - [15/Mar/2024 19:53:06] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:53:07,815 INFO Loaded ./warehouse.csv
+2024-03-15 19:53:07,816 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:53:07,817 INFO Loaded ./sold.csv
+2024-03-15 19:53:07,817 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:53:07,819 INFO 127.0.0.1 - - [15/Mar/2024 19:53:07] "GET /revenue HTTP/1.1" 200 -
+2024-03-15 19:53:07,832 INFO 127.0.0.1 - - [15/Mar/2024 19:53:07] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:53:07,841 INFO 127.0.0.1 - - [15/Mar/2024 19:53:07] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:53:10,556 INFO 127.0.0.1 - - [15/Mar/2024 19:53:10] "GET / HTTP/1.1" 200 -
+2024-03-15 19:53:10,572 INFO 127.0.0.1 - - [15/Mar/2024 19:53:10] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:53:10,576 INFO 127.0.0.1 - - [15/Mar/2024 19:53:10] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:53:22,367 INFO 127.0.0.1 - - [15/Mar/2024 19:53:22] "GET / HTTP/1.1" 200 -
+2024-03-15 19:53:22,380 INFO 127.0.0.1 - - [15/Mar/2024 19:53:22] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:53:22,389 INFO 127.0.0.1 - - [15/Mar/2024 19:53:22] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:53:23,361 INFO Loaded ./warehouse.csv
+2024-03-15 19:53:23,361 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:53:23,363 INFO 127.0.0.1 - - [15/Mar/2024 19:53:23] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:53:23,377 INFO 127.0.0.1 - - [15/Mar/2024 19:53:23] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:53:23,380 INFO 127.0.0.1 - - [15/Mar/2024 19:53:23] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:53:24,240 INFO Loaded ./sold.csv
+2024-03-15 19:53:24,240 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:53:24,241 INFO 127.0.0.1 - - [15/Mar/2024 19:53:24] "GET /sold HTTP/1.1" 200 -
+2024-03-15 19:53:24,256 INFO 127.0.0.1 - - [15/Mar/2024 19:53:24] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:53:24,261 INFO 127.0.0.1 - - [15/Mar/2024 19:53:24] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:53:25,097 INFO 127.0.0.1 - - [15/Mar/2024 19:53:25] "GET / HTTP/1.1" 200 -
+2024-03-15 19:53:25,125 INFO 127.0.0.1 - - [15/Mar/2024 19:53:25] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:53:25,132 INFO 127.0.0.1 - - [15/Mar/2024 19:53:25] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:53:29,979 INFO Loaded ./warehouse.csv
+2024-03-15 19:53:29,980 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:53:29,981 INFO Loaded ./sold.csv
+2024-03-15 19:53:29,981 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:53:29,982 INFO 127.0.0.1 - - [15/Mar/2024 19:53:29] "GET /revenue HTTP/1.1" 200 -
+2024-03-15 19:53:29,998 INFO 127.0.0.1 - - [15/Mar/2024 19:53:29] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:53:30,000 INFO 127.0.0.1 - - [15/Mar/2024 19:53:30] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:53:33,664 INFO 127.0.0.1 - - [15/Mar/2024 19:53:33] "[33mGET /as HTTP/1.1[0m" 404 -
+2024-03-15 19:53:37,213 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:53:37,214 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:53:37,218 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:53:37,218 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:53:38,221 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:53:38,476 WARNING  * Debugger is active!
+2024-03-15 19:53:38,476 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:55:21,456 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:55:21,456 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:55:21,460 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:55:21,460 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:55:21,744 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:55:21,980 WARNING  * Debugger is active!
+2024-03-15 19:55:21,981 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:55:24,084 INFO 127.0.0.1 - - [15/Mar/2024 19:55:24] "[35m[1mGET /as HTTP/1.1[0m" 500 -
+2024-03-15 19:55:24,113 INFO 127.0.0.1 - - [15/Mar/2024 19:55:24] "GET /as?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-03-15 19:55:24,120 INFO 127.0.0.1 - - [15/Mar/2024 19:55:24] "GET /as?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-03-15 19:55:24,151 INFO 127.0.0.1 - - [15/Mar/2024 19:55:24] "GET /as?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-03-15 19:55:24,172 INFO 127.0.0.1 - - [15/Mar/2024 19:55:24] "[36mGET /as?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-15 19:55:36,135 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:55:36,136 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:55:36,141 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:55:36,142 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:55:36,780 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:55:37,018 WARNING  * Debugger is active!
+2024-03-15 19:55:37,019 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:55:37,693 INFO 127.0.0.1 - - [15/Mar/2024 19:55:37] "[32mGET /as HTTP/1.1[0m" 302 -
+2024-03-15 19:55:37,729 INFO 127.0.0.1 - - [15/Mar/2024 19:55:37] "GET / HTTP/1.1" 200 -
+2024-03-15 19:55:37,760 INFO 127.0.0.1 - - [15/Mar/2024 19:55:37] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:55:37,762 INFO 127.0.0.1 - - [15/Mar/2024 19:55:37] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:55:50,882 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:55:50,884 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:55:50,889 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:55:50,890 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:55:51,061 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:55:51,062 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:55:51,065 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:55:51,066 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:55:51,268 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:55:51,269 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:55:51,270 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:55:51,271 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:55:51,916 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:55:52,147 WARNING  * Debugger is active!
+2024-03-15 19:55:52,147 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:55:52,782 INFO Loaded ./warehouse.csv
+2024-03-15 19:55:52,783 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:55:52,800 INFO 127.0.0.1 - - [15/Mar/2024 19:55:52] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:55:52,881 INFO 127.0.0.1 - - [15/Mar/2024 19:55:52] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:55:52,884 INFO 127.0.0.1 - - [15/Mar/2024 19:55:52] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:55:53,666 INFO Loaded ./sold.csv
+2024-03-15 19:55:53,666 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:55:53,673 INFO 127.0.0.1 - - [15/Mar/2024 19:55:53] "GET /sold HTTP/1.1" 200 -
+2024-03-15 19:55:53,686 INFO 127.0.0.1 - - [15/Mar/2024 19:55:53] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:55:53,692 INFO 127.0.0.1 - - [15/Mar/2024 19:55:53] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:55:55,460 INFO 127.0.0.1 - - [15/Mar/2024 19:55:55] "[32mGET /soldsad HTTP/1.1[0m" 302 -
+2024-03-15 19:55:55,468 INFO 127.0.0.1 - - [15/Mar/2024 19:55:55] "GET / HTTP/1.1" 200 -
+2024-03-15 19:55:55,496 INFO 127.0.0.1 - - [15/Mar/2024 19:55:55] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:55:55,500 INFO 127.0.0.1 - - [15/Mar/2024 19:55:55] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:55:58,469 INFO Loaded ./warehouse.csv
+2024-03-15 19:55:58,470 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:55:58,471 INFO Loaded ./sold.csv
+2024-03-15 19:55:58,471 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 19:55:58,476 INFO 127.0.0.1 - - [15/Mar/2024 19:55:58] "GET /revenue HTTP/1.1" 200 -
+2024-03-15 19:55:58,490 INFO 127.0.0.1 - - [15/Mar/2024 19:55:58] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:55:58,493 INFO 127.0.0.1 - - [15/Mar/2024 19:55:58] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:55:59,762 INFO 127.0.0.1 - - [15/Mar/2024 19:55:59] "GET / HTTP/1.1" 200 -
+2024-03-15 19:55:59,779 INFO 127.0.0.1 - - [15/Mar/2024 19:55:59] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:55:59,785 INFO 127.0.0.1 - - [15/Mar/2024 19:55:59] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:56:03,490 INFO 127.0.0.1 - - [15/Mar/2024 19:56:03] "GET / HTTP/1.1" 200 -
+2024-03-15 19:56:03,505 INFO 127.0.0.1 - - [15/Mar/2024 19:56:03] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:56:03,510 INFO 127.0.0.1 - - [15/Mar/2024 19:56:03] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:56:04,622 INFO 127.0.0.1 - - [15/Mar/2024 19:56:04] "GET / HTTP/1.1" 200 -
+2024-03-15 19:56:04,636 INFO 127.0.0.1 - - [15/Mar/2024 19:56:04] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:56:04,640 INFO 127.0.0.1 - - [15/Mar/2024 19:56:04] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:56:05,536 INFO Loaded ./warehouse.csv
+2024-03-15 19:56:05,536 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:56:05,539 INFO 127.0.0.1 - - [15/Mar/2024 19:56:05] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:56:05,554 INFO 127.0.0.1 - - [15/Mar/2024 19:56:05] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:56:05,557 INFO 127.0.0.1 - - [15/Mar/2024 19:56:05] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:56:25,503 INFO Loaded ./warehouse.csv
+2024-03-15 19:56:25,503 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:56:25,511 INFO 127.0.0.1 - - [15/Mar/2024 19:56:25] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:56:25,530 INFO 127.0.0.1 - - [15/Mar/2024 19:56:25] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:56:25,536 INFO 127.0.0.1 - - [15/Mar/2024 19:56:25] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:56:26,453 INFO 127.0.0.1 - - [15/Mar/2024 19:56:26] "GET / HTTP/1.1" 200 -
+2024-03-15 19:56:26,472 INFO 127.0.0.1 - - [15/Mar/2024 19:56:26] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:56:26,475 INFO 127.0.0.1 - - [15/Mar/2024 19:56:26] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:56:28,139 INFO Loaded ./warehouse.csv
+2024-03-15 19:56:28,139 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 19:56:28,142 INFO 127.0.0.1 - - [15/Mar/2024 19:56:28] "GET /products HTTP/1.1" 200 -
+2024-03-15 19:56:28,156 INFO 127.0.0.1 - - [15/Mar/2024 19:56:28] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:56:28,163 INFO 127.0.0.1 - - [15/Mar/2024 19:56:28] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:56:28,796 INFO 127.0.0.1 - - [15/Mar/2024 19:56:28] "GET / HTTP/1.1" 200 -
+2024-03-15 19:56:28,813 INFO 127.0.0.1 - - [15/Mar/2024 19:56:28] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 19:56:28,819 INFO 127.0.0.1 - - [15/Mar/2024 19:56:28] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 19:57:33,900 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:57:33,901 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:57:33,905 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:57:33,905 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:57:34,184 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:57:34,186 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:57:34,214 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:57:34,214 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:57:34,352 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:57:34,543 WARNING  * Debugger is active!
+2024-03-15 19:57:34,543 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:58:01,941 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:58:01,942 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:58:01,946 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:58:01,947 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:58:02,164 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:58:02,166 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:58:02,182 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:58:02,182 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:58:02,370 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:58:02,555 WARNING  * Debugger is active!
+2024-03-15 19:58:02,555 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:58:22,116 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:58:22,118 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:58:22,119 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:58:22,119 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:58:23,185 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:58:23,413 WARNING  * Debugger is active!
+2024-03-15 19:58:23,413 INFO  * Debugger PIN: 117-636-696
+2024-03-15 19:58:34,924 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:58:34,925 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:58:34,928 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 19:58:34,928 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 19:58:35,240 INFO  * Restarting with watchdog (inotify)
+2024-03-15 19:58:35,462 WARNING  * Debugger is active!
+2024-03-15 19:58:35,462 INFO  * Debugger PIN: 117-636-696
+2024-03-15 20:00:29,283 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 20:00:29,284 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 20:00:29,288 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 20:00:29,288 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 20:00:29,553 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 20:00:29,554 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 20:00:29,558 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 20:00:29,559 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 20:00:29,694 INFO  * Restarting with watchdog (inotify)
+2024-03-15 20:00:29,896 WARNING  * Debugger is active!
+2024-03-15 20:00:29,896 INFO  * Debugger PIN: 117-636-696
+2024-03-15 20:00:30,494 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 20:00:30,495 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 20:00:30,557 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 20:00:30,586 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 20:00:30,714 INFO  * Restarting with watchdog (inotify)
+2024-03-15 20:00:31,008 WARNING  * Debugger is active!
+2024-03-15 20:00:31,008 INFO  * Debugger PIN: 117-636-696
+2024-03-15 20:00:32,819 INFO 127.0.0.1 - - [15/Mar/2024 20:00:32] "GET / HTTP/1.1" 200 -
+2024-03-15 20:00:32,844 INFO 127.0.0.1 - - [15/Mar/2024 20:00:32] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 20:00:32,847 INFO 127.0.0.1 - - [15/Mar/2024 20:00:32] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 20:00:34,231 INFO Loaded ./warehouse.csv
+2024-03-15 20:00:34,231 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 20:00:34,242 INFO 127.0.0.1 - - [15/Mar/2024 20:00:34] "GET /products HTTP/1.1" 200 -
+2024-03-15 20:00:34,256 INFO 127.0.0.1 - - [15/Mar/2024 20:00:34] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 20:00:34,260 INFO 127.0.0.1 - - [15/Mar/2024 20:00:34] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 20:00:35,572 INFO Loaded ./warehouse.csv
+2024-03-15 20:00:35,574 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 20:00:35,574 INFO Loaded ./sold.csv
+2024-03-15 20:00:35,575 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 20:00:35,577 INFO 127.0.0.1 - - [15/Mar/2024 20:00:35] "[32mGET /load HTTP/1.1[0m" 302 -
+2024-03-15 20:00:35,581 INFO Loaded ./warehouse.csv
+2024-03-15 20:00:35,581 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 20:00:35,584 INFO 127.0.0.1 - - [15/Mar/2024 20:00:35] "GET /products HTTP/1.1" 200 -
+2024-03-15 20:00:35,602 INFO 127.0.0.1 - - [15/Mar/2024 20:00:35] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 20:00:35,606 INFO 127.0.0.1 - - [15/Mar/2024 20:00:35] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 20:00:36,819 INFO 127.0.0.1 - - [15/Mar/2024 20:00:36] "[35m[1mGET /save HTTP/1.1[0m" 500 -
+2024-03-15 20:00:36,834 INFO 127.0.0.1 - - [15/Mar/2024 20:00:36] "GET /save?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-03-15 20:00:36,847 INFO 127.0.0.1 - - [15/Mar/2024 20:00:36] "GET /save?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-03-15 20:00:36,881 INFO 127.0.0.1 - - [15/Mar/2024 20:00:36] "GET /save?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-03-15 20:00:36,922 INFO 127.0.0.1 - - [15/Mar/2024 20:00:36] "[36mGET /save?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-15 20:02:18,335 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 20:02:18,336 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 20:02:18,339 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 20:02:18,340 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 20:02:18,569 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 20:02:18,570 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 20:02:18,573 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 20:02:18,574 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 20:02:18,735 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 20:02:18,736 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 20:02:18,737 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 20:02:18,738 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 20:02:18,912 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 20:02:18,913 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 20:02:18,916 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 20:02:18,917 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 20:02:19,067 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 20:02:19,068 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 20:02:19,071 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app.py', reloading
+2024-03-15 20:02:19,071 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-15 20:02:19,227 INFO  * Restarting with watchdog (inotify)
+2024-03-15 20:02:19,455 WARNING  * Debugger is active!
+2024-03-15 20:02:19,455 INFO  * Debugger PIN: 117-636-696
+2024-03-15 20:02:21,981 INFO 127.0.0.1 - - [15/Mar/2024 20:02:21] "[32mGET /save HTTP/1.1[0m" 302 -
+2024-03-15 20:02:21,998 INFO 127.0.0.1 - - [15/Mar/2024 20:02:21] "GET / HTTP/1.1" 200 -
+2024-03-15 20:02:22,031 INFO 127.0.0.1 - - [15/Mar/2024 20:02:22] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 20:02:22,031 INFO 127.0.0.1 - - [15/Mar/2024 20:02:22] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 20:02:23,180 INFO Loaded ./warehouse.csv
+2024-03-15 20:02:23,181 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 20:02:23,182 INFO Loaded ./sold.csv
+2024-03-15 20:02:23,182 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 20:02:23,186 INFO 127.0.0.1 - - [15/Mar/2024 20:02:23] "GET /revenue HTTP/1.1" 200 -
+2024-03-15 20:02:23,200 INFO 127.0.0.1 - - [15/Mar/2024 20:02:23] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 20:02:23,204 INFO 127.0.0.1 - - [15/Mar/2024 20:02:23] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 20:02:24,356 INFO 127.0.0.1 - - [15/Mar/2024 20:02:24] "[32mGET /load HTTP/1.1[0m" 302 -
+2024-03-15 20:02:24,361 INFO Loaded ./warehouse.csv
+2024-03-15 20:02:24,362 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 20:02:24,363 INFO Loaded ./sold.csv
+2024-03-15 20:02:24,363 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 20:02:24,365 INFO 127.0.0.1 - - [15/Mar/2024 20:02:24] "GET /revenue HTTP/1.1" 200 -
+2024-03-15 20:02:24,382 INFO 127.0.0.1 - - [15/Mar/2024 20:02:24] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 20:02:24,384 INFO 127.0.0.1 - - [15/Mar/2024 20:02:24] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 20:02:25,842 INFO 127.0.0.1 - - [15/Mar/2024 20:02:25] "[32mGET /save HTTP/1.1[0m" 302 -
+2024-03-15 20:02:25,847 INFO Loaded ./warehouse.csv
+2024-03-15 20:02:25,848 INFO {'cat': Name: Cat
+Quantity: 54.0
+Unit: pcs
+Unit price: 99.99
+Product index 1
+, 'rabbits': Name: Rabbits
+Quantity: 1.0
+Unit: box
+Unit price: 19.99
+Product index 2
+, 'rocks': Name: Rocks
+Quantity: 27.0
+Unit: pallet
+Unit price: 9.99
+Product index 3
+, 'horse': Name: Horse
+Quantity: 28.0
+Unit: kg
+Unit price: 990.99
+Product index 4
+, 'dog': Name: Dog
+Quantity: 20.0
+Unit: box
+Unit price: 19.99
+Product index 5
+} cleaned empty items.
+2024-03-15 20:02:25,849 INFO Loaded ./sold.csv
+2024-03-15 20:02:25,849 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 20:02:25,850 INFO 127.0.0.1 - - [15/Mar/2024 20:02:25] "GET /revenue HTTP/1.1" 200 -
+2024-03-15 20:02:25,867 INFO 127.0.0.1 - - [15/Mar/2024 20:02:25] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 20:02:25,880 INFO 127.0.0.1 - - [15/Mar/2024 20:02:25] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 20:02:27,314 INFO Loaded ./sold.csv
+2024-03-15 20:02:27,314 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 20:02:27,322 INFO 127.0.0.1 - - [15/Mar/2024 20:02:27] "GET /sold HTTP/1.1" 200 -
+2024-03-15 20:02:27,336 INFO 127.0.0.1 - - [15/Mar/2024 20:02:27] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 20:02:27,341 INFO 127.0.0.1 - - [15/Mar/2024 20:02:27] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 20:02:28,572 INFO 127.0.0.1 - - [15/Mar/2024 20:02:28] "[32mGET /load HTTP/1.1[0m" 302 -
+2024-03-15 20:02:28,578 INFO Loaded ./sold.csv
+2024-03-15 20:02:28,579 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 20:02:28,580 INFO 127.0.0.1 - - [15/Mar/2024 20:02:28] "GET /sold HTTP/1.1" 200 -
+2024-03-15 20:02:28,597 INFO 127.0.0.1 - - [15/Mar/2024 20:02:28] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 20:02:28,600 INFO 127.0.0.1 - - [15/Mar/2024 20:02:28] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 20:02:29,240 INFO 127.0.0.1 - - [15/Mar/2024 20:02:29] "[32mGET /save HTTP/1.1[0m" 302 -
+2024-03-15 20:02:29,245 INFO Loaded ./sold.csv
+2024-03-15 20:02:29,246 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 20:02:29,247 INFO 127.0.0.1 - - [15/Mar/2024 20:02:29] "GET /sold HTTP/1.1" 200 -
+2024-03-15 20:02:29,262 INFO 127.0.0.1 - - [15/Mar/2024 20:02:29] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 20:02:29,266 INFO 127.0.0.1 - - [15/Mar/2024 20:02:29] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 20:02:32,694 INFO Loaded ./sold.csv
+2024-03-15 20:02:32,694 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 20:02:32,696 INFO 127.0.0.1 - - [15/Mar/2024 20:02:32] "GET /sold?search=o HTTP/1.1" 200 -
+2024-03-15 20:02:32,713 INFO 127.0.0.1 - - [15/Mar/2024 20:02:32] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 20:02:32,718 INFO 127.0.0.1 - - [15/Mar/2024 20:02:32] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 20:02:35,181 INFO Loaded ./sold.csv
+2024-03-15 20:02:35,182 INFO {' rocks': Name:  Rocks
+Quantity: 7.0
+Unit: pallet
+Unit price: 9.99
+Product index 1
+, ' cat': Name:  Cat
+Quantity: 3.0
+Unit: pcs
+Unit price: 99.99
+Product index 2
+, ' horse': Name:  Horse
+Quantity: 9.0
+Unit: kg
+Unit price: 990.99
+Product index 3
+, ' dog': Name:  Dog
+Quantity: 21.0
+Unit: box
+Unit price: 19.99
+Product index 4
+} cleaned empty items.
+2024-03-15 20:02:35,183 INFO 127.0.0.1 - - [15/Mar/2024 20:02:35] "GET /sold HTTP/1.1" 200 -
+2024-03-15 20:02:35,202 INFO 127.0.0.1 - - [15/Mar/2024 20:02:35] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2024-03-15 20:02:35,204 INFO 127.0.0.1 - - [15/Mar/2024 20:02:35] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 20:02:37,830 INFO 127.0.0.1 - - [15/Mar/2024 20:02:37] "GET / HTTP/1.1" 200 -
+2024-03-15 20:02:37,846 INFO 127.0.0.1 - - [15/Mar/2024 20:02:37] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2024-03-15 20:02:37,850 INFO 127.0.0.1 - - [15/Mar/2024 20:02:37] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -

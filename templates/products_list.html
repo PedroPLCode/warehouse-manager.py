@@ -3,8 +3,15 @@
 {% block content %}
 
 <div>
-  <div class="w-100 d-flex flex-row justify-content-center align-items-center">
+  <div class="w-100 d-flex flex-column justify-content-center align-items-center">
     <h4>Products List</h4>
+    {% if search_query %}
+    <h3>Filtered by: {{ search_query }}</h3>    
+    {% endif %}
+    <form class="form-inline mb-3" action="/products" method="GET">
+      <input class="form-control mr-sm-2" type="text" value="{% if search_query %}{{ search_query }}{% endif %}" placeholder="Search product" aria-label="Search product" name="search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
   </div>
     <hr>
   <div class="table-responsive">
