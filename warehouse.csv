@@ -1,6 +1,7 @@
 name,quantity,unit,unit_price
-cat,54.0,pcs,99.99
+cat,4.0,pcs,99.99
 rabbits,1.0,box,19.99
-rocks,27.0,pallet,9.99
-horse,28.0,kg,990.99
+rocks,7.0,pallet,9.99
+horse,9.0,kg,990.99
 dog,20.0,box,19.99
+test,15.0,pcs,99.9

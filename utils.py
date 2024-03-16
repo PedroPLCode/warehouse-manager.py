@@ -15,7 +15,7 @@ def get_current_time_and_date():
 
 
 def sell_items_from_warehouse(sell_item_name, sell_item_quantity):
-    items = load_array_from_csv_file(file_warehouse)
+    items = load_dict_from_csv_file(file_warehouse)
     logging.info(f"Item to sell: {sell_item_name} quantity {sell_item_quantity}")
     for item in items.values():
         if (item.name).strip().lower() == sell_item_name.strip().lower():
@@ -28,8 +28,8 @@ def sell_items_from_warehouse(sell_item_name, sell_item_quantity):
 
 
 def sell_action(item, sell_item_name, sell_item_quantity):
-    items = load_array_from_csv_file(file_warehouse)
-    sold_items = load_array_from_csv_file(file_sold_items)
+    items = load_dict_from_csv_file(file_warehouse)
+    sold_items = load_dict_from_csv_file(file_sold_items)
     if not sold_items:
         sold_items = {}
     item.quantity = round(float(item.quantity) - sell_item_quantity, 2)
@@ -108,7 +108,7 @@ def calculate_value_of_products(array):
     return sum(value)
      
      
-def load_array_from_csv_file(filename):
+def load_dict_from_csv_file(filename):
     dict = {}
     product_index = 1
     try:

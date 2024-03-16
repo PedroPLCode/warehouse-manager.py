@@ -31,7 +31,7 @@ def products_list():
     global prev_path 
     prev_path = request.path
     search_query = request.args.get('search')
-    items = load_array_from_csv_file(file_warehouse)
+    items = load_dict_from_csv_file(file_warehouse)
     addItemForm = ProductAddForm()
     
     if request.method == "POST":
@@ -64,7 +64,7 @@ def products_list():
     
 @app.route('/sell/<product_name>', methods=["GET", "POST"])
 def sell_product(product_name):
-    items = load_array_from_csv_file(file_warehouse)
+    items = load_dict_from_csv_file(file_warehouse)
     addItemForm = ProductAddForm()
     sellItemForm = ProductSaleForm()
     
@@ -77,7 +77,7 @@ def sell_product(product_name):
         elif request.method == 'POST':
             quantity_to_sell = request.form['quantity_to_sell']
             sell_items_from_warehouse(product_name, float(quantity_to_sell))
-            items = load_array_from_csv_file(file_warehouse)
+            items = load_dict_from_csv_file(file_warehouse)
             return render_template("products_list.html", 
                                     date_and_time=get_current_time_and_date(), 
                                     items=items.values() if items else {}, 
@@ -90,7 +90,7 @@ def sold_list():
     global prev_path 
     prev_path = request.path
     search_query = request.args.get('search')
-    sold_items = load_array_from_csv_file(file_sold_items)
+    sold_items = load_dict_from_csv_file(file_sold_items)
     
     if search_query:
         sold_items = [item for item in sold_items.values() if search_query in item.name]
@@ -106,7 +106,7 @@ def sold_list():
 
 @app.route('/remove/<product_name>', methods=["POST"])
 def remove_sold_item(product_name):
-    sold_items = load_array_from_csv_file(file_sold_items)    
+    sold_items = load_dict_from_csv_file(file_sold_items)    
     keys_to_delete = []
     
     for single_key in sold_items.keys():
@@ -129,8 +129,8 @@ def remove_sold_item(product_name):
 def show_revenue():
     global prev_path 
     prev_path = request.path
-    items = load_array_from_csv_file(file_warehouse)
-    sold_items = load_array_from_csv_file(file_sold_items)
+    items = load_dict_from_csv_file(file_warehouse)
+    sold_items = load_dict_from_csv_file(file_sold_items)
     income = calculate_value_of_products(sold_items.values()) if sold_items else 0
     costs = calculate_value_of_products(items.values()) if sold_items else 0
     total = income - costs
@@ -156,7 +156,7 @@ def show_revenue():
 @app.route('/load', methods=["GET"])
 def load_data():
     pass
-    flash('Data loaded succesfully.')
+    flash('CSV data loaded succesfully.')
     if prev_path == '/products':
         return redirect(url_for("products_list"))
     elif prev_path == '/sold':
@@ -170,7 +170,7 @@ def load_data():
 @app.route('/save', methods=["GET"])
 def save_data():
     pass
-    flash('Data saved succesfully.')
+    flash('CSV data saved succesfully.')
     if prev_path == '/products':
         return redirect(url_for("products_list"))
     elif prev_path == '/sold':
