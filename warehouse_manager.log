@@ -5168,3 +5168,1060 @@
 2024-03-18 13:44:54,783 INFO  * Restarting with watchdog (inotify)
 2024-03-18 13:44:55,343 WARNING  * Debugger is active!
 2024-03-18 13:44:55,343 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:46:42,016 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-18 13:46:42,016 INFO [33mPress CTRL+C to quit[0m
+2024-03-18 13:46:42,024 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:46:42,632 WARNING  * Debugger is active!
+2024-03-18 13:46:42,633 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:46:44,253 INFO 127.0.0.1 - - [18/Mar/2024 13:46:44] "GET /sell/sdf HTTP/1.1" 200 -
+2024-03-18 13:46:44,306 INFO 127.0.0.1 - - [18/Mar/2024 13:46:44] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:46:44,326 INFO 127.0.0.1 - - [18/Mar/2024 13:46:44] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:46:44,340 INFO 127.0.0.1 - - [18/Mar/2024 13:46:44] "GET / HTTP/1.1" 200 -
+2024-03-18 13:46:44,344 INFO 127.0.0.1 - - [18/Mar/2024 13:46:44] "GET / HTTP/1.1" 200 -
+2024-03-18 13:46:46,636 INFO 127.0.0.1 - - [18/Mar/2024 13:46:46] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:46:46,728 INFO 127.0.0.1 - - [18/Mar/2024 13:46:46] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:46:46,752 INFO 127.0.0.1 - - [18/Mar/2024 13:46:46] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:46:46,763 INFO 127.0.0.1 - - [18/Mar/2024 13:46:46] "GET / HTTP/1.1" 200 -
+2024-03-18 13:46:46,766 INFO 127.0.0.1 - - [18/Mar/2024 13:46:46] "GET / HTTP/1.1" 200 -
+2024-03-18 13:46:49,198 INFO 127.0.0.1 - - [18/Mar/2024 13:46:49] "GET /sell/sdf HTTP/1.1" 200 -
+2024-03-18 13:46:49,305 INFO 127.0.0.1 - - [18/Mar/2024 13:46:49] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:46:49,308 INFO 127.0.0.1 - - [18/Mar/2024 13:46:49] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:46:49,329 INFO 127.0.0.1 - - [18/Mar/2024 13:46:49] "GET / HTTP/1.1" 200 -
+2024-03-18 13:46:49,334 INFO 127.0.0.1 - - [18/Mar/2024 13:46:49] "GET / HTTP/1.1" 200 -
+2024-03-18 13:46:50,975 INFO Item to sell:  sdf quantity 234.0
+2024-03-18 13:46:50,980 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:46:50,983 INFO Item  sdf sold
+2024-03-18 13:46:50,984 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:46:50,990 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:46:50,994 INFO Database cleaned empty items.
+2024-03-18 13:46:50,995 INFO 127.0.0.1 - - [18/Mar/2024 13:46:50] "[32mPOST /sell/%20sdf HTTP/1.1[0m" 302 -
+2024-03-18 13:46:51,004 INFO 127.0.0.1 - - [18/Mar/2024 13:46:51] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:46:51,069 INFO 127.0.0.1 - - [18/Mar/2024 13:46:51] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:46:51,082 INFO 127.0.0.1 - - [18/Mar/2024 13:46:51] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:46:51,100 INFO 127.0.0.1 - - [18/Mar/2024 13:46:51] "GET / HTTP/1.1" 200 -
+2024-03-18 13:46:51,102 INFO 127.0.0.1 - - [18/Mar/2024 13:46:51] "GET / HTTP/1.1" 200 -
+2024-03-18 13:46:51,654 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:46:52,180 WARNING  * Debugger is active!
+2024-03-18 13:46:52,181 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:46:55,438 INFO 127.0.0.1 - - [18/Mar/2024 13:46:55] "GET /sell/sdfsdf HTTP/1.1" 200 -
+2024-03-18 13:46:55,514 INFO 127.0.0.1 - - [18/Mar/2024 13:46:55] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:46:55,528 INFO 127.0.0.1 - - [18/Mar/2024 13:46:55] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:46:55,550 INFO 127.0.0.1 - - [18/Mar/2024 13:46:55] "GET / HTTP/1.1" 200 -
+2024-03-18 13:46:55,553 INFO 127.0.0.1 - - [18/Mar/2024 13:46:55] "GET / HTTP/1.1" 200 -
+2024-03-18 13:46:57,086 INFO Item to sell:  sdfsdf quantity 234.0
+2024-03-18 13:46:57,091 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:46:57,096 INFO Item  sdfsdf sold
+2024-03-18 13:46:57,097 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:46:57,100 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:46:57,135 INFO Database cleaned empty items.
+2024-03-18 13:46:57,137 INFO 127.0.0.1 - - [18/Mar/2024 13:46:57] "[32mPOST /sell/%20sdfsdf HTTP/1.1[0m" 302 -
+2024-03-18 13:46:57,153 INFO 127.0.0.1 - - [18/Mar/2024 13:46:57] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:46:57,215 INFO 127.0.0.1 - - [18/Mar/2024 13:46:57] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:46:57,228 INFO 127.0.0.1 - - [18/Mar/2024 13:46:57] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:46:57,247 INFO 127.0.0.1 - - [18/Mar/2024 13:46:57] "GET / HTTP/1.1" 200 -
+2024-03-18 13:46:57,252 INFO 127.0.0.1 - - [18/Mar/2024 13:46:57] "GET / HTTP/1.1" 200 -
+2024-03-18 13:46:57,858 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:46:58,408 WARNING  * Debugger is active!
+2024-03-18 13:46:58,409 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:46:59,518 INFO 127.0.0.1 - - [18/Mar/2024 13:46:59] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:46:59,582 INFO 127.0.0.1 - - [18/Mar/2024 13:46:59] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:46:59,596 INFO 127.0.0.1 - - [18/Mar/2024 13:46:59] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:46:59,621 INFO 127.0.0.1 - - [18/Mar/2024 13:46:59] "GET / HTTP/1.1" 200 -
+2024-03-18 13:46:59,624 INFO 127.0.0.1 - - [18/Mar/2024 13:46:59] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:01,307 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:47:01,311 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:47:01,312 INFO Database cleaned empty items.
+2024-03-18 13:47:01,312 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:47:01,314 INFO 127.0.0.1 - - [18/Mar/2024 13:47:01] "[32mPOST /remove/sdf HTTP/1.1[0m" 302 -
+2024-03-18 13:47:01,323 INFO 127.0.0.1 - - [18/Mar/2024 13:47:01] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:47:01,363 INFO 127.0.0.1 - - [18/Mar/2024 13:47:01] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:47:01,377 INFO 127.0.0.1 - - [18/Mar/2024 13:47:01] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:47:01,390 INFO 127.0.0.1 - - [18/Mar/2024 13:47:01] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:01,394 INFO 127.0.0.1 - - [18/Mar/2024 13:47:01] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:02,054 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:47:02,582 WARNING  * Debugger is active!
+2024-03-18 13:47:02,583 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:47:03,296 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:47:03,303 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:47:03,304 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:47:03,304 INFO Database cleaned empty items.
+2024-03-18 13:47:03,305 INFO 127.0.0.1 - - [18/Mar/2024 13:47:03] "[32mPOST /remove/sdfsdf HTTP/1.1[0m" 302 -
+2024-03-18 13:47:03,340 INFO 127.0.0.1 - - [18/Mar/2024 13:47:03] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:47:03,371 INFO 127.0.0.1 - - [18/Mar/2024 13:47:03] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:47:03,389 INFO 127.0.0.1 - - [18/Mar/2024 13:47:03] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:47:03,402 INFO 127.0.0.1 - - [18/Mar/2024 13:47:03] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:03,407 INFO 127.0.0.1 - - [18/Mar/2024 13:47:03] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:04,534 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:47:05,102 WARNING  * Debugger is active!
+2024-03-18 13:47:05,103 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:47:05,571 INFO 127.0.0.1 - - [18/Mar/2024 13:47:05] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:47:05,667 INFO 127.0.0.1 - - [18/Mar/2024 13:47:05] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:47:05,687 INFO 127.0.0.1 - - [18/Mar/2024 13:47:05] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:47:05,710 INFO 127.0.0.1 - - [18/Mar/2024 13:47:05] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:05,712 INFO 127.0.0.1 - - [18/Mar/2024 13:47:05] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:07,428 INFO 127.0.0.1 - - [18/Mar/2024 13:47:07] "GET /sell/sdf234 HTTP/1.1" 200 -
+2024-03-18 13:47:07,498 INFO 127.0.0.1 - - [18/Mar/2024 13:47:07] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:47:07,514 INFO 127.0.0.1 - - [18/Mar/2024 13:47:07] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:47:07,540 INFO 127.0.0.1 - - [18/Mar/2024 13:47:07] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:07,543 INFO 127.0.0.1 - - [18/Mar/2024 13:47:07] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:09,626 INFO Item to sell:  sdf234 quantity 234.0
+2024-03-18 13:47:09,633 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:47:09,636 INFO Item  sdf234 sold
+2024-03-18 13:47:09,639 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:47:09,639 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:47:09,644 INFO Database cleaned empty items.
+2024-03-18 13:47:09,645 INFO 127.0.0.1 - - [18/Mar/2024 13:47:09] "[32mPOST /sell/%20sdf234 HTTP/1.1[0m" 302 -
+2024-03-18 13:47:09,655 INFO 127.0.0.1 - - [18/Mar/2024 13:47:09] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:47:09,725 INFO 127.0.0.1 - - [18/Mar/2024 13:47:09] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:47:09,890 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:47:10,486 WARNING  * Debugger is active!
+2024-03-18 13:47:10,486 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:47:11,156 INFO 127.0.0.1 - - [18/Mar/2024 13:47:11] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:47:11,173 INFO 127.0.0.1 - - [18/Mar/2024 13:47:11] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:11,184 INFO 127.0.0.1 - - [18/Mar/2024 13:47:11] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:13,787 INFO 127.0.0.1 - - [18/Mar/2024 13:47:13] "GET /sell/dfdsf HTTP/1.1" 200 -
+2024-03-18 13:47:13,859 INFO 127.0.0.1 - - [18/Mar/2024 13:47:13] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:47:13,875 INFO 127.0.0.1 - - [18/Mar/2024 13:47:13] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:47:13,893 INFO 127.0.0.1 - - [18/Mar/2024 13:47:13] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:13,898 INFO 127.0.0.1 - - [18/Mar/2024 13:47:13] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:18,412 INFO Item to sell:  dfdsf quantity 468.0
+2024-03-18 13:47:18,417 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:47:18,420 INFO Item  dfdsf sold
+2024-03-18 13:47:18,421 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:47:18,423 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:47:18,428 INFO Database cleaned empty items.
+2024-03-18 13:47:18,429 INFO 127.0.0.1 - - [18/Mar/2024 13:47:18] "[32mPOST /sell/%20dfdsf HTTP/1.1[0m" 302 -
+2024-03-18 13:47:18,443 INFO 127.0.0.1 - - [18/Mar/2024 13:47:18] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:47:18,510 INFO 127.0.0.1 - - [18/Mar/2024 13:47:18] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:47:18,533 INFO 127.0.0.1 - - [18/Mar/2024 13:47:18] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:47:18,553 INFO 127.0.0.1 - - [18/Mar/2024 13:47:18] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:18,556 INFO 127.0.0.1 - - [18/Mar/2024 13:47:18] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:19,456 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:47:20,006 WARNING  * Debugger is active!
+2024-03-18 13:47:20,006 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:47:20,497 INFO 127.0.0.1 - - [18/Mar/2024 13:47:20] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:47:20,654 INFO 127.0.0.1 - - [18/Mar/2024 13:47:20] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:47:20,675 INFO 127.0.0.1 - - [18/Mar/2024 13:47:20] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:47:20,682 INFO 127.0.0.1 - - [18/Mar/2024 13:47:20] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:20,685 INFO 127.0.0.1 - - [18/Mar/2024 13:47:20] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:21,804 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:47:21,806 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:47:21,810 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:47:21,844 INFO Database cleaned empty items.
+2024-03-18 13:47:21,845 INFO 127.0.0.1 - - [18/Mar/2024 13:47:21] "[32mPOST /remove/sdf234 HTTP/1.1[0m" 302 -
+2024-03-18 13:47:21,851 INFO 127.0.0.1 - - [18/Mar/2024 13:47:21] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:47:21,882 INFO 127.0.0.1 - - [18/Mar/2024 13:47:21] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:47:21,901 INFO 127.0.0.1 - - [18/Mar/2024 13:47:21] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:47:21,920 INFO 127.0.0.1 - - [18/Mar/2024 13:47:21] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:21,922 INFO 127.0.0.1 - - [18/Mar/2024 13:47:21] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:22,716 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:47:23,271 WARNING  * Debugger is active!
+2024-03-18 13:47:23,271 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:47:23,731 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:47:23,787 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:47:23,788 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:47:23,788 INFO Database cleaned empty items.
+2024-03-18 13:47:23,791 INFO 127.0.0.1 - - [18/Mar/2024 13:47:23] "[32mPOST /remove/dfdsf HTTP/1.1[0m" 302 -
+2024-03-18 13:47:23,872 INFO 127.0.0.1 - - [18/Mar/2024 13:47:23] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:47:23,957 INFO 127.0.0.1 - - [18/Mar/2024 13:47:23] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:47:23,975 INFO 127.0.0.1 - - [18/Mar/2024 13:47:23] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:47:23,989 INFO 127.0.0.1 - - [18/Mar/2024 13:47:23] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:23,995 INFO 127.0.0.1 - - [18/Mar/2024 13:47:23] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:25,087 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:47:25,743 WARNING  * Debugger is active!
+2024-03-18 13:47:25,744 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:47:26,381 INFO 127.0.0.1 - - [18/Mar/2024 13:47:26] "GET /revenue HTTP/1.1" 200 -
+2024-03-18 13:47:26,481 INFO 127.0.0.1 - - [18/Mar/2024 13:47:26] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:47:26,512 INFO 127.0.0.1 - - [18/Mar/2024 13:47:26] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:47:26,527 INFO 127.0.0.1 - - [18/Mar/2024 13:47:26] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:26,528 INFO 127.0.0.1 - - [18/Mar/2024 13:47:26] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:26,947 INFO 127.0.0.1 - - [18/Mar/2024 13:47:26] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:47:27,021 INFO 127.0.0.1 - - [18/Mar/2024 13:47:27] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:47:27,039 INFO 127.0.0.1 - - [18/Mar/2024 13:47:27] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:47:27,062 INFO 127.0.0.1 - - [18/Mar/2024 13:47:27] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:27,066 INFO 127.0.0.1 - - [18/Mar/2024 13:47:27] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:27,966 INFO 127.0.0.1 - - [18/Mar/2024 13:47:27] "GET /revenue HTTP/1.1" 200 -
+2024-03-18 13:47:28,042 INFO 127.0.0.1 - - [18/Mar/2024 13:47:28] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:47:28,064 INFO 127.0.0.1 - - [18/Mar/2024 13:47:28] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:47:28,086 INFO 127.0.0.1 - - [18/Mar/2024 13:47:28] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:28,090 INFO 127.0.0.1 - - [18/Mar/2024 13:47:28] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:28,802 INFO 127.0.0.1 - - [18/Mar/2024 13:47:28] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:47:28,873 INFO 127.0.0.1 - - [18/Mar/2024 13:47:28] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:47:28,885 INFO 127.0.0.1 - - [18/Mar/2024 13:47:28] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:47:28,908 INFO 127.0.0.1 - - [18/Mar/2024 13:47:28] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:28,915 INFO 127.0.0.1 - - [18/Mar/2024 13:47:28] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:30,236 INFO 127.0.0.1 - - [18/Mar/2024 13:47:30] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:47:30,302 INFO 127.0.0.1 - - [18/Mar/2024 13:47:30] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:47:30,315 INFO 127.0.0.1 - - [18/Mar/2024 13:47:30] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:47:30,334 INFO 127.0.0.1 - - [18/Mar/2024 13:47:30] "GET / HTTP/1.1" 200 -
+2024-03-18 13:47:30,338 INFO 127.0.0.1 - - [18/Mar/2024 13:47:30] "GET / HTTP/1.1" 200 -
+2024-03-18 13:48:43,073 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/routes.py', reloading
+2024-03-18 13:48:43,074 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/routes.py', reloading
+2024-03-18 13:48:43,076 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/routes.py', reloading
+2024-03-18 13:48:43,281 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/routes.py', reloading
+2024-03-18 13:48:43,282 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/routes.py', reloading
+2024-03-18 13:48:43,283 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/routes.py', reloading
+2024-03-18 13:48:44,164 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:48:44,705 WARNING  * Debugger is active!
+2024-03-18 13:48:44,706 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:48:46,202 INFO 127.0.0.1 - - [18/Mar/2024 13:48:46] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:48:46,292 INFO 127.0.0.1 - - [18/Mar/2024 13:48:46] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:48:46,309 INFO 127.0.0.1 - - [18/Mar/2024 13:48:46] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:48:46,323 INFO 127.0.0.1 - - [18/Mar/2024 13:48:46] "GET / HTTP/1.1" 200 -
+2024-03-18 13:48:46,324 INFO 127.0.0.1 - - [18/Mar/2024 13:48:46] "GET / HTTP/1.1" 200 -
+2024-03-18 13:48:46,373 INFO 127.0.0.1 - - [18/Mar/2024 13:48:46] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-03-18 13:48:49,941 INFO The CSRF token is missing.
+2024-03-18 13:48:49,950 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:48:49,951 INFO New item added
+2024-03-18 13:48:49,953 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:48:49,954 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:48:49,956 INFO 127.0.0.1 - - [18/Mar/2024 13:48:49] "POST /products HTTP/1.1" 200 -
+2024-03-18 13:48:50,019 INFO 127.0.0.1 - - [18/Mar/2024 13:48:50] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:48:50,032 INFO 127.0.0.1 - - [18/Mar/2024 13:48:50] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:48:50,043 INFO 127.0.0.1 - - [18/Mar/2024 13:48:50] "GET / HTTP/1.1" 200 -
+2024-03-18 13:48:50,044 INFO 127.0.0.1 - - [18/Mar/2024 13:48:50] "GET / HTTP/1.1" 200 -
+2024-03-18 13:48:50,093 INFO 127.0.0.1 - - [18/Mar/2024 13:48:50] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2024-03-18 13:48:50,668 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:48:51,262 WARNING  * Debugger is active!
+2024-03-18 13:48:51,263 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:48:53,062 INFO The CSRF token is missing.
+2024-03-18 13:48:53,072 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:48:53,075 INFO New item added
+2024-03-18 13:48:53,078 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:48:53,079 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:48:53,095 INFO 127.0.0.1 - - [18/Mar/2024 13:48:53] "POST /products HTTP/1.1" 200 -
+2024-03-18 13:48:53,149 INFO 127.0.0.1 - - [18/Mar/2024 13:48:53] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:48:53,157 INFO 127.0.0.1 - - [18/Mar/2024 13:48:53] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:48:53,192 INFO 127.0.0.1 - - [18/Mar/2024 13:48:53] "GET / HTTP/1.1" 200 -
+2024-03-18 13:48:53,198 INFO 127.0.0.1 - - [18/Mar/2024 13:48:53] "GET / HTTP/1.1" 200 -
+2024-03-18 13:48:54,038 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:48:54,585 WARNING  * Debugger is active!
+2024-03-18 13:48:54,586 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:48:55,903 INFO The CSRF token is missing.
+2024-03-18 13:48:55,950 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:48:55,953 INFO New item added
+2024-03-18 13:48:55,957 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:48:55,958 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:48:55,975 INFO 127.0.0.1 - - [18/Mar/2024 13:48:55] "POST /products HTTP/1.1" 200 -
+2024-03-18 13:48:56,023 INFO 127.0.0.1 - - [18/Mar/2024 13:48:56] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:48:56,038 INFO 127.0.0.1 - - [18/Mar/2024 13:48:56] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:48:56,061 INFO 127.0.0.1 - - [18/Mar/2024 13:48:56] "GET / HTTP/1.1" 200 -
+2024-03-18 13:48:56,064 INFO 127.0.0.1 - - [18/Mar/2024 13:48:56] "GET / HTTP/1.1" 200 -
+2024-03-18 13:48:56,491 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:48:57,026 WARNING  * Debugger is active!
+2024-03-18 13:48:57,026 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:48:58,603 INFO The CSRF token is missing.
+2024-03-18 13:48:58,616 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:48:58,618 INFO New item added
+2024-03-18 13:48:58,620 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:48:58,621 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:48:58,640 INFO 127.0.0.1 - - [18/Mar/2024 13:48:58] "POST /products HTTP/1.1" 200 -
+2024-03-18 13:48:58,705 INFO 127.0.0.1 - - [18/Mar/2024 13:48:58] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:48:58,711 INFO 127.0.0.1 - - [18/Mar/2024 13:48:58] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:48:58,726 INFO 127.0.0.1 - - [18/Mar/2024 13:48:58] "GET / HTTP/1.1" 200 -
+2024-03-18 13:48:58,731 INFO 127.0.0.1 - - [18/Mar/2024 13:48:58] "GET / HTTP/1.1" 200 -
+2024-03-18 13:48:58,920 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:48:59,518 WARNING  * Debugger is active!
+2024-03-18 13:48:59,519 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:49:00,259 INFO 127.0.0.1 - - [18/Mar/2024 13:49:00] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:49:00,340 INFO 127.0.0.1 - - [18/Mar/2024 13:49:00] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:49:00,355 INFO 127.0.0.1 - - [18/Mar/2024 13:49:00] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:49:00,384 INFO 127.0.0.1 - - [18/Mar/2024 13:49:00] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:00,388 INFO 127.0.0.1 - - [18/Mar/2024 13:49:00] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:00,989 INFO 127.0.0.1 - - [18/Mar/2024 13:49:00] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:49:01,068 INFO 127.0.0.1 - - [18/Mar/2024 13:49:01] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:49:01,084 INFO 127.0.0.1 - - [18/Mar/2024 13:49:01] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:49:01,102 INFO 127.0.0.1 - - [18/Mar/2024 13:49:01] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:01,107 INFO 127.0.0.1 - - [18/Mar/2024 13:49:01] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:03,805 INFO 127.0.0.1 - - [18/Mar/2024 13:49:03] "GET /sell/wer HTTP/1.1" 200 -
+2024-03-18 13:49:03,883 INFO 127.0.0.1 - - [18/Mar/2024 13:49:03] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:49:03,890 INFO 127.0.0.1 - - [18/Mar/2024 13:49:03] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:49:03,916 INFO 127.0.0.1 - - [18/Mar/2024 13:49:03] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:03,919 INFO 127.0.0.1 - - [18/Mar/2024 13:49:03] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:06,094 INFO Item to sell:  wer quantity 3.0
+2024-03-18 13:49:06,098 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:49:06,101 INFO Item  wer sold
+2024-03-18 13:49:06,101 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:49:06,106 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:49:06,110 INFO Database cleaned empty items.
+2024-03-18 13:49:06,111 INFO 127.0.0.1 - - [18/Mar/2024 13:49:06] "[32mPOST /sell/%20wer HTTP/1.1[0m" 302 -
+2024-03-18 13:49:06,119 INFO 127.0.0.1 - - [18/Mar/2024 13:49:06] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:49:06,214 INFO 127.0.0.1 - - [18/Mar/2024 13:49:06] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:49:06,224 INFO 127.0.0.1 - - [18/Mar/2024 13:49:06] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:49:06,250 INFO 127.0.0.1 - - [18/Mar/2024 13:49:06] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:06,252 INFO 127.0.0.1 - - [18/Mar/2024 13:49:06] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:06,525 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:49:07,086 WARNING  * Debugger is active!
+2024-03-18 13:49:07,087 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:49:08,460 INFO 127.0.0.1 - - [18/Mar/2024 13:49:08] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:49:08,549 INFO 127.0.0.1 - - [18/Mar/2024 13:49:08] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:49:08,560 INFO 127.0.0.1 - - [18/Mar/2024 13:49:08] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:49:08,584 INFO 127.0.0.1 - - [18/Mar/2024 13:49:08] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:08,588 INFO 127.0.0.1 - - [18/Mar/2024 13:49:08] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:09,814 INFO 127.0.0.1 - - [18/Mar/2024 13:49:09] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:49:09,900 INFO 127.0.0.1 - - [18/Mar/2024 13:49:09] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:49:09,914 INFO 127.0.0.1 - - [18/Mar/2024 13:49:09] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:49:09,934 INFO 127.0.0.1 - - [18/Mar/2024 13:49:09] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:09,944 INFO 127.0.0.1 - - [18/Mar/2024 13:49:09] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:12,308 INFO 127.0.0.1 - - [18/Mar/2024 13:49:12] "GET /sell/werfdsdfdsf HTTP/1.1" 200 -
+2024-03-18 13:49:12,384 INFO 127.0.0.1 - - [18/Mar/2024 13:49:12] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:49:12,400 INFO 127.0.0.1 - - [18/Mar/2024 13:49:12] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:49:12,423 INFO 127.0.0.1 - - [18/Mar/2024 13:49:12] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:12,424 INFO 127.0.0.1 - - [18/Mar/2024 13:49:12] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:13,871 INFO Item to sell:  werfdsdfdsf quantity 3.0
+2024-03-18 13:49:13,876 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:49:13,880 INFO Item  werfdsdfdsf sold
+2024-03-18 13:49:13,880 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:49:13,882 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:49:13,887 INFO Database cleaned empty items.
+2024-03-18 13:49:13,888 INFO 127.0.0.1 - - [18/Mar/2024 13:49:13] "[32mPOST /sell/%20werfdsdfdsf HTTP/1.1[0m" 302 -
+2024-03-18 13:49:13,896 INFO 127.0.0.1 - - [18/Mar/2024 13:49:13] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:49:13,973 INFO 127.0.0.1 - - [18/Mar/2024 13:49:13] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:49:13,999 INFO 127.0.0.1 - - [18/Mar/2024 13:49:13] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:49:14,024 INFO 127.0.0.1 - - [18/Mar/2024 13:49:14] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:14,028 INFO 127.0.0.1 - - [18/Mar/2024 13:49:14] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:15,066 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:49:15,623 WARNING  * Debugger is active!
+2024-03-18 13:49:15,624 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:49:16,086 INFO 127.0.0.1 - - [18/Mar/2024 13:49:16] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:49:16,179 INFO 127.0.0.1 - - [18/Mar/2024 13:49:16] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:49:16,198 INFO 127.0.0.1 - - [18/Mar/2024 13:49:16] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:49:16,213 INFO 127.0.0.1 - - [18/Mar/2024 13:49:16] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:16,221 INFO 127.0.0.1 - - [18/Mar/2024 13:49:16] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:27,436 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:49:27,441 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:49:27,441 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:49:27,442 INFO Database cleaned empty items.
+2024-03-18 13:49:27,444 INFO 127.0.0.1 - - [18/Mar/2024 13:49:27] "[32mPOST /remove/wer HTTP/1.1[0m" 302 -
+2024-03-18 13:49:27,458 INFO 127.0.0.1 - - [18/Mar/2024 13:49:27] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:49:27,496 INFO 127.0.0.1 - - [18/Mar/2024 13:49:27] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:49:27,510 INFO 127.0.0.1 - - [18/Mar/2024 13:49:27] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:49:27,539 INFO 127.0.0.1 - - [18/Mar/2024 13:49:27] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:27,542 INFO 127.0.0.1 - - [18/Mar/2024 13:49:27] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:28,421 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:49:29,057 WARNING  * Debugger is active!
+2024-03-18 13:49:29,058 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:49:29,706 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:49:29,718 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:49:29,718 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:49:29,719 INFO Database cleaned empty items.
+2024-03-18 13:49:29,720 INFO 127.0.0.1 - - [18/Mar/2024 13:49:29] "[32mPOST /remove/werfdsdfdsf HTTP/1.1[0m" 302 -
+2024-03-18 13:49:29,727 INFO 127.0.0.1 - - [18/Mar/2024 13:49:29] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:49:29,790 INFO 127.0.0.1 - - [18/Mar/2024 13:49:29] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:49:29,811 INFO 127.0.0.1 - - [18/Mar/2024 13:49:29] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:49:29,898 INFO 127.0.0.1 - - [18/Mar/2024 13:49:29] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:29,903 INFO 127.0.0.1 - - [18/Mar/2024 13:49:29] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:31,090 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:49:31,646 WARNING  * Debugger is active!
+2024-03-18 13:49:31,646 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:49:32,379 INFO 127.0.0.1 - - [18/Mar/2024 13:49:32] "[35m[1mPOST /remove/werfdsdfdsf HTTP/1.1[0m" 500 -
+2024-03-18 13:49:32,491 INFO 127.0.0.1 - - [18/Mar/2024 13:49:32] "GET /remove/werfdsdfdsf?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-03-18 13:49:32,495 INFO 127.0.0.1 - - [18/Mar/2024 13:49:32] "GET /remove/werfdsdfdsf?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-03-18 13:49:32,513 INFO 127.0.0.1 - - [18/Mar/2024 13:49:32] "GET /remove/werfdsdfdsf?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-03-18 13:49:32,526 INFO 127.0.0.1 - - [18/Mar/2024 13:49:32] "[36mGET /remove/werfdsdfdsf?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-18 13:49:41,620 INFO 127.0.0.1 - - [18/Mar/2024 13:49:41] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:49:41,659 INFO 127.0.0.1 - - [18/Mar/2024 13:49:41] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:49:41,693 INFO 127.0.0.1 - - [18/Mar/2024 13:49:41] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:49:41,705 INFO 127.0.0.1 - - [18/Mar/2024 13:49:41] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:41,709 INFO 127.0.0.1 - - [18/Mar/2024 13:49:41] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:42,863 INFO 127.0.0.1 - - [18/Mar/2024 13:49:42] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:49:42,939 INFO 127.0.0.1 - - [18/Mar/2024 13:49:42] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:49:42,956 INFO 127.0.0.1 - - [18/Mar/2024 13:49:42] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:49:42,973 INFO 127.0.0.1 - - [18/Mar/2024 13:49:42] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:42,978 INFO 127.0.0.1 - - [18/Mar/2024 13:49:42] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:45,186 INFO 127.0.0.1 - - [18/Mar/2024 13:49:45] "GET /sell/werfdsdfdsfsdfdsf HTTP/1.1" 200 -
+2024-03-18 13:49:45,254 INFO 127.0.0.1 - - [18/Mar/2024 13:49:45] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:49:45,270 INFO 127.0.0.1 - - [18/Mar/2024 13:49:45] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:49:45,289 INFO 127.0.0.1 - - [18/Mar/2024 13:49:45] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:45,293 INFO 127.0.0.1 - - [18/Mar/2024 13:49:45] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:46,810 INFO Item to sell:  werfdsdfdsfsdfdsf quantity 3.0
+2024-03-18 13:49:46,816 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:49:46,819 INFO Item  werfdsdfdsfsdfdsf sold
+2024-03-18 13:49:46,823 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:49:46,824 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:49:46,827 INFO Database cleaned empty items.
+2024-03-18 13:49:46,828 INFO 127.0.0.1 - - [18/Mar/2024 13:49:46] "[32mPOST /sell/%20werfdsdfdsfsdfdsf HTTP/1.1[0m" 302 -
+2024-03-18 13:49:46,836 INFO 127.0.0.1 - - [18/Mar/2024 13:49:46] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:49:46,920 INFO 127.0.0.1 - - [18/Mar/2024 13:49:46] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:49:46,935 INFO 127.0.0.1 - - [18/Mar/2024 13:49:46] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:49:46,955 INFO 127.0.0.1 - - [18/Mar/2024 13:49:46] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:46,971 INFO 127.0.0.1 - - [18/Mar/2024 13:49:46] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:47,546 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:49:48,113 WARNING  * Debugger is active!
+2024-03-18 13:49:48,113 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:49:48,598 INFO 127.0.0.1 - - [18/Mar/2024 13:49:48] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:49:48,706 INFO 127.0.0.1 - - [18/Mar/2024 13:49:48] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:49:48,717 INFO 127.0.0.1 - - [18/Mar/2024 13:49:48] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:49:48,782 INFO 127.0.0.1 - - [18/Mar/2024 13:49:48] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:48,784 INFO 127.0.0.1 - - [18/Mar/2024 13:49:48] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:52,769 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:49:52,776 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:49:52,808 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:49:52,809 INFO Database cleaned empty items.
+2024-03-18 13:49:52,810 INFO 127.0.0.1 - - [18/Mar/2024 13:49:52] "[32mPOST /remove/werfdsdfdsfsdfdsf HTTP/1.1[0m" 302 -
+2024-03-18 13:49:52,819 INFO 127.0.0.1 - - [18/Mar/2024 13:49:52] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:49:52,869 INFO 127.0.0.1 - - [18/Mar/2024 13:49:52] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:49:52,878 INFO 127.0.0.1 - - [18/Mar/2024 13:49:52] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:49:52,912 INFO 127.0.0.1 - - [18/Mar/2024 13:49:52] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:52,916 INFO 127.0.0.1 - - [18/Mar/2024 13:49:52] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:53,816 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:49:54,373 WARNING  * Debugger is active!
+2024-03-18 13:49:54,374 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:49:54,864 INFO 127.0.0.1 - - [18/Mar/2024 13:49:54] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:49:55,023 INFO 127.0.0.1 - - [18/Mar/2024 13:49:55] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:49:55,038 INFO 127.0.0.1 - - [18/Mar/2024 13:49:55] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:49:55,045 INFO 127.0.0.1 - - [18/Mar/2024 13:49:55] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:55,049 INFO 127.0.0.1 - - [18/Mar/2024 13:49:55] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:56,616 INFO 127.0.0.1 - - [18/Mar/2024 13:49:56] "GET /sell/werfd HTTP/1.1" 200 -
+2024-03-18 13:49:56,731 INFO 127.0.0.1 - - [18/Mar/2024 13:49:56] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:49:56,738 INFO 127.0.0.1 - - [18/Mar/2024 13:49:56] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:49:56,768 INFO 127.0.0.1 - - [18/Mar/2024 13:49:56] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:56,778 INFO 127.0.0.1 - - [18/Mar/2024 13:49:56] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:59,146 INFO Item to sell:  werfd quantity 3.0
+2024-03-18 13:49:59,151 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:49:59,155 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:49:59,155 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:49:59,156 INFO Item  werfd sold
+2024-03-18 13:49:59,162 INFO Database cleaned empty items.
+2024-03-18 13:49:59,163 INFO 127.0.0.1 - - [18/Mar/2024 13:49:59] "[32mPOST /sell/%20werfd HTTP/1.1[0m" 302 -
+2024-03-18 13:49:59,173 INFO 127.0.0.1 - - [18/Mar/2024 13:49:59] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:49:59,246 INFO 127.0.0.1 - - [18/Mar/2024 13:49:59] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:49:59,259 INFO 127.0.0.1 - - [18/Mar/2024 13:49:59] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:49:59,277 INFO 127.0.0.1 - - [18/Mar/2024 13:49:59] "GET / HTTP/1.1" 200 -
+2024-03-18 13:49:59,280 INFO 127.0.0.1 - - [18/Mar/2024 13:49:59] "GET / HTTP/1.1" 200 -
+2024-03-18 13:50:00,112 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:50:00,657 WARNING  * Debugger is active!
+2024-03-18 13:50:00,657 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:50:01,411 INFO 127.0.0.1 - - [18/Mar/2024 13:50:01] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:50:01,496 INFO 127.0.0.1 - - [18/Mar/2024 13:50:01] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:50:01,510 INFO 127.0.0.1 - - [18/Mar/2024 13:50:01] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:50:01,535 INFO 127.0.0.1 - - [18/Mar/2024 13:50:01] "GET / HTTP/1.1" 200 -
+2024-03-18 13:50:01,538 INFO 127.0.0.1 - - [18/Mar/2024 13:50:01] "GET / HTTP/1.1" 200 -
+2024-03-18 13:50:02,524 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:50:02,528 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:50:02,529 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:50:02,529 INFO Database cleaned empty items.
+2024-03-18 13:50:02,532 INFO 127.0.0.1 - - [18/Mar/2024 13:50:02] "[32mPOST /remove/werfd HTTP/1.1[0m" 302 -
+2024-03-18 13:50:02,540 INFO 127.0.0.1 - - [18/Mar/2024 13:50:02] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:50:02,583 INFO 127.0.0.1 - - [18/Mar/2024 13:50:02] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:50:02,594 INFO 127.0.0.1 - - [18/Mar/2024 13:50:02] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:50:02,617 INFO 127.0.0.1 - - [18/Mar/2024 13:50:02] "GET / HTTP/1.1" 200 -
+2024-03-18 13:50:02,621 INFO 127.0.0.1 - - [18/Mar/2024 13:50:02] "GET / HTTP/1.1" 200 -
+2024-03-18 13:50:03,650 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:50:04,375 WARNING  * Debugger is active!
+2024-03-18 13:50:04,375 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:51:00,480 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-18 13:51:00,480 INFO [33mPress CTRL+C to quit[0m
+2024-03-18 13:51:00,487 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:51:01,106 WARNING  * Debugger is active!
+2024-03-18 13:51:01,106 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:51:02,421 INFO 127.0.0.1 - - [18/Mar/2024 13:51:02] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:51:02,467 INFO 127.0.0.1 - - [18/Mar/2024 13:51:02] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:51:02,475 INFO 127.0.0.1 - - [18/Mar/2024 13:51:02] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:51:02,491 INFO 127.0.0.1 - - [18/Mar/2024 13:51:02] "GET / HTTP/1.1" 200 -
+2024-03-18 13:51:02,495 INFO 127.0.0.1 - - [18/Mar/2024 13:51:02] "GET / HTTP/1.1" 200 -
+2024-03-18 13:51:03,363 INFO 127.0.0.1 - - [18/Mar/2024 13:51:03] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:51:03,447 INFO 127.0.0.1 - - [18/Mar/2024 13:51:03] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:51:03,461 INFO 127.0.0.1 - - [18/Mar/2024 13:51:03] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:51:03,488 INFO 127.0.0.1 - - [18/Mar/2024 13:51:03] "GET / HTTP/1.1" 200 -
+2024-03-18 13:51:03,491 INFO 127.0.0.1 - - [18/Mar/2024 13:51:03] "GET / HTTP/1.1" 200 -
+2024-03-18 13:51:07,635 INFO The CSRF token is missing.
+2024-03-18 13:51:07,644 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:51:07,645 INFO New item added
+2024-03-18 13:51:07,648 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:51:07,650 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:51:07,652 INFO 127.0.0.1 - - [18/Mar/2024 13:51:07] "POST /products HTTP/1.1" 200 -
+2024-03-18 13:51:07,696 INFO 127.0.0.1 - - [18/Mar/2024 13:51:07] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:51:07,719 INFO 127.0.0.1 - - [18/Mar/2024 13:51:07] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:51:07,733 INFO 127.0.0.1 - - [18/Mar/2024 13:51:07] "GET / HTTP/1.1" 200 -
+2024-03-18 13:51:07,736 INFO 127.0.0.1 - - [18/Mar/2024 13:51:07] "GET / HTTP/1.1" 200 -
+2024-03-18 13:51:08,887 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:51:09,512 WARNING  * Debugger is active!
+2024-03-18 13:51:09,512 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:51:10,839 INFO The CSRF token is missing.
+2024-03-18 13:51:10,855 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:51:10,858 INFO New item added
+2024-03-18 13:51:10,864 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:51:10,864 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:51:10,883 INFO 127.0.0.1 - - [18/Mar/2024 13:51:10] "POST /products HTTP/1.1" 200 -
+2024-03-18 13:51:10,927 INFO 127.0.0.1 - - [18/Mar/2024 13:51:10] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:51:10,944 INFO 127.0.0.1 - - [18/Mar/2024 13:51:10] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:51:10,968 INFO 127.0.0.1 - - [18/Mar/2024 13:51:10] "GET / HTTP/1.1" 200 -
+2024-03-18 13:51:10,971 INFO 127.0.0.1 - - [18/Mar/2024 13:51:10] "GET / HTTP/1.1" 200 -
+2024-03-18 13:51:11,323 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:51:11,899 WARNING  * Debugger is active!
+2024-03-18 13:51:11,899 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:51:13,728 INFO The CSRF token is missing.
+2024-03-18 13:51:13,743 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:51:13,745 INFO New item added
+2024-03-18 13:51:13,746 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:51:13,749 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:51:13,768 INFO 127.0.0.1 - - [18/Mar/2024 13:51:13] "POST /products HTTP/1.1" 200 -
+2024-03-18 13:51:13,815 INFO 127.0.0.1 - - [18/Mar/2024 13:51:13] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:51:13,829 INFO 127.0.0.1 - - [18/Mar/2024 13:51:13] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:51:13,852 INFO 127.0.0.1 - - [18/Mar/2024 13:51:13] "GET / HTTP/1.1" 200 -
+2024-03-18 13:51:13,855 INFO 127.0.0.1 - - [18/Mar/2024 13:51:13] "GET / HTTP/1.1" 200 -
+2024-03-18 13:51:14,804 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:51:15,302 WARNING  * Debugger is active!
+2024-03-18 13:51:15,303 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:51:17,108 INFO 127.0.0.1 - - [18/Mar/2024 13:51:17] "GET /sell/dsfvv HTTP/1.1" 200 -
+2024-03-18 13:51:17,192 INFO 127.0.0.1 - - [18/Mar/2024 13:51:17] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:51:17,214 INFO 127.0.0.1 - - [18/Mar/2024 13:51:17] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:51:17,236 INFO 127.0.0.1 - - [18/Mar/2024 13:51:17] "GET / HTTP/1.1" 200 -
+2024-03-18 13:51:17,246 INFO 127.0.0.1 - - [18/Mar/2024 13:51:17] "GET / HTTP/1.1" 200 -
+2024-03-18 13:51:19,802 INFO Item to sell:  dsfvv quantity 3.0
+2024-03-18 13:51:19,808 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:51:19,812 INFO Item  dsfvv sold
+2024-03-18 13:51:19,813 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:51:19,816 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:51:19,852 INFO Database cleaned empty items.
+2024-03-18 13:51:19,852 INFO 127.0.0.1 - - [18/Mar/2024 13:51:19] "[32mPOST /sell/%20dsfvv HTTP/1.1[0m" 302 -
+2024-03-18 13:51:19,869 INFO 127.0.0.1 - - [18/Mar/2024 13:51:19] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:51:19,955 INFO 127.0.0.1 - - [18/Mar/2024 13:51:19] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:51:19,970 INFO 127.0.0.1 - - [18/Mar/2024 13:51:19] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:51:19,991 INFO 127.0.0.1 - - [18/Mar/2024 13:51:19] "GET / HTTP/1.1" 200 -
+2024-03-18 13:51:20,000 INFO 127.0.0.1 - - [18/Mar/2024 13:51:20] "GET / HTTP/1.1" 200 -
+2024-03-18 13:51:20,181 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:51:20,736 WARNING  * Debugger is active!
+2024-03-18 13:51:20,737 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:51:22,307 INFO 127.0.0.1 - - [18/Mar/2024 13:51:22] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:51:22,384 INFO 127.0.0.1 - - [18/Mar/2024 13:51:22] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:51:22,399 INFO 127.0.0.1 - - [18/Mar/2024 13:51:22] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:51:22,421 INFO 127.0.0.1 - - [18/Mar/2024 13:51:22] "GET / HTTP/1.1" 200 -
+2024-03-18 13:51:22,425 INFO 127.0.0.1 - - [18/Mar/2024 13:51:22] "GET / HTTP/1.1" 200 -
+2024-03-18 13:51:25,704 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:51:25,708 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:51:25,711 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:51:25,712 INFO Database cleaned empty items.
+2024-03-18 13:51:25,714 INFO 127.0.0.1 - - [18/Mar/2024 13:51:25] "[32mPOST /remove/dsfvv HTTP/1.1[0m" 302 -
+2024-03-18 13:51:25,726 INFO 127.0.0.1 - - [18/Mar/2024 13:51:25] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:51:25,756 INFO 127.0.0.1 - - [18/Mar/2024 13:51:25] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:51:25,773 INFO 127.0.0.1 - - [18/Mar/2024 13:51:25] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:51:25,799 INFO 127.0.0.1 - - [18/Mar/2024 13:51:25] "GET / HTTP/1.1" 200 -
+2024-03-18 13:51:25,803 INFO 127.0.0.1 - - [18/Mar/2024 13:51:25] "GET / HTTP/1.1" 200 -
+2024-03-18 13:51:26,475 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:51:27,010 WARNING  * Debugger is active!
+2024-03-18 13:51:27,011 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:51:27,616 INFO 127.0.0.1 - - [18/Mar/2024 13:51:27] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:51:27,730 INFO 127.0.0.1 - - [18/Mar/2024 13:51:27] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:51:27,733 INFO 127.0.0.1 - - [18/Mar/2024 13:51:27] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:51:27,759 INFO 127.0.0.1 - - [18/Mar/2024 13:51:27] "GET / HTTP/1.1" 200 -
+2024-03-18 13:51:27,777 INFO 127.0.0.1 - - [18/Mar/2024 13:51:27] "GET / HTTP/1.1" 200 -
+2024-03-18 13:51:31,354 INFO The CSRF token is missing.
+2024-03-18 13:51:31,362 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:51:31,364 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:51:31,364 INFO New item added
+2024-03-18 13:51:31,365 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:51:31,370 INFO 127.0.0.1 - - [18/Mar/2024 13:51:31] "POST /products HTTP/1.1" 200 -
+2024-03-18 13:51:31,415 INFO 127.0.0.1 - - [18/Mar/2024 13:51:31] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:51:31,424 INFO 127.0.0.1 - - [18/Mar/2024 13:51:31] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:51:31,454 INFO 127.0.0.1 - - [18/Mar/2024 13:51:31] "GET / HTTP/1.1" 200 -
+2024-03-18 13:51:31,458 INFO 127.0.0.1 - - [18/Mar/2024 13:51:31] "GET / HTTP/1.1" 200 -
+2024-03-18 13:51:31,858 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:51:32,390 WARNING  * Debugger is active!
+2024-03-18 13:51:32,390 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:51:57,708 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/models.py', reloading
+2024-03-18 13:51:57,709 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/models.py', reloading
+2024-03-18 13:51:57,710 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/models.py', reloading
+2024-03-18 13:51:58,022 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/models.py', reloading
+2024-03-18 13:51:58,022 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/models.py', reloading
+2024-03-18 13:51:58,025 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/models.py', reloading
+2024-03-18 13:51:58,290 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:51:58,878 WARNING  * Debugger is active!
+2024-03-18 13:51:58,879 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:52:29,085 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/product.py', reloading
+2024-03-18 13:52:29,086 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/product.py', reloading
+2024-03-18 13:52:29,088 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/product.py', reloading
+2024-03-18 13:52:29,335 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/product.py', reloading
+2024-03-18 13:52:29,337 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/product.py', reloading
+2024-03-18 13:52:29,338 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/product.py', reloading
+2024-03-18 13:52:29,557 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/product.py', reloading
+2024-03-18 13:52:29,557 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/product.py', reloading
+2024-03-18 13:52:29,558 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/product.py', reloading
+2024-03-18 13:52:29,780 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:52:30,320 WARNING  * Debugger is active!
+2024-03-18 13:52:30,320 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:52:30,913 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/product.py', reloading
+2024-03-18 13:52:31,011 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/product.py', reloading
+2024-03-18 13:52:31,016 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/product.py', reloading
+2024-03-18 13:52:31,215 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:52:31,768 WARNING  * Debugger is active!
+2024-03-18 13:52:31,769 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:52:56,791 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/routes.py', reloading
+2024-03-18 13:52:56,792 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/routes.py', reloading
+2024-03-18 13:52:56,794 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/routes.py', reloading
+2024-03-18 13:52:57,955 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:52:58,935 WARNING  * Debugger is active!
+2024-03-18 13:52:58,936 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:53:05,668 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/utils.py', reloading
+2024-03-18 13:53:05,670 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/utils.py', reloading
+2024-03-18 13:53:05,671 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/utils.py', reloading
+2024-03-18 13:53:05,966 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:53:06,546 WARNING  * Debugger is active!
+2024-03-18 13:53:06,547 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:53:10,723 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-18 13:53:10,723 INFO [33mPress CTRL+C to quit[0m
+2024-03-18 13:53:10,730 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:53:11,347 WARNING  * Debugger is active!
+2024-03-18 13:53:11,347 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:53:14,576 INFO 127.0.0.1 - - [18/Mar/2024 13:53:14] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:53:14,658 INFO 127.0.0.1 - - [18/Mar/2024 13:53:14] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:53:14,674 INFO 127.0.0.1 - - [18/Mar/2024 13:53:14] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:53:14,686 INFO 127.0.0.1 - - [18/Mar/2024 13:53:14] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:14,688 INFO 127.0.0.1 - - [18/Mar/2024 13:53:14] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:16,151 INFO 127.0.0.1 - - [18/Mar/2024 13:53:16] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:53:16,228 INFO 127.0.0.1 - - [18/Mar/2024 13:53:16] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:53:16,242 INFO 127.0.0.1 - - [18/Mar/2024 13:53:16] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:53:16,267 INFO 127.0.0.1 - - [18/Mar/2024 13:53:16] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:16,271 INFO 127.0.0.1 - - [18/Mar/2024 13:53:16] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:17,334 INFO 127.0.0.1 - - [18/Mar/2024 13:53:17] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:53:17,503 INFO 127.0.0.1 - - [18/Mar/2024 13:53:17] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:53:17,513 INFO 127.0.0.1 - - [18/Mar/2024 13:53:17] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:53:17,544 INFO 127.0.0.1 - - [18/Mar/2024 13:53:17] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:17,554 INFO 127.0.0.1 - - [18/Mar/2024 13:53:17] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:23,447 INFO 127.0.0.1 - - [18/Mar/2024 13:53:23] "GET /sell/dsf HTTP/1.1" 200 -
+2024-03-18 13:53:23,562 INFO 127.0.0.1 - - [18/Mar/2024 13:53:23] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:53:23,573 INFO 127.0.0.1 - - [18/Mar/2024 13:53:23] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:53:23,607 INFO 127.0.0.1 - - [18/Mar/2024 13:53:23] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:23,612 INFO 127.0.0.1 - - [18/Mar/2024 13:53:23] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:25,528 INFO Item to sell:  dsf quantity 3.0
+2024-03-18 13:53:25,534 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:53:25,536 INFO Item  dsf sold
+2024-03-18 13:53:25,537 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:53:25,539 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:53:25,542 INFO Database cleaned empty items.
+2024-03-18 13:53:25,543 INFO 127.0.0.1 - - [18/Mar/2024 13:53:25] "[32mPOST /sell/%20dsf HTTP/1.1[0m" 302 -
+2024-03-18 13:53:25,552 INFO 127.0.0.1 - - [18/Mar/2024 13:53:25] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:53:25,644 INFO 127.0.0.1 - - [18/Mar/2024 13:53:25] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:53:25,654 INFO 127.0.0.1 - - [18/Mar/2024 13:53:25] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:53:25,677 INFO 127.0.0.1 - - [18/Mar/2024 13:53:25] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:25,685 INFO 127.0.0.1 - - [18/Mar/2024 13:53:25] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:26,315 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:53:26,847 WARNING  * Debugger is active!
+2024-03-18 13:53:26,847 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:53:27,539 INFO 127.0.0.1 - - [18/Mar/2024 13:53:27] "GET /sell/dsfvvdsfdsf HTTP/1.1" 200 -
+2024-03-18 13:53:27,645 INFO 127.0.0.1 - - [18/Mar/2024 13:53:27] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:53:27,655 INFO 127.0.0.1 - - [18/Mar/2024 13:53:27] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:53:27,684 INFO 127.0.0.1 - - [18/Mar/2024 13:53:27] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:27,689 INFO 127.0.0.1 - - [18/Mar/2024 13:53:27] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:29,237 INFO Item to sell:  dsfvvdsfdsf quantity 3.0
+2024-03-18 13:53:29,244 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:53:29,248 INFO Item  dsfvvdsfdsf sold
+2024-03-18 13:53:29,249 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:53:29,252 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:53:29,256 INFO Database cleaned empty items.
+2024-03-18 13:53:29,257 INFO 127.0.0.1 - - [18/Mar/2024 13:53:29] "[32mPOST /sell/%20dsfvvdsfdsf HTTP/1.1[0m" 302 -
+2024-03-18 13:53:29,272 INFO 127.0.0.1 - - [18/Mar/2024 13:53:29] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:53:29,345 INFO 127.0.0.1 - - [18/Mar/2024 13:53:29] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:53:29,363 INFO 127.0.0.1 - - [18/Mar/2024 13:53:29] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:53:29,389 INFO 127.0.0.1 - - [18/Mar/2024 13:53:29] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:29,403 INFO 127.0.0.1 - - [18/Mar/2024 13:53:29] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:29,769 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:53:30,324 WARNING  * Debugger is active!
+2024-03-18 13:53:30,325 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:53:31,730 INFO 127.0.0.1 - - [18/Mar/2024 13:53:31] "GET /sell/sdfdsf HTTP/1.1" 200 -
+2024-03-18 13:53:31,854 INFO 127.0.0.1 - - [18/Mar/2024 13:53:31] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:53:31,870 INFO 127.0.0.1 - - [18/Mar/2024 13:53:31] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:53:31,913 INFO 127.0.0.1 - - [18/Mar/2024 13:53:31] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:31,916 INFO 127.0.0.1 - - [18/Mar/2024 13:53:31] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:33,088 INFO Item to sell:  sdfdsf quantity 3.0
+2024-03-18 13:53:33,095 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:53:33,099 INFO Item  sdfdsf sold
+2024-03-18 13:53:33,101 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:53:33,102 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:53:33,137 INFO Database cleaned empty items.
+2024-03-18 13:53:33,138 INFO 127.0.0.1 - - [18/Mar/2024 13:53:33] "[32mPOST /sell/%20sdfdsf HTTP/1.1[0m" 302 -
+2024-03-18 13:53:33,157 INFO 127.0.0.1 - - [18/Mar/2024 13:53:33] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:53:33,234 INFO 127.0.0.1 - - [18/Mar/2024 13:53:33] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:53:33,241 INFO 127.0.0.1 - - [18/Mar/2024 13:53:33] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:53:33,269 INFO 127.0.0.1 - - [18/Mar/2024 13:53:33] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:33,271 INFO 127.0.0.1 - - [18/Mar/2024 13:53:33] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:34,213 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:53:34,797 WARNING  * Debugger is active!
+2024-03-18 13:53:34,797 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:53:35,564 INFO 127.0.0.1 - - [18/Mar/2024 13:53:35] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:53:35,652 INFO 127.0.0.1 - - [18/Mar/2024 13:53:35] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:53:35,666 INFO 127.0.0.1 - - [18/Mar/2024 13:53:35] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:53:35,692 INFO 127.0.0.1 - - [18/Mar/2024 13:53:35] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:35,697 INFO 127.0.0.1 - - [18/Mar/2024 13:53:35] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:37,042 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:53:37,046 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:53:37,048 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:53:37,049 INFO Database cleaned empty items.
+2024-03-18 13:53:37,050 INFO 127.0.0.1 - - [18/Mar/2024 13:53:37] "[32mPOST /remove/dsf HTTP/1.1[0m" 302 -
+2024-03-18 13:53:37,058 INFO 127.0.0.1 - - [18/Mar/2024 13:53:37] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:53:37,107 INFO 127.0.0.1 - - [18/Mar/2024 13:53:37] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:53:37,126 INFO 127.0.0.1 - - [18/Mar/2024 13:53:37] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:53:37,142 INFO 127.0.0.1 - - [18/Mar/2024 13:53:37] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:37,145 INFO 127.0.0.1 - - [18/Mar/2024 13:53:37] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:37,774 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:53:38,320 WARNING  * Debugger is active!
+2024-03-18 13:53:38,320 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:53:39,050 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:53:39,055 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:53:39,056 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:53:39,056 INFO Database cleaned empty items.
+2024-03-18 13:53:39,058 INFO 127.0.0.1 - - [18/Mar/2024 13:53:39] "[32mPOST /remove/dsfvvdsfdsf HTTP/1.1[0m" 302 -
+2024-03-18 13:53:39,107 INFO 127.0.0.1 - - [18/Mar/2024 13:53:39] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:53:39,144 INFO 127.0.0.1 - - [18/Mar/2024 13:53:39] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:53:39,156 INFO 127.0.0.1 - - [18/Mar/2024 13:53:39] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:53:39,178 INFO 127.0.0.1 - - [18/Mar/2024 13:53:39] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:39,178 INFO 127.0.0.1 - - [18/Mar/2024 13:53:39] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:40,273 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:53:40,888 WARNING  * Debugger is active!
+2024-03-18 13:53:40,888 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:53:45,916 INFO 127.0.0.1 - - [18/Mar/2024 13:53:45] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:53:45,948 INFO 127.0.0.1 - - [18/Mar/2024 13:53:45] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:53:45,958 INFO 127.0.0.1 - - [18/Mar/2024 13:53:45] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:53:45,975 INFO 127.0.0.1 - - [18/Mar/2024 13:53:45] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:45,978 INFO 127.0.0.1 - - [18/Mar/2024 13:53:45] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:47,309 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:53:47,315 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:53:47,316 INFO Database cleaned empty items.
+2024-03-18 13:53:47,317 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:53:47,320 INFO 127.0.0.1 - - [18/Mar/2024 13:53:47] "[32mPOST /remove/sdfdsf HTTP/1.1[0m" 302 -
+2024-03-18 13:53:47,331 INFO 127.0.0.1 - - [18/Mar/2024 13:53:47] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:53:47,372 INFO 127.0.0.1 - - [18/Mar/2024 13:53:47] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:53:47,393 INFO 127.0.0.1 - - [18/Mar/2024 13:53:47] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:53:47,414 INFO 127.0.0.1 - - [18/Mar/2024 13:53:47] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:47,421 INFO 127.0.0.1 - - [18/Mar/2024 13:53:47] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:47,556 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:53:48,212 WARNING  * Debugger is active!
+2024-03-18 13:53:48,212 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:53:48,983 INFO 127.0.0.1 - - [18/Mar/2024 13:53:48] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:53:49,055 INFO 127.0.0.1 - - [18/Mar/2024 13:53:49] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:53:49,072 INFO 127.0.0.1 - - [18/Mar/2024 13:53:49] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:53:49,103 INFO 127.0.0.1 - - [18/Mar/2024 13:53:49] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:49,104 INFO 127.0.0.1 - - [18/Mar/2024 13:53:49] "GET / HTTP/1.1" 200 -
+2024-03-18 13:53:52,370 INFO The CSRF token is missing.
+2024-03-18 13:53:52,386 INFO 127.0.0.1 - - [18/Mar/2024 13:53:52] "[35m[1mPOST /products HTTP/1.1[0m" 500 -
+2024-03-18 13:53:52,451 INFO 127.0.0.1 - - [18/Mar/2024 13:53:52] "GET /products?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-03-18 13:53:52,456 INFO 127.0.0.1 - - [18/Mar/2024 13:53:52] "GET /products?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-03-18 13:53:52,469 INFO 127.0.0.1 - - [18/Mar/2024 13:53:52] "GET /products?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-03-18 13:53:52,473 INFO 127.0.0.1 - - [18/Mar/2024 13:53:52] "[36mGET /products?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-18 13:54:11,273 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/utils.py', reloading
+2024-03-18 13:54:11,274 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/utils.py', reloading
+2024-03-18 13:54:11,275 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/utils.py', reloading
+2024-03-18 13:54:11,480 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/utils.py', reloading
+2024-03-18 13:54:11,481 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/utils.py', reloading
+2024-03-18 13:54:11,483 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/utils.py', reloading
+2024-03-18 13:54:11,653 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/utils.py', reloading
+2024-03-18 13:54:11,653 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/utils.py', reloading
+2024-03-18 13:54:11,654 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/utils.py', reloading
+2024-03-18 13:54:12,370 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:54:13,617 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-18 13:54:13,617 INFO [33mPress CTRL+C to quit[0m
+2024-03-18 13:54:13,624 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:54:14,145 WARNING  * Debugger is active!
+2024-03-18 13:54:14,146 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:54:17,619 INFO 127.0.0.1 - - [18/Mar/2024 13:54:17] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:54:17,703 INFO 127.0.0.1 - - [18/Mar/2024 13:54:17] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:54:17,709 INFO 127.0.0.1 - - [18/Mar/2024 13:54:17] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:54:17,734 INFO 127.0.0.1 - - [18/Mar/2024 13:54:17] "GET / HTTP/1.1" 200 -
+2024-03-18 13:54:20,058 INFO The CSRF token is missing.
+2024-03-18 13:54:20,066 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:54:20,069 INFO New item added
+2024-03-18 13:54:20,070 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:54:20,071 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:54:20,075 INFO 127.0.0.1 - - [18/Mar/2024 13:54:20] "POST /products HTTP/1.1" 200 -
+2024-03-18 13:54:20,129 INFO 127.0.0.1 - - [18/Mar/2024 13:54:20] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:54:20,137 INFO 127.0.0.1 - - [18/Mar/2024 13:54:20] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:54:20,167 INFO 127.0.0.1 - - [18/Mar/2024 13:54:20] "GET / HTTP/1.1" 200 -
+2024-03-18 13:54:20,169 INFO 127.0.0.1 - - [18/Mar/2024 13:54:20] "GET / HTTP/1.1" 200 -
+2024-03-18 13:54:21,017 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:54:21,536 WARNING  * Debugger is active!
+2024-03-18 13:54:21,536 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:54:23,313 INFO The CSRF token is missing.
+2024-03-18 13:54:23,329 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:54:23,330 INFO New item added
+2024-03-18 13:54:23,333 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:54:23,333 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:54:23,349 INFO 127.0.0.1 - - [18/Mar/2024 13:54:23] "POST /products HTTP/1.1" 200 -
+2024-03-18 13:54:23,386 INFO 127.0.0.1 - - [18/Mar/2024 13:54:23] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:54:23,403 INFO 127.0.0.1 - - [18/Mar/2024 13:54:23] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:54:23,429 INFO 127.0.0.1 - - [18/Mar/2024 13:54:23] "GET / HTTP/1.1" 200 -
+2024-03-18 13:54:23,432 INFO 127.0.0.1 - - [18/Mar/2024 13:54:23] "GET / HTTP/1.1" 200 -
+2024-03-18 13:54:24,201 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:54:24,747 WARNING  * Debugger is active!
+2024-03-18 13:54:24,747 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:54:26,680 INFO 127.0.0.1 - - [18/Mar/2024 13:54:26] "GET /sell/dsfdsf HTTP/1.1" 200 -
+2024-03-18 13:54:26,787 INFO 127.0.0.1 - - [18/Mar/2024 13:54:26] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:54:26,801 INFO 127.0.0.1 - - [18/Mar/2024 13:54:26] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:54:26,834 INFO 127.0.0.1 - - [18/Mar/2024 13:54:26] "GET / HTTP/1.1" 200 -
+2024-03-18 13:54:26,841 INFO 127.0.0.1 - - [18/Mar/2024 13:54:26] "GET / HTTP/1.1" 200 -
+2024-03-18 13:54:29,273 INFO Item to sell:  dsfdsf quantity 3.0
+2024-03-18 13:54:29,278 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:54:29,283 INFO Item  dsfdsf sold
+2024-03-18 13:54:29,283 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:54:29,287 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:54:29,291 INFO Database cleaned empty items.
+2024-03-18 13:54:29,292 INFO 127.0.0.1 - - [18/Mar/2024 13:54:29] "[32mPOST /sell/%20dsfdsf HTTP/1.1[0m" 302 -
+2024-03-18 13:54:29,309 INFO 127.0.0.1 - - [18/Mar/2024 13:54:29] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:54:29,407 INFO 127.0.0.1 - - [18/Mar/2024 13:54:29] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:54:29,423 INFO 127.0.0.1 - - [18/Mar/2024 13:54:29] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:54:29,449 INFO 127.0.0.1 - - [18/Mar/2024 13:54:29] "GET / HTTP/1.1" 200 -
+2024-03-18 13:54:29,454 INFO 127.0.0.1 - - [18/Mar/2024 13:54:29] "GET / HTTP/1.1" 200 -
+2024-03-18 13:54:29,774 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:54:30,369 WARNING  * Debugger is active!
+2024-03-18 13:54:30,369 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:54:31,080 INFO 127.0.0.1 - - [18/Mar/2024 13:54:31] "GET /sell/dsfdsfsdf HTTP/1.1" 200 -
+2024-03-18 13:54:31,169 INFO 127.0.0.1 - - [18/Mar/2024 13:54:31] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:54:31,181 INFO 127.0.0.1 - - [18/Mar/2024 13:54:31] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:54:31,208 INFO 127.0.0.1 - - [18/Mar/2024 13:54:31] "GET / HTTP/1.1" 200 -
+2024-03-18 13:54:31,215 INFO 127.0.0.1 - - [18/Mar/2024 13:54:31] "GET / HTTP/1.1" 200 -
+2024-03-18 13:54:32,718 INFO Item to sell:  dsfdsfsdf quantity 3.0
+2024-03-18 13:54:32,725 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:54:32,731 INFO Item  dsfdsfsdf sold
+2024-03-18 13:54:32,734 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:54:32,735 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:54:32,770 INFO Database cleaned empty items.
+2024-03-18 13:54:32,771 INFO 127.0.0.1 - - [18/Mar/2024 13:54:32] "[32mPOST /sell/%20dsfdsfsdf HTTP/1.1[0m" 302 -
+2024-03-18 13:54:32,785 INFO 127.0.0.1 - - [18/Mar/2024 13:54:32] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:54:32,863 INFO 127.0.0.1 - - [18/Mar/2024 13:54:32] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:54:32,876 INFO 127.0.0.1 - - [18/Mar/2024 13:54:32] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:54:32,896 INFO 127.0.0.1 - - [18/Mar/2024 13:54:32] "GET / HTTP/1.1" 200 -
+2024-03-18 13:54:32,899 INFO 127.0.0.1 - - [18/Mar/2024 13:54:32] "GET / HTTP/1.1" 200 -
+2024-03-18 13:54:33,320 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:54:33,876 WARNING  * Debugger is active!
+2024-03-18 13:54:33,876 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:54:34,618 INFO 127.0.0.1 - - [18/Mar/2024 13:54:34] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:54:34,705 INFO 127.0.0.1 - - [18/Mar/2024 13:54:34] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:54:34,713 INFO 127.0.0.1 - - [18/Mar/2024 13:54:34] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:54:34,739 INFO 127.0.0.1 - - [18/Mar/2024 13:54:34] "GET / HTTP/1.1" 200 -
+2024-03-18 13:54:34,744 INFO 127.0.0.1 - - [18/Mar/2024 13:54:34] "GET / HTTP/1.1" 200 -
+2024-03-18 13:54:35,846 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:54:35,851 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:54:35,852 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:54:35,856 INFO Database cleaned empty items.
+2024-03-18 13:54:35,857 INFO 127.0.0.1 - - [18/Mar/2024 13:54:35] "[32mPOST /remove/dsfdsf HTTP/1.1[0m" 302 -
+2024-03-18 13:54:35,865 INFO 127.0.0.1 - - [18/Mar/2024 13:54:35] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:54:35,902 INFO 127.0.0.1 - - [18/Mar/2024 13:54:35] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:54:35,926 INFO 127.0.0.1 - - [18/Mar/2024 13:54:35] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:54:35,941 INFO 127.0.0.1 - - [18/Mar/2024 13:54:35] "GET / HTTP/1.1" 200 -
+2024-03-18 13:54:35,944 INFO 127.0.0.1 - - [18/Mar/2024 13:54:35] "GET / HTTP/1.1" 200 -
+2024-03-18 13:54:36,837 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:54:37,377 WARNING  * Debugger is active!
+2024-03-18 13:54:37,377 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:54:38,090 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:54:38,095 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:54:38,095 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:54:38,096 INFO Database cleaned empty items.
+2024-03-18 13:54:38,097 INFO 127.0.0.1 - - [18/Mar/2024 13:54:38] "[32mPOST /remove/dsfdsfsdf HTTP/1.1[0m" 302 -
+2024-03-18 13:54:38,135 INFO 127.0.0.1 - - [18/Mar/2024 13:54:38] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:54:38,176 INFO 127.0.0.1 - - [18/Mar/2024 13:54:38] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:54:38,183 INFO 127.0.0.1 - - [18/Mar/2024 13:54:38] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:54:38,211 INFO 127.0.0.1 - - [18/Mar/2024 13:54:38] "GET / HTTP/1.1" 200 -
+2024-03-18 13:54:38,216 INFO 127.0.0.1 - - [18/Mar/2024 13:54:38] "GET / HTTP/1.1" 200 -
+2024-03-18 13:54:39,333 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:54:39,910 WARNING  * Debugger is active!
+2024-03-18 13:54:39,910 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:54:40,354 INFO 127.0.0.1 - - [18/Mar/2024 13:54:40] "GET /revenue HTTP/1.1" 200 -
+2024-03-18 13:54:40,466 INFO 127.0.0.1 - - [18/Mar/2024 13:54:40] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:54:40,475 INFO 127.0.0.1 - - [18/Mar/2024 13:54:40] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:54:40,509 INFO 127.0.0.1 - - [18/Mar/2024 13:54:40] "GET / HTTP/1.1" 200 -
+2024-03-18 13:54:40,516 INFO 127.0.0.1 - - [18/Mar/2024 13:54:40] "GET / HTTP/1.1" 200 -
+2024-03-18 13:54:41,874 INFO 127.0.0.1 - - [18/Mar/2024 13:54:41] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:54:41,952 INFO 127.0.0.1 - - [18/Mar/2024 13:54:41] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:54:41,975 INFO 127.0.0.1 - - [18/Mar/2024 13:54:41] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:54:41,990 INFO 127.0.0.1 - - [18/Mar/2024 13:54:41] "GET / HTTP/1.1" 200 -
+2024-03-18 13:54:41,993 INFO 127.0.0.1 - - [18/Mar/2024 13:54:41] "GET / HTTP/1.1" 200 -
+2024-03-18 13:54:42,699 INFO 127.0.0.1 - - [18/Mar/2024 13:54:42] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:54:42,781 INFO 127.0.0.1 - - [18/Mar/2024 13:54:42] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:54:42,805 INFO 127.0.0.1 - - [18/Mar/2024 13:54:42] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:54:42,822 INFO 127.0.0.1 - - [18/Mar/2024 13:54:42] "GET / HTTP/1.1" 200 -
+2024-03-18 13:54:42,826 INFO 127.0.0.1 - - [18/Mar/2024 13:54:42] "GET / HTTP/1.1" 200 -
+2024-03-18 13:55:08,757 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/utils.py', reloading
+2024-03-18 13:55:08,758 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/utils.py', reloading
+2024-03-18 13:55:08,759 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/utils.py', reloading
+2024-03-18 13:55:09,752 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:55:10,322 WARNING  * Debugger is active!
+2024-03-18 13:55:10,322 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:55:12,039 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/utils.py', reloading
+2024-03-18 13:55:12,042 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/utils.py', reloading
+2024-03-18 13:55:12,048 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/utils.py', reloading
+2024-03-18 13:55:12,345 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/utils.py', reloading
+2024-03-18 13:55:12,347 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/utils.py', reloading
+2024-03-18 13:55:12,349 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/utils.py', reloading
+2024-03-18 13:55:12,560 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/utils.py', reloading
+2024-03-18 13:55:12,561 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/utils.py', reloading
+2024-03-18 13:55:12,562 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py/app/utils.py', reloading
+2024-03-18 13:55:13,003 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:55:13,796 WARNING  * Debugger is active!
+2024-03-18 13:55:13,797 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:56:13,996 INFO 127.0.0.1 - - [18/Mar/2024 13:56:13] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:56:14,111 INFO 127.0.0.1 - - [18/Mar/2024 13:56:14] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:56:14,127 INFO 127.0.0.1 - - [18/Mar/2024 13:56:14] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:56:14,153 INFO 127.0.0.1 - - [18/Mar/2024 13:56:14] "GET / HTTP/1.1" 200 -
+2024-03-18 13:56:14,156 INFO 127.0.0.1 - - [18/Mar/2024 13:56:14] "GET / HTTP/1.1" 200 -
+2024-03-18 13:57:11,372 INFO 127.0.0.1 - - [18/Mar/2024 13:57:11] "GET /sold?search=dsf HTTP/1.1" 200 -
+2024-03-18 13:57:11,491 INFO 127.0.0.1 - - [18/Mar/2024 13:57:11] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:57:11,507 INFO 127.0.0.1 - - [18/Mar/2024 13:57:11] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:57:11,522 INFO 127.0.0.1 - - [18/Mar/2024 13:57:11] "GET / HTTP/1.1" 200 -
+2024-03-18 13:57:11,525 INFO 127.0.0.1 - - [18/Mar/2024 13:57:11] "GET / HTTP/1.1" 200 -
+2024-03-18 13:57:13,973 INFO 127.0.0.1 - - [18/Mar/2024 13:57:13] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:57:14,064 INFO 127.0.0.1 - - [18/Mar/2024 13:57:14] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:57:14,087 INFO 127.0.0.1 - - [18/Mar/2024 13:57:14] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:57:14,103 INFO 127.0.0.1 - - [18/Mar/2024 13:57:14] "GET / HTTP/1.1" 200 -
+2024-03-18 13:57:14,106 INFO 127.0.0.1 - - [18/Mar/2024 13:57:14] "GET / HTTP/1.1" 200 -
+2024-03-18 13:57:44,052 INFO 127.0.0.1 - - [18/Mar/2024 13:57:44] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:57:44,117 INFO 127.0.0.1 - - [18/Mar/2024 13:57:44] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:57:44,132 INFO 127.0.0.1 - - [18/Mar/2024 13:57:44] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:57:44,143 INFO 127.0.0.1 - - [18/Mar/2024 13:57:44] "GET / HTTP/1.1" 200 -
+2024-03-18 13:57:44,146 INFO 127.0.0.1 - - [18/Mar/2024 13:57:44] "GET / HTTP/1.1" 200 -
+2024-03-18 13:57:46,419 INFO 127.0.0.1 - - [18/Mar/2024 13:57:46] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:57:46,518 INFO 127.0.0.1 - - [18/Mar/2024 13:57:46] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:57:46,530 INFO 127.0.0.1 - - [18/Mar/2024 13:57:46] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:57:46,557 INFO 127.0.0.1 - - [18/Mar/2024 13:57:46] "GET / HTTP/1.1" 200 -
+2024-03-18 13:57:46,557 INFO 127.0.0.1 - - [18/Mar/2024 13:57:46] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:02,749 INFO 127.0.0.1 - - [18/Mar/2024 13:58:02] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:58:02,793 INFO 127.0.0.1 - - [18/Mar/2024 13:58:02] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:58:02,807 INFO 127.0.0.1 - - [18/Mar/2024 13:58:02] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:58:02,838 INFO 127.0.0.1 - - [18/Mar/2024 13:58:02] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:02,842 INFO 127.0.0.1 - - [18/Mar/2024 13:58:02] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:08,055 INFO The CSRF token is missing.
+2024-03-18 13:58:08,061 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:58:08,063 INFO New item added
+2024-03-18 13:58:08,063 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:58:08,065 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:58:08,068 INFO 127.0.0.1 - - [18/Mar/2024 13:58:08] "POST /products HTTP/1.1" 200 -
+2024-03-18 13:58:08,121 INFO 127.0.0.1 - - [18/Mar/2024 13:58:08] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:58:08,133 INFO 127.0.0.1 - - [18/Mar/2024 13:58:08] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:58:08,155 INFO 127.0.0.1 - - [18/Mar/2024 13:58:08] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:08,161 INFO 127.0.0.1 - - [18/Mar/2024 13:58:08] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:08,878 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:58:09,416 WARNING  * Debugger is active!
+2024-03-18 13:58:09,416 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:58:11,877 INFO The CSRF token is missing.
+2024-03-18 13:58:11,891 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:58:11,893 INFO New item added
+2024-03-18 13:58:11,893 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:58:11,896 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:58:11,916 INFO 127.0.0.1 - - [18/Mar/2024 13:58:11] "POST /products HTTP/1.1" 200 -
+2024-03-18 13:58:11,957 INFO 127.0.0.1 - - [18/Mar/2024 13:58:11] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:58:11,974 INFO 127.0.0.1 - - [18/Mar/2024 13:58:11] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:58:11,996 INFO 127.0.0.1 - - [18/Mar/2024 13:58:11] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:12,000 INFO 127.0.0.1 - - [18/Mar/2024 13:58:12] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:12,400 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:58:12,951 WARNING  * Debugger is active!
+2024-03-18 13:58:12,951 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:58:15,980 INFO 127.0.0.1 - - [18/Mar/2024 13:58:15] "GET /products?search=d HTTP/1.1" 200 -
+2024-03-18 13:58:16,050 INFO 127.0.0.1 - - [18/Mar/2024 13:58:16] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:58:16,063 INFO 127.0.0.1 - - [18/Mar/2024 13:58:16] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:58:16,083 INFO 127.0.0.1 - - [18/Mar/2024 13:58:16] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:16,087 INFO 127.0.0.1 - - [18/Mar/2024 13:58:16] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:18,708 INFO 127.0.0.1 - - [18/Mar/2024 13:58:18] "GET /products?search=f HTTP/1.1" 200 -
+2024-03-18 13:58:18,782 INFO 127.0.0.1 - - [18/Mar/2024 13:58:18] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:58:18,794 INFO 127.0.0.1 - - [18/Mar/2024 13:58:18] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:58:18,813 INFO 127.0.0.1 - - [18/Mar/2024 13:58:18] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:18,817 INFO 127.0.0.1 - - [18/Mar/2024 13:58:18] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:20,909 INFO 127.0.0.1 - - [18/Mar/2024 13:58:20] "GET /products?search= HTTP/1.1" 200 -
+2024-03-18 13:58:20,985 INFO 127.0.0.1 - - [18/Mar/2024 13:58:20] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:58:21,008 INFO 127.0.0.1 - - [18/Mar/2024 13:58:21] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:58:21,026 INFO 127.0.0.1 - - [18/Mar/2024 13:58:21] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:21,030 INFO 127.0.0.1 - - [18/Mar/2024 13:58:21] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:22,539 INFO 127.0.0.1 - - [18/Mar/2024 13:58:22] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:58:22,615 INFO 127.0.0.1 - - [18/Mar/2024 13:58:22] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:58:22,630 INFO 127.0.0.1 - - [18/Mar/2024 13:58:22] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:58:22,650 INFO 127.0.0.1 - - [18/Mar/2024 13:58:22] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:22,659 INFO 127.0.0.1 - - [18/Mar/2024 13:58:22] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:23,352 INFO 127.0.0.1 - - [18/Mar/2024 13:58:23] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:58:23,432 INFO 127.0.0.1 - - [18/Mar/2024 13:58:23] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:58:23,446 INFO 127.0.0.1 - - [18/Mar/2024 13:58:23] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:58:23,464 INFO 127.0.0.1 - - [18/Mar/2024 13:58:23] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:23,468 INFO 127.0.0.1 - - [18/Mar/2024 13:58:23] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:24,549 INFO 127.0.0.1 - - [18/Mar/2024 13:58:24] "GET /sell/sad HTTP/1.1" 200 -
+2024-03-18 13:58:24,639 INFO 127.0.0.1 - - [18/Mar/2024 13:58:24] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:58:24,656 INFO 127.0.0.1 - - [18/Mar/2024 13:58:24] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:58:24,678 INFO 127.0.0.1 - - [18/Mar/2024 13:58:24] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:24,681 INFO 127.0.0.1 - - [18/Mar/2024 13:58:24] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:26,265 INFO Item to sell:  sad quantity 2.0
+2024-03-18 13:58:26,272 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:58:26,275 INFO Item  sad sold
+2024-03-18 13:58:26,277 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:58:26,278 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:58:26,280 INFO Database cleaned empty items.
+2024-03-18 13:58:26,282 INFO 127.0.0.1 - - [18/Mar/2024 13:58:26] "[32mPOST /sell/%20sad HTTP/1.1[0m" 302 -
+2024-03-18 13:58:26,292 INFO 127.0.0.1 - - [18/Mar/2024 13:58:26] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:58:26,368 INFO 127.0.0.1 - - [18/Mar/2024 13:58:26] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:58:26,385 INFO 127.0.0.1 - - [18/Mar/2024 13:58:26] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:58:26,409 INFO 127.0.0.1 - - [18/Mar/2024 13:58:26] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:26,412 INFO 127.0.0.1 - - [18/Mar/2024 13:58:26] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:26,979 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:58:27,505 WARNING  * Debugger is active!
+2024-03-18 13:58:27,505 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:58:28,396 INFO 127.0.0.1 - - [18/Mar/2024 13:58:28] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:58:28,499 INFO 127.0.0.1 - - [18/Mar/2024 13:58:28] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:58:28,519 INFO 127.0.0.1 - - [18/Mar/2024 13:58:28] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:58:28,546 INFO 127.0.0.1 - - [18/Mar/2024 13:58:28] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:28,551 INFO 127.0.0.1 - - [18/Mar/2024 13:58:28] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:30,389 INFO 127.0.0.1 - - [18/Mar/2024 13:58:30] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:58:30,474 INFO 127.0.0.1 - - [18/Mar/2024 13:58:30] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:58:30,484 INFO 127.0.0.1 - - [18/Mar/2024 13:58:30] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:58:30,510 INFO 127.0.0.1 - - [18/Mar/2024 13:58:30] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:30,513 INFO 127.0.0.1 - - [18/Mar/2024 13:58:30] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:31,979 INFO 127.0.0.1 - - [18/Mar/2024 13:58:31] "GET /sell/sadsdf HTTP/1.1" 200 -
+2024-03-18 13:58:32,049 INFO 127.0.0.1 - - [18/Mar/2024 13:58:32] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:58:32,075 INFO 127.0.0.1 - - [18/Mar/2024 13:58:32] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:58:32,098 INFO 127.0.0.1 - - [18/Mar/2024 13:58:32] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:32,108 INFO 127.0.0.1 - - [18/Mar/2024 13:58:32] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:33,797 INFO Item to sell:  sadsdf quantity 2.0
+2024-03-18 13:58:33,804 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:58:33,807 INFO Item  sadsdf sold
+2024-03-18 13:58:33,810 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:58:33,810 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:58:33,844 INFO Database cleaned empty items.
+2024-03-18 13:58:33,845 INFO 127.0.0.1 - - [18/Mar/2024 13:58:33] "[32mPOST /sell/%20sadsdf HTTP/1.1[0m" 302 -
+2024-03-18 13:58:33,854 INFO 127.0.0.1 - - [18/Mar/2024 13:58:33] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:58:33,930 INFO 127.0.0.1 - - [18/Mar/2024 13:58:33] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:58:33,945 INFO 127.0.0.1 - - [18/Mar/2024 13:58:33] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:58:33,964 INFO 127.0.0.1 - - [18/Mar/2024 13:58:33] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:33,972 INFO 127.0.0.1 - - [18/Mar/2024 13:58:33] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:34,449 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:58:34,971 WARNING  * Debugger is active!
+2024-03-18 13:58:34,971 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:58:36,351 INFO 127.0.0.1 - - [18/Mar/2024 13:58:36] "GET /products HTTP/1.1" 200 -
+2024-03-18 13:58:36,393 INFO 127.0.0.1 - - [18/Mar/2024 13:58:36] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:58:36,412 INFO 127.0.0.1 - - [18/Mar/2024 13:58:36] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:58:36,433 INFO 127.0.0.1 - - [18/Mar/2024 13:58:36] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:36,437 INFO 127.0.0.1 - - [18/Mar/2024 13:58:36] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:40,151 INFO 127.0.0.1 - - [18/Mar/2024 13:58:40] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:58:40,233 INFO 127.0.0.1 - - [18/Mar/2024 13:58:40] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:58:40,245 INFO 127.0.0.1 - - [18/Mar/2024 13:58:40] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:58:40,268 INFO 127.0.0.1 - - [18/Mar/2024 13:58:40] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:40,272 INFO 127.0.0.1 - - [18/Mar/2024 13:58:40] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:41,920 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:58:41,924 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:58:41,925 INFO Database cleaned empty items.
+2024-03-18 13:58:41,925 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:58:41,928 INFO 127.0.0.1 - - [18/Mar/2024 13:58:41] "[32mPOST /remove/sad HTTP/1.1[0m" 302 -
+2024-03-18 13:58:41,939 INFO 127.0.0.1 - - [18/Mar/2024 13:58:41] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:58:41,986 INFO 127.0.0.1 - - [18/Mar/2024 13:58:41] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:58:41,999 INFO 127.0.0.1 - - [18/Mar/2024 13:58:41] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:58:42,018 INFO 127.0.0.1 - - [18/Mar/2024 13:58:42] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:42,021 INFO 127.0.0.1 - - [18/Mar/2024 13:58:42] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:42,823 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:58:43,374 WARNING  * Debugger is active!
+2024-03-18 13:58:43,374 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:58:44,343 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:58:44,348 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:58:44,349 INFO Database cleaned empty items.
+2024-03-18 13:58:44,349 INFO  * Detected change in '/home/pedro/Dokumenty/code/warehouse-manager.py', reloading
+2024-03-18 13:58:44,351 INFO 127.0.0.1 - - [18/Mar/2024 13:58:44] "[32mPOST /remove/sadsdf HTTP/1.1[0m" 302 -
+2024-03-18 13:58:44,372 INFO 127.0.0.1 - - [18/Mar/2024 13:58:44] "GET /sold HTTP/1.1" 200 -
+2024-03-18 13:58:44,408 INFO 127.0.0.1 - - [18/Mar/2024 13:58:44] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:58:44,417 INFO 127.0.0.1 - - [18/Mar/2024 13:58:44] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:58:44,442 INFO 127.0.0.1 - - [18/Mar/2024 13:58:44] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:44,448 INFO 127.0.0.1 - - [18/Mar/2024 13:58:44] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:45,196 INFO  * Restarting with watchdog (inotify)
+2024-03-18 13:58:45,713 WARNING  * Debugger is active!
+2024-03-18 13:58:45,714 INFO  * Debugger PIN: 151-074-009
+2024-03-18 13:58:48,560 INFO 127.0.0.1 - - [18/Mar/2024 13:58:48] "GET /revenue HTTP/1.1" 200 -
+2024-03-18 13:58:48,645 INFO 127.0.0.1 - - [18/Mar/2024 13:58:48] "[32mGET /templates/css/dashboard.css HTTP/1.1[0m" 302 -
+2024-03-18 13:58:48,669 INFO 127.0.0.1 - - [18/Mar/2024 13:58:48] "[32mGET /templates/js/dashboard.js HTTP/1.1[0m" 302 -
+2024-03-18 13:58:48,682 INFO 127.0.0.1 - - [18/Mar/2024 13:58:48] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:48,684 INFO 127.0.0.1 - - [18/Mar/2024 13:58:48] "GET / HTTP/1.1" 200 -
+2024-03-18 13:58:48,753 INFO 127.0.0.1 - - [18/Mar/2024 13:58:48] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -

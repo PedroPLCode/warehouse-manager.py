@@ -7,7 +7,6 @@ class Item(db.Model):
     quantity_sold = db.Column(db.Integer, index=True)
     unit = db.Column(db.String(100), index=True)
     unit_price = db.Column(db.Integer, index=True)
-    index = db.Column(db.Integer, index=True)
 
     def __str__(self):
         return (f"Item:\nname: {self.name}"

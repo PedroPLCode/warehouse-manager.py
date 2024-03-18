@@ -4,7 +4,6 @@ from app.product import Product
 from app.models import Item
 from config import *
 import datetime
-import csv
 import logging
 
 logging.basicConfig(level=logging.INFO,
@@ -16,8 +15,8 @@ def get_current_time_and_date():
     return date_and_time.strftime("%X %x")
 
 
-def create_new_product_instance(name, quantity_in_stock, quantity_sold, unit, unit_price, product_index):
-    return Product(name, quantity_in_stock, quantity_sold, unit, unit_price, product_index)
+def create_new_product_instance(name, quantity_in_stock, quantity_sold, unit, unit_price):
+    return Product(name, quantity_in_stock, quantity_sold, unit, unit_price)
 
 
 def item_already_in_db(item, items_from_db):  
@@ -63,8 +62,7 @@ def add_new_item_to_db(item):
                     quantity_in_stock=item.quantity_in_stock, 
                     quantity_sold=item.quantity_sold,
                     unit=item.unit, 
-                    unit_price=item.unit_price, 
-                    index=item.product_index)
+                    unit_price=item.unit_price)
     db.session.add(new_item)
     db.session.commit()
     flash(f'{item.quantity_in_stock} {item.unit} {item.name} '

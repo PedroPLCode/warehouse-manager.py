@@ -44,7 +44,6 @@ def products_list():
                                           0,
                                           request.form['unit'],
                                           request.form['unit_price'],
-                                          len(items) if items else 1,
                                           )
             if item_already_in_db(new_item, items):
                 update_existing_item(new_item, items)
