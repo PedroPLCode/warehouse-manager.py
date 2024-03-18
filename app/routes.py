@@ -34,8 +34,6 @@ def products_list():
     
     addItemForm = ProductAddForm()
     
-    remove_empty_items_from_db()
-    
     if request.method == "POST":
         if not request.form:
             abort(400)
@@ -55,9 +53,9 @@ def products_list():
                 
     search_query = request.args.get('search')
     if search_query:
-        items = Item.query.filter(Item.name.ilike(f"%{search_query}%")).all()
+        items = Item.query.filter(Item.name.ilike(f"%{search_query}%"), Item.quantity_in_stock > 0).all()
     else:
-        items = Item.query.all()
+        items = Item.query.filter(Item.quantity_in_stock > 0).all()
         
     return render_template("products_list.html", 
                            date_and_time=get_current_time_and_date(), 
@@ -82,12 +80,8 @@ def sell_product(product_name):
         elif request.method == 'POST':
             quantity_to_sell = request.form['quantity_to_sell']
             sell_items_from_warehouse(product_name, float(quantity_to_sell), items)
-            items = Item.query.all()
-            return render_template("products_list.html", 
-                                    date_and_time=get_current_time_and_date(), 
-                                    items=items if items else {}, 
-                                    form=addItemForm, 
-                                    )
+            remove_empty_items_from_db()
+            return redirect(url_for("products_list"))
 
 
 @app.route('/sold', methods=["GET",])
@@ -95,25 +89,22 @@ def sold_list():
     global prev_path 
     prev_path = request.path
     
-    remove_empty_items_from_db()
-    
     search_query = request.args.get('search')
-    
     if search_query:
-        items = Item.query.filter(Item.name.ilike(f"%{search_query}%")).all()
+        items = Item.query.filter(Item.name.ilike(f"%{search_query}%"), Item.quantity_sold > 0).all()
     else:
-        items = Item.query.all()
+        items = Item.query.filter(Item.quantity_sold > 0).all()
     
     return render_template('sold_items_list.html', 
                            date_and_time=get_current_time_and_date(), 
-                           items=[item if item.quantity_sold > 0 else None for item in items],
+                           items=items,
                            search_query=search_query if search_query else None
                            )
 
 
 @app.route('/remove/<product_name>', methods=["POST"])
 def remove_sold_item(product_name):
-    item = Item.query.filter(Item.name.ilike(f"%{product_name}%")).first()
+    item = Item.query.filter(Item.name == product_name).first()
     if item.quantity_in_stock > 0:
         item.quantity_sold = 0
         db.session.add(item)
@@ -121,6 +112,7 @@ def remove_sold_item(product_name):
         db.session.delete(item)
     db.session.commit()
     flash(f'{product_name} succesfully removed from list.')
+    remove_empty_items_from_db()
     
     return redirect(url_for("sold_list"))
     
@@ -129,9 +121,7 @@ def remove_sold_item(product_name):
 def show_revenue():
     global prev_path 
     prev_path = request.path
-    
     items = Item.query.all()
-    
     income = calculate_value_of_sold_products(items) if items else 0
     costs = calculate_value_of_products_in_stock(items) if items else 0
     total = income - costs

@@ -1,8 +1,5 @@
 import os
 
-file_warehouse = './warehouse.csv'
-file_sold_items = './sold.csv'
-
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 
 class Config:

@@ -43,7 +43,9 @@
           </tr>
         {% endfor %}
         {% else %}
+        <div class="w-100 d-flex flex-column justify-content-center align-items-center">
           <h4>Empty. No products,</h4>
+        </div>
         {% endif %}
         {{ form.hidden_tag() }}
           <form method="POST" action="/products">

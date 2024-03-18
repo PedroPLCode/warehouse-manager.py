@@ -92,13 +92,10 @@ def sell_items_from_warehouse(sell_item_name, sell_item_quantity, items):
 
 
 def sell_action(item, sell_item_name, sell_item_quantity, items):
-        
     item.quantity_in_stock = round(float(item.quantity_in_stock) - sell_item_quantity, 2)
     item.quantity_sold = item.quantity_sold + sell_item_quantity
-
     db.session.add(item)
     db.session.commit()
-    
     logging.info(f"Item {sell_item_name} sold")     
     flash(f'{sell_item_quantity} {item.unit} {item.name} '
           f'succesfully sold from warehouse')    
