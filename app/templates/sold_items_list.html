@@ -5,8 +5,18 @@
 <div>
   <div class="w-100 d-flex flex-column justify-content-center align-items-center">
     <h4>Sold Items List</h4>
+    <p>{% if items_count == 0 %} No sold items.
+      {%  elif items_count == 1 %} {{ items_count}} sold item.
+      {%  else %} Total {{ items_count}} sold items.
+      {% endif %}
+    </p>
     {% if search_query %}
     <h3>Filtered by: {{ search_query }}</h3>    
+    <p>{% if items_found_count == 0 %} No items found.
+      {%  elif items_found_count == 1 %} {{ items_found_count}} item found.
+      {%  else %} Total {{ items_found_count}} items found.
+      {% endif %}
+    </p>
     {% endif %}
     {% if items %}
     <form class="form-inline mb-3" action="/sold" method="GET">

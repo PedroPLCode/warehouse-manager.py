@@ -53,14 +53,21 @@ def products_list():
     search_query = request.args.get('search')
     if search_query:
         items = Item.query.filter(Item.name.ilike(f"%{search_query}%"), Item.quantity_in_stock > 0).all()
+        items_found_count = len(items)
+        items_count = len(Item.query.filter(Item.quantity_in_stock > 0).all())
     else:
         items = Item.query.filter(Item.quantity_in_stock > 0).all()
+        items_count = len(items)
+        items_found_count = None
         
+    sorted_items = sorted([item if item.quantity_in_stock > 0 else None for item in items], key=lambda item: item.id)
     return render_template("products_list.html", 
                            date_and_time=get_current_time_and_date(), 
                            form=addItemForm, 
-                           items=[item if item.quantity_in_stock > 0 else None for item in items],
-                           search_query=search_query if search_query else None
+                           items=sorted_items,
+                           items_found_count=items_found_count,
+                           items_count=items_count,
+                           search_query=search_query if search_query else None,
                            )
     
     
@@ -91,12 +98,19 @@ def sold_list():
     search_query = request.args.get('search')
     if search_query:
         items = Item.query.filter(Item.name.ilike(f"%{search_query}%"), Item.quantity_sold > 0).all()
+        items_found_count = len(items)
+        items_count = len(Item.query.filter(Item.quantity_sold > 0).all())
     else:
         items = Item.query.filter(Item.quantity_sold > 0).all()
+        items_count = len(items)
+        items_found_count = None
     
+    sorted_items = sorted([item if item.quantity_in_stock > 0 else None for item in items], key=lambda item: item.id)
     return render_template('sold_items_list.html', 
                            date_and_time=get_current_time_and_date(), 
-                           items=items,
+                           items=sorted_items,
+                           items_found_count=items_found_count,
+                           items_count=items_count,
                            search_query=search_query if search_query else None
                            )
 
