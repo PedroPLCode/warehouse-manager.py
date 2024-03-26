@@ -52,7 +52,8 @@ def products_list():
                 
     search_query = request.args.get('search')
     if search_query:
-        items = Item.query.filter(Item.name.ilike(f"%{search_query}%"), Item.quantity_in_stock > 0).all()
+        items = Item.query.filter(Item.name.ilike(f"%{search_query}%"), 
+                                  Item.quantity_in_stock > 0).all()
         items_found_count = len(items)
         items_count = len(Item.query.filter(Item.quantity_in_stock > 0).all())
     else:
@@ -60,7 +61,8 @@ def products_list():
         items_count = len(items)
         items_found_count = None
         
-    sorted_items = sorted([item if item.quantity_in_stock > 0 else None for item in items], key=lambda item: item.id)
+    sorted_items = sorted([item if item.quantity_in_stock > 0 else None for item in items], 
+                          key=lambda item: item.id)
     return render_template("products_list.html", 
                            date_and_time=get_current_time_and_date(), 
                            form=addItemForm, 
@@ -97,7 +99,8 @@ def sold_list():
     
     search_query = request.args.get('search')
     if search_query:
-        items = Item.query.filter(Item.name.ilike(f"%{search_query}%"), Item.quantity_sold > 0).all()
+        items = Item.query.filter(Item.name.ilike(f"%{search_query}%"), 
+                                  Item.quantity_sold > 0).all()
         items_found_count = len(items)
         items_count = len(Item.query.filter(Item.quantity_sold > 0).all())
     else:
@@ -105,7 +108,8 @@ def sold_list():
         items_count = len(items)
         items_found_count = None
     
-    sorted_items = sorted([item if item.quantity_in_stock > 0 else None for item in items], key=lambda item: item.id)
+    sorted_items = sorted([item if item.quantity_in_stock > 0 else None for item in items], 
+                          key=lambda item: item.id)
     return render_template('sold_items_list.html', 
                            date_and_time=get_current_time_and_date(), 
                            items=sorted_items,
